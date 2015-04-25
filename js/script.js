@@ -1,6 +1,6 @@
 $( document ).ready(function(){
-  d3.select('#jm-signature g')
-  .transition()        
-    .duration(1150) 
-    .style('opacity', 1);  
+  d3.selectAll('#jm-signature, #jm-subtitle')
+    .transition()        
+      .duration(1000) 
+      .style('opacity', 1);  
 });

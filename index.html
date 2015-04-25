@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/animate.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/style.css">
     <script src="js/lib/jquery-2.1.1.min.js"></script>
     <script src="/js/lib/bootstrap.min.js"></script>
     <script src="js/lib/d3.v3.js"></script>
     <script src="js/script.js"></script>
 
-    <title>2014 JMT Survey</title>
+    <title>JMT 2014 Survey Results</title>
   </head>
 
   <body>
 
-      <div id="hero">
-        <div class="texture-overlay"></div>
-        <div class="container-fluid">
-          <div class="row hero-content">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-              <svg id="jm-signature" viewBox="0 0 1145.000000 317.000000"preserveAspectRatio="xMidYMid meet">
-                <g transform="translate(0.000000,317.000000) scale(0.100000,-0.100000)">
+    <div class="splash">
+      <div class="texture-overlay"></div>
+      <div class="container-fluid">
+        <div class="row text-center splash-content">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <svg id="jm-container" viewBox="0 0 1145.000000 317.000000" preserveAspectRatio="xMidYMid meet">
+              <g id="jm-signature" transform="translate(0.000000,317.000000) scale(0.100000,-0.100000)">
                 <path d="M7710 3058 c-94 -26 -826 -413 -955 -504 -63 -45 -493 -299 -688
                 -406 -148 -81 -240 -149 -224 -165 10 -9 57 14 137 67 41 28 83 50 93 50 9 0
                 17 4 17 10 0 5 33 26 72 46 76 38 433 251 528 314 52 35 384 224 665 378 72
@@ -90,14 +92,23 @@
                 -187 -33 -6 45 291 280 493 388 50 26 104 58 120 71 17 12 41 25 55 30 36 10
                 342 169 505 262 77 43 318 168 535 276 217 108 436 221 485 251 96 59 129 71
                 80 30z"/>
-                </g>
-                </svg>
+              </g>
+              <text id="jm-subtitle" x="497" y="210" font-size="37">
+                T R A I L
+              </text>
+            </svg>
+            <div id="jm-small" class="animated fadeInDown">
+              <h1>John Muir</h1>
+              <h3>T R A I L</h3>
             </div>
-            <div class="col-md-1"></div>
+            <div id="down-to-results">
+              <a href="#" class="down-btn animated fadeInUp">2014 Survey Results <i class="fa fa-arrow-down"></i></a>
+            </div>
           </div>
+          <div class="col-md-1"></div>
         </div>
       </div>
-
+    </div>
 
   </body>
 
