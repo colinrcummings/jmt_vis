@@ -1,0 +1,29 @@
+
+/* hero styling */
+#hero {
+    position: relative;
+    padding: 60px 0 60px 0;
+    min-height: 800px;
+    background: rgb(119, 119, 119) url('../images/allison_jmt.jpg') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.texture-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/grid.png');
+}
+#jm-signature {
+  width: 100%;
+}
+#jm-signature g {
+  fill: #fff;
+  opacity: 0;
+}
