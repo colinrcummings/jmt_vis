@@ -26,7 +26,15 @@
           <div class="col-md-1"></div>
           <div class="col-md-10">
             <svg id="jm-container" viewBox="0 0 1145.000000 317.000000" preserveAspectRatio="xMidYMid meet">
-              <g id="jm-signature" transform="translate(0.000000,317.000000) scale(0.100000,-0.100000)">
+
+               <filter id="jm-signature-filter" width="150%" height="150%">
+                    <feOffset result="offOut" in="SourceGraphic" dx="2" dy="2"/>
+                    <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+                    <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="44"/>
+                    <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+              </filter>
+
+              <g id="jm-signature" transform="translate(0.000000,317.000000) scale(0.100000,-0.100000)" filter="url(#jm-signature-filter)">
                 <path d="M7710 3058 c-94 -26 -826 -413 -955 -504 -63 -45 -493 -299 -688
                 -406 -148 -81 -240 -149 -224 -165 10 -9 57 14 137 67 41 28 83 50 93 50 9 0
                 17 4 17 10 0 5 33 26 72 46 76 38 433 251 528 314 52 35 384 224 665 378 72
@@ -93,7 +101,13 @@
                 342 169 505 262 77 43 318 168 535 276 217 108 436 221 485 251 96 59 129 71
                 80 30z"/>
               </g>
-              <text id="jm-subtitle" x="497" y="210" font-size="37">
+              <filter id="jm-subtitle-filter" width="150%" height="150%">
+                    <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0"/>
+                    <feColorMatrix result="matrixOut" in="offOut" type="matrix" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+                    <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="2"/>
+                    <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+              </filter>
+              <text id="jm-subtitle" x="497" y="210" font-size="37" filter="url(#jm-subtitle-filter)">
                 T R A I L
               </text>
             </svg>
