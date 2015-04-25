@@ -3,4 +3,6 @@ $( document ).ready(function(){
     .transition()        
       .duration(1000) 
       .style('opacity', 1);  
+  d3.select('.down-btn')
+    .style('display','inline-block');
 });
