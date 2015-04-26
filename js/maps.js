@@ -65,7 +65,7 @@ function drawWorldMap (styleFlag) {
     .attr('height', mapHeight)
     .attr('id', 'country-svg');
   //load GeoJSON data
-  d3.json('/data/maps/countries.json', function(json) {
+  d3.json('data/maps/countries.json', function(json) {
     //append g element to svg
     mapG = mapSVG.append('g');
     //define GeoJSON features
@@ -112,7 +112,7 @@ function drawUSMap (styleFlag) {
   //append g element to svg
   mapG = mapSVG.append('g');
   //load in GeoJSON data
-  d3.json('/data/maps/us.json', function(json) {
+  d3.json('data/maps/us.json', function(json) {
     //bind data and create one path per state feature
     mapG.selectAll('path')
      .data(json.features)
