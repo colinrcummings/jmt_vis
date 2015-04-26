@@ -1,14 +1,4 @@
-/* splash styling */
-.splash {
-  position: relative;
-  padding: 60px 0 60px 0;
-  max-height: 800px;
-  background: rgb(119, 119, 119) url('../images/muir_rock.jpg') no-repeat top left;
-  background-size: cover;
-  color: #000;
-  width: 100%;
-  height: 100%;
-}
+/* global styling */
 .texture-overlay {
   position: absolute;
   top: 0px;
@@ -17,17 +7,34 @@
   height: 100%;
   background-image: url('../images/grid.png');
 }
+.next-section i {
+  color: #777;
+}
+
+
+/* splash styling */
+.splash {
+  position: relative;
+  padding: 60px 0 60px 0;
+  min-height: 800px;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), rgb(119, 119, 119) url('../images/allison_jmt.jpg') no-repeat top center;
+  background-size: cover;
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
 #jm-container {
   display: block;
   margin-top: -20px;
 }
 #jm-signature,
 #jm-subtitle {
-  fill: #000;
+  fill: #fff;
   opacity: 0;
 }
 #jm-small {
   display: none;
+  color: rgba(255, 255, 255, 0.95);
 }
 #jm-small h1 {
   font-family: 'Kaushan Script', cursive;
@@ -37,7 +44,7 @@
   margin-top: 0px;
   font-weight: bold;
 }
-#down-to-results {
+#down-btn-container {
   margin-top: 157px;
 }
 .down-btn {
@@ -48,11 +55,10 @@
   color: #000;
   font-weight: bold;
   font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.3);
-  t
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .down-btn:hover, .down-btn:focus {
-  background-color: rgba(255, 255, 255, 0.75);;
+  background-color: rgba(255, 255, 255, 0.88);;
   color: #000;
   text-decoration: none;
 }
@@ -81,4 +87,113 @@
   #down-to-results {
     margin-top: 157px;
   }
+}
+
+
+/* map styling*/
+.current-selection {
+  background-color: #e6e6e6;
+}
+#map {
+  min-height: 477px;
+}
+@media only screen and (max-width: 992px)  {
+  #map {
+    min-height: 365px;
+  }
+}
+@media only screen and (max-width: 768px)  {
+  #map {
+    min-height: 220px;
+  }
+}
+@media only screen and (max-width: 480px)  {
+  #map {
+    min-height: 130px;
+  }
+}
+.country,
+.state {
+  stroke: #000;
+  stroke-width: 0.5;
+}
+.country,
+.state {
+  opacity: 0.8;
+}
+.country:hover,
+.state:hover {
+  opacity: 1.0;
+}
+
+
+/* signup styling */
+.signup {
+  position: relative;
+  padding: 60px 0 60px 0;
+  min-height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), rgb(119, 119, 119) url('../images/muir_rock.jpg') no-repeat center center;
+  background-size: cover;
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+#signup-btn-container {
+  margin-top: 157px;
+}
+.signup-btn {
+  margin-top: 100px;
+  padding: 18px 36px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.signup-btn:hover, .signup-btn:focus {
+  background-color: rgba(255, 255, 255, 0.88);;
+  color: #000;
+  text-decoration: none;
+}
+@media screen and (max-width:680px){
+  .signup {
+     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), rgb(119, 119, 119) url('../images/muir_rock.jpg') no-repeat center left;
+  }
+  .signup-btn {
+    padding: 18px 9px;
+  }
+}
+
+
+/* waypoints styling */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 {
+    visibility: hidden
+}
+.fadeInUp, .fadeInDown {
+    visibility: visible
+}
+.delay-25s {
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+.delay-05s {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.delay-075s {
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.delay-125s {
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s;
+}
+.delay-15s {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
