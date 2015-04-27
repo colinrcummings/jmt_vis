@@ -1,5 +1,5 @@
 //global vars
-var numMapRespondents = 772;
+var geoRespondents = 772;
 var stateData;
 var countryData;
 var percentFormatter = d3.format(".1%");

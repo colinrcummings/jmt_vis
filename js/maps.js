@@ -22,7 +22,7 @@ var greens = [
 ];
 var mapPoints = [
   {
-    name: "Mount Whitney",
+    name: "Mt. Whitney",
     location: {
       latitude: 36.57855,
       longitude: -118.29239
@@ -179,14 +179,14 @@ function mapTooltipShow (hoverObj, map) {
   }
   if (filterData.length === 0) {
     respondentCount = 0;
-    respondnentText = ' Respondnents';
+    respondnentText = ' responses';
   } else {
     if(filterData[0].count === 1) {
       respondentCount = 1;
-      respondnentText = ' Respondent';
+      respondnentText = ' response';
     } else {
       respondentCount = filterData[0].count;
-      respondnentText = ' Respondnents';
+      respondnentText = ' responses';
     }
   }
   //create tooltip
@@ -194,7 +194,7 @@ function mapTooltipShow (hoverObj, map) {
     .attr('id', 'map-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.properties.name + '</h4>' + '<p>' + respondentCount  + respondnentText + ' (' + percentFormatter(respondentCount / numMapRespondents) + ')' + '</p>');    
+    .html('<h4>' + hoverObj.properties.name + '</h4>' + '<p>' + respondentCount  + respondnentText + ' (' + percentFormatter(respondentCount / geoRespondents) + ')' + '</p>');    
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
@@ -284,27 +284,26 @@ function styleUSMap(data) {
 }
 
 function drawMapPoints () {
-  mapG.selectAll(".map-point")
+  mapG.selectAll('.map-point')
   .data(mapPoints)
-  .enter().append("circle", ".map-point")
-  .attr("r", 3)
-  .style('fill', 'yellow')
-  .style('stroke','black')
-  .style('z-index',1000)
-  .on('mouseover', function(d) {
-    mapPointTooltipShow(d);
-  })  
-  .on('mouseout', function() { 
-    tooltipHide();
-  }) 
-  .attr("transform", function(d) {
-    return "translate(" + projection([
-      d.location.longitude,
-      d.location.latitude
-    ]) + ")"
-  });
+  .enter().append('path')
+    .attr('class','map-point')
+    .attr('d', d3.svg.symbol().type('triangle-up').size(32))
+    .style('fill', 'yellow')
+    .style('stroke','black')
+    .on('mouseover', function(d) {
+      mapPointTooltipShow(d);
+    })  
+    .on('mouseout', function() { 
+      tooltipHide();
+    }) 
+    .attr('transform', function(d) {
+      return 'translate(' + projection([
+        d.location.longitude,
+        d.location.latitude
+      ]) + ')'
+    })
 }
-
 
 
 //shared map resize function
