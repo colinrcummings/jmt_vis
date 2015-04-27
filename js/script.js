@@ -1,7 +1,8 @@
 //global vars
+var numMapRespondents = 772;
 var stateData;
 var countryData;
-
+var percentFormatter = d3.format(".1%");
 
 //load state data
 d3.csv('data/jmt_2014_us_by_state.csv', function(data) {
@@ -37,7 +38,11 @@ $( document ).ready(function(){
 
   //waypoints
   $('#to-geography').waypoint(function() {
-    styleUSMap(stateData); 
+    if (d3.select('#map-subheader').text().length === 0) {
+      d3.select('#map-subheader').text('724 responses (93.8%) came from 42 states and the capital.');
+      styleUSMap(stateData); 
+      drawMapPoints();
+    }
   });
   $('.wp1').waypoint(function() {
     $('.wp1').addClass('animated fadeInUp');
