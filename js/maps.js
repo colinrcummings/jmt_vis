@@ -1,4 +1,4 @@
-//shared map vars
+//map view vars
 var viewBoxWidth;
 var viewBoxHeight;
 var mapWidth;
@@ -9,6 +9,8 @@ var mapSVG;
 var mapG;
 var zoom = d3.behavior.zoom()
   .scaleExtent([1, 8]);
+
+//map formatting vars
 var greens = [
   ['#31a354'],
   ['#a1d99b','#31a354'],
@@ -289,6 +291,7 @@ function drawMapPoints () {
   .enter().append('path')
     .attr('class','map-point')
     .attr('d', d3.svg.symbol().type('triangle-up').size(32))
+    .style('opacity', 0)
     .style('fill', 'yellow')
     .style('stroke','black')
     .on('mouseover', function(d) {
@@ -302,7 +305,11 @@ function drawMapPoints () {
         d.location.longitude,
         d.location.latitude
       ]) + ')'
-    })
+    });
+  d3.selectAll('.map-point')
+    .transition()
+    .duration(1000)
+    .style('opacity', 1);
 }
 
 

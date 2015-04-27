@@ -1,10 +1,31 @@
-//global vars
-var geoRespondents = 772;
+//data vars
 var stateData;
 var countryData;
+var geoRespondents = 772;
+var demoRespndents;
+
+//crossfilter object
+var demoCrossFilter;
+
+//crossfilter filters
+var genderFilter,
+  ageFilter,
+  groupFilter,
+  footwearFilter,
+  fitnessFilter;
+
+//accessor functions
+var genderAccessor = function(a) {return a.gender;};
+var ageAccessor = function(a) {return a.age_bin;};
+var groupAccessor = function(a) {return a.group_size;};
+var footwearAccessor = function(a) {return a.footwear;};
+var fitnessAccessor = function(a) {return a.fitness;};
+
+//formatting functions
 var percentFormatter = d3.format(".1%");
 
-//load state data
+
+//load data
 d3.csv('data/jmt_2014_us_by_state.csv', function(data) {
   data.forEach(function(d){
     d.state_code = d.state_code;
@@ -13,13 +34,24 @@ d3.csv('data/jmt_2014_us_by_state.csv', function(data) {
   stateData = data;
 });
 
-//load country data
 d3.csv('data/jmt_2014_us_by_country.csv', function(data) {
   data.forEach(function(d){
     d.country_code = d.country_code;
     d.count = +d.count;
   })
   countryData = data;
+});
+
+d3.csv('data/jmt_2014_demographic_data.csv', function(data) {
+  demoRespndents = data.length;
+  //set crossfilter object
+  demoCrossFilter = crossfilter(data);
+  //update crossfilter filters
+  genderFilter = demoCrossFilter.dimension(genderAccessor);
+  ageFilter = demoCrossFilter.dimension(ageAccessor);
+  groupFilter = demoCrossFilter.dimension(groupAccessor); 
+  footwearFilter = demoCrossFilter.dimension(footwearAccessor);
+  fitnessFilter = demoCrossFilter.dimension(fitnessAccessor);  
 });
 
 
