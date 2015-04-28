@@ -3,26 +3,25 @@ var stateData;
 var countryData;
 var geoRespondents = 772;
 var demoRespndents;
-
 //crossfilter object
 var demoCrossFilter;
-
 //crossfilter filters
 var genderFilter,
   ageFilter,
   groupFilter,
   footwearFilter,
   fitnessFilter;
-
 //accessor functions
 var genderAccessor = function(a) {return a.gender;};
 var ageAccessor = function(a) {return a.age_bin;};
 var groupAccessor = function(a) {return a.group_size;};
 var footwearAccessor = function(a) {return a.footwear;};
 var fitnessAccessor = function(a) {return a.fitness;};
-
 //formatting functions
 var percentFormatter = d3.format(".1%");
+//coordinated view functions
+var dispatch = d3.dispatch("load", "statechange");
+
 
 
 //load data
@@ -43,6 +42,7 @@ d3.csv('data/jmt_2014_us_by_country.csv', function(data) {
 });
 
 d3.csv('data/jmt_2014_demographic_data.csv', function(data) {
+  //update globals
   demoRespndents = data.length;
   //set crossfilter object
   demoCrossFilter = crossfilter(data);

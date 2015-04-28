@@ -1,15 +1,9 @@
 //map view vars
-var viewBoxWidth;
-var viewBoxHeight;
-var mapWidth;
-var mapHeight;
 var projection;
-var path;
 var mapSVG;
 var mapG;
 var zoom = d3.behavior.zoom()
   .scaleExtent([1, 8]);
-
 //map formatting vars
 var greens = [
   ['#31a354'],
@@ -63,16 +57,16 @@ function drawWorldMap (styleFlag) {
   //remove existing map
   d3.selectAll('#map svg').remove();
   //setup svg dimensions
-  viewBoxWidth = 960;
-  viewBoxHeight = 480;
-  mapWidth = $('#map').width();
-  mapHeight = mapWidth * viewBoxHeight / viewBoxWidth;
+  var viewBoxWidth = 960;
+  var viewBoxHeight = viewBoxWidth * 0.5;
+  var mapWidth = $('#map').width();
+  var mapHeight = mapWidth * 0.5;
   //define map projection
   projection = d3.geo.equirectangular()
     .translate([viewBoxWidth / 2, viewBoxHeight / 2])
     .scale(153);
   //define path generator
-  path = d3.geo.path()
+  var path = d3.geo.path()
     .projection(projection);
   //create svg element
   mapSVG = d3.select('#map').append('svg')
@@ -116,16 +110,16 @@ function drawUSMap (styleFlag) {
   //remove existing map
   d3.selectAll('#map svg').remove();
   //setup svg dimensions
-  viewBoxWidth = 960;
-  viewBoxHeight = 480;
-  mapWidth = $('#map').width();
-  mapHeight = mapWidth * viewBoxHeight / viewBoxWidth;
+  var viewBoxWidth = 960;
+  var viewBoxHeight = viewBoxWidth * 0.5;
+  var mapWidth = $('#map').width();
+  var mapHeight = mapWidth * 0.5;
   //define map projection
   projection = d3.geo.albersUsa()
     .translate([viewBoxWidth/2, viewBoxHeight/2])
     .scale(viewBoxWidth);
   //define path generator
-  path = d3.geo.path()
+  var path = d3.geo.path()
     .projection(projection);
   //create svg element
   mapSVG = d3.select('#map')
@@ -317,5 +311,5 @@ function drawMapPoints () {
 $(window).resize(function() {
   var mapWidth = $('#map').width();
   mapSVG.attr('width', mapWidth);
-  mapSVG.attr('height', mapWidth * viewBoxHeight / viewBoxWidth);
+  mapSVG.attr('height', mapWidth * 0.5);
 });

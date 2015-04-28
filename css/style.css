@@ -192,6 +192,35 @@ h3 {
 }
 
 
+/* bar chart styling */
+#age-bar,
+#gender-pie,
+#footwear-bar,
+#group-pie,
+#fitness-bar {
+  width: 100%;
+}
+.age-bar,
+.footwear-bar,
+.fitness-bar {
+  opacity: 0.75;
+}
+.age-bar:hover,
+.footwear-bar:hover,
+.fitness-bar:hover {
+  opacity: 0.95;
+}
+.axis text {
+  font: 7px sans-serif;
+}
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #777;
+}
+
+
+
 /* signup styling */
 .signup {
   position: relative;
