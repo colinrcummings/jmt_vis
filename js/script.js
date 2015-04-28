@@ -85,49 +85,22 @@ d3.csv('data/jmt_2014_demographic_data.csv', function(data) {
 });
 
 
-//pie chart classes
-var PieChart = function(chart, data) {
-  this.viewBoxWidth = 440;
-  this.viewBoxHeight = this.viewBoxWidth * 0.49;
-  this.chartWidth = $('.chart').width();
-  this.chartHeight = this.chartWidth * 0.49;
-  this.radius = Math.min(this.viewBoxWidth, this.viewBoxHeight) / 2;
-  this.arc = d3.svg.arc()
-    .outerRadius(this.radius - 17);
-  this.pie = d3.layout.pie()
-    this.pie.value(function(d){ return d.values; });
-  this.svg = d3.select('#' + chart.name + '-pie')
-    .attr('preserveAspectRatio', 'xMidYMid')
-    .attr('viewBox', '0 0 ' + this.viewBoxWidth + ' ' + this.viewBoxHeight)
-    .attr("width", this.width)
-    .attr("height", this.height)
-    .append("g")
-    .attr("transform", "translate(" + this.viewBoxWidth  / 2 + "," + this.viewBoxHeight / 2 + ")");
+//chart view functions
+function drawCharts() {
+  ageChart.draw(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
+  genderChart.draw(charts.gender, keyThenCount(genderAccessor, genderFilter.top(Infinity)));
+  footwearChart.draw(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
+  groupChart.draw(charts.group, keyThenCount(groupAccessor, groupFilter.top(Infinity)));
+  fitnessChart.draw(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
 }
 
-PieChart.prototype.draw = function(chart, data) {
-  var colorScale = d3.scale.quantile()
-    .domain(data.map(function(d){return d.values}))
-    .range(barGreens);
-  this.path = this.svg.datum(data).selectAll('path')
-    .data(this.pie)
-    .enter().append('path')
-      .attr('class', chart.name + '-slice')
-      .attr('id', function(d){ return chart.name + '-' + d.data.key.split(' ').join('-'); })
-      .style('fill', 'white')
-      .style('stroke','white')
-      .each(function() { this._current = {startAngle: 0, endAngle: 0}; });
-  this.path
-    .transition()
-    .duration(750)
-    .style('fill', function(d){return colorScale(d.data.values)})
-    .style('stroke','#777')
-    .attr('d', this.arc)
-    .each(function(d){ this._current = d.data.values; });  
-    //need to use arcTween to animate values
+function updateCharts() {
+  ageChart.update(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
+  //gender update
+  footwearChart.update(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
+  //group update
+  fitnessChart.update(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
 }
-
-
 
 
 //bar chart classes
@@ -182,22 +155,24 @@ BarChart.prototype.draw = function(chart, data) {
       .attr("x", function(d) { return x(d.key); })
       .attr("y", this.viewBoxHeight)
       .attr("width", this.x.rangeBand())
-      .attr("height",0)
-      .style('stroke','#777')
+      .attr("height", 0)
+      .style('fill','white')
+      .style('stroke','white')
       .on("click", function(d){
-        chartClick(this, d);
+        barClick(this, d);
       })
       .on('mouseover', function(d) {
-        chartTooltipShow(d);
+        barTooltipShow(d);
       })  
       .on('mouseout', function() { 
         tooltipHide();
       }) 
     .transition()
-      .duration(750)
+    .duration(750)
       .attr("height", function(d) { return y(0) - y(d.values); })
       .attr("y", function(d) { return y(d.values); })
-      .style('fill', function(d){return colorScale(d.values)});
+      .style('fill', function(d){return colorScale(d.values)})
+      .style('stroke','#777');
 }
 
 BarChart.prototype.update = function(chart, data) {
@@ -225,45 +200,32 @@ BarChart.prototype.update = function(chart, data) {
     .attr('class', chart.name + '-bar')
     .attr('id', function(d){return name + '-' + d.key.split(' ').join('-'); })
     .attr("x", function(d) { return x(d.key); })
-    .attr("y", function(d) { return y(d.values); })
-    .attr("height", function(d) { return y(0) - y(d.values); })
+    .attr("y", this.viewBoxHeight)
+    .attr("height", 0)
     .attr("width", x.rangeBand())
-    .style('fill', function(d){return colorScale(d.values)})
+    .style('fill', 'white')
+    .style('stroke','white')
     .on('mouseover', function(d) {
-      chartTooltipShow(d);
+      barTooltipShow(d);
     })  
     .on('mouseout', function() { 
       tooltipHide();
     }) 
   .on("click", function(d){
-      chartClick(this, d);
+      barClick(this, d);
     });
   this.bars.exit().remove();
   this.bars
     .transition()
     .duration(750)
-      .attr("y", function(d) { return y(d.values); })
       .attr("height", function(d) { return y(0) - y(d.values); })
-      .style('fill', function(d){return colorScale(d.values)});;
+      .attr("y", function(d) { return y(d.values); })
+      .style('fill', function(d){return colorScale(d.values)})
+      .style('stroke','#777');
 }
 
 
-//chart view functions
-function drawCharts() {
-  ageChart.draw(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
-  genderChart.draw(charts.gender, keyThenCount(genderAccessor, genderFilter.top(Infinity)));
-  footwearChart.draw(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
-  groupChart.draw(charts.group, keyThenCount(groupAccessor, groupFilter.top(Infinity)));
-  fitnessChart.draw(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
-}
-
-function updateCharts() {
-  ageChart.update(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
-  footwearChart.update(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
-  fitnessChart.update(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
-}
-
-function chartTooltipShow (hoverObj) {
+function barTooltipShow (hoverObj) {
   //determine tooltip text
   var respondnentText;
   if(hoverObj.values === 1) {
@@ -297,7 +259,7 @@ function chartTooltipShow (hoverObj) {
     .style('opacity', .95);  
 }
 
-function chartClick(clickRect, clickObj) {
+function barClick(clickRect, clickObj) {
   switch(clickRect.className.baseVal) {
     case 'age-bar':
       ageFilter.filter(clickObj.key);
@@ -318,7 +280,7 @@ function chartClick(clickRect, clickObj) {
   updateCharts();
 }
 
-function clearChartClick(filter) {
+function clearBarClick(filter) {
   switch(filter) {
     case 'age':
       ageFilter.filterAll();
@@ -339,6 +301,140 @@ function clearChartClick(filter) {
   updateCharts();
 }
 
+
+//pie chart classes and functions
+var PieChart = function(chart, data) {
+  this.viewBoxWidth = 440;
+  this.viewBoxHeight = this.viewBoxWidth * 0.49;
+  this.chartWidth = $('.chart').width();
+  this.chartHeight = this.chartWidth * 0.49;
+  this.radius = Math.min(this.viewBoxWidth, this.viewBoxHeight) / 2;
+  this.arc = d3.svg.arc()
+    .outerRadius(this.radius - 17);
+  this.pie = d3.layout.pie()
+    this.pie.value(function(d){ return d.values; });
+  this.svg = d3.select('#' + chart.name + '-pie')
+    .attr('preserveAspectRatio', 'xMidYMid')
+    .attr('viewBox', '0 0 ' + this.viewBoxWidth + ' ' + this.viewBoxHeight)
+    .attr("width", this.width)
+    .attr("height", this.height)
+    .append("g")
+    .attr("transform", "translate(" + this.viewBoxWidth  / 2 + "," + this.viewBoxHeight / 2 + ")");
+}
+
+PieChart.prototype.draw = function(chart, data) {
+  var colorScale = d3.scale.quantile()
+    .domain(data.map(function(d){return d.values}))
+    .range(barGreens);
+  this.path = this.svg.datum(data).selectAll('path')
+    .data(this.pie)
+    .enter().append('path')
+      .attr('class', chart.name + '-slice')
+      .attr('id', function(d){ return chart.name + '-' + d.data.key.split(' ').join('-'); })
+      .style('fill', 'white')
+      .style('stroke','white')
+      .each(function() { this._current = {startAngle: 0, endAngle: 0}; });
+  this.path
+    .on("click", function(d){
+        pieClick(this, d);
+      })
+      .on('mouseover', function(d) {
+        pieTooltipShow(d);
+      })  
+      .on('mouseout', function() { 
+        tooltipHide();
+      }) 
+    .transition()
+    .duration(750)
+    .style('fill', function(d){return colorScale(d.data.values)})
+    .style('stroke','#777')
+    .attrTween("d", arcTween);
+    //.attr('d', this.arc)
+    //.each(function(d){ this._current = d.data.values; });
+}
+
+PieChart.prototype.update = function(chart, data) {
+
+}
+
+function arcTween(a) {
+  var arc = d3.svg.arc()
+    .outerRadius(90.8);
+  var i = d3.interpolate(this._current, a);
+  this._current = i(0);
+  return function(t) {
+    return arc(i(t));
+  };
+}
+
+function pieTooltipShow (hoverObj) {
+  //determine tooltip text
+  var respondnentText;
+  if(hoverObj.value === 1) {
+    respondnentText = ' response';
+  } else {
+    respondnentText = ' responses';
+  }
+  //create tooltip
+  var tooltip = d3.select('body').append('div')
+    .attr('id', 'chart-tooltip')
+    .attr('class', 'tooltip');
+  tooltip
+    .html('<h4>' + hoverObj.data.key + '</h4>' + '<p>' + hoverObj.value + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.value / geoRespondents) + ')' + '</p>');    
+  //position tooltip
+  var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
+  var screenWidth = $('body').width();
+  var tooltipWidth = $('#chart-tooltip').width();
+  if((mouse[0] + tooltipWidth) > screenWidth) {
+    tooltip
+      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')     
+      .style('top', (mouse[1] + 20) + 'px');
+  } else {
+    tooltip
+      .style('left', mouse[0] + 'px')     
+      .style('top', (mouse[1] + 20) + 'px');
+  }
+  //show tooltip
+  tooltip   
+    .transition()        
+    .duration(300) 
+    .style('opacity', .95);  
+}
+
+function pieClick(clickRect, clickObj) {
+  switch(clickRect.className.baseVal) {
+    case 'gender-slice':
+      genderFilter.filter(clickObj.data.key);
+      d3.select('#gender-clear-btn').style('display','inline-block');
+      d3.select('#gender-header').text('Gender (' + clickObj.data.key + ')');
+      break;
+    case 'group-slice':
+      groupFilter.filter(clickObj.data.key);
+      d3.select('#group-clear-btn').style('display','inline-block');
+      d3.select('#group-header').text('Group Size (' + clickObj.data.key + ')');
+      break;
+  }
+  updateCharts();
+}
+
+function clearPieClick(filter) {
+  switch(filter) {
+    case 'gender':
+      genderFilter.filterAll();
+      d3.select('#gender-clear-btn').style('display','none');
+      d3.select('#gender-header').text('Gender (All)');
+      break;
+    case 'group':
+      groupFilter.filterAll();
+      d3.select('#group-clear-btn').style('display','none');
+      d3.select('#group-header').text('Group Size (All)');
+      break;
+  }
+  updateCharts();
+}
+
+
+//chart resize function
 $(window).resize(function() {
   var chartWidth = $('.chart').width();
   $('.chart').attr('width', chartWidth);
