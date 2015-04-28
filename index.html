@@ -147,74 +147,63 @@
                </div>
                <p id="map-subheader"></p>
                <div id="map"></div>
-               <a class="next-section" href="#demographics" title="Down to Respondent Demographics"><i class="fa fa-arrow-down"></i></a>
+               <a id="to-demographics" class="next-section" href="#demographics" title="Down to Respondent Demographics"><i class="fa fa-arrow-down"></i></a>
             </div>
             <div class="col-md-1"></div>
-         </div>
+          </div>
         
-         <div class="row text-center">
-            <hr id="demographics"> 
+          <div class="row text-center">
+            <hr id="demographics">
             <h3>Respondent Demographics</h3>
+            <p id="demographics-subheader"></p>
             <div class="col-md-12">
-               <div class="row">
-                <div class="col-sm-6 col-md-6">
-                  <br>
-                  <br>
-                  <br>
-                  <h4>Age (bar)</h4>
-                  <div id="age-chart"></div>
-                  <br>
-                  <br>
-                  <br>
-                </div>
-                <div class="col-sm-6 col-md-6">
-                  <br>
-                  <br>
-                  <br>
-                  <h4>Gender (pie)</h4>
-                  <div id="gender-chart"></div>
-                  <br>
-                  <br>
-                  <br>
-                </div>
-               </div>
-               <div class="row">
+
+              <div class="row">
+                <div class="col-sm-2 col-sm-2"></div>
                 <div class="col-sm-4 col-md-4">
-                  <br>
-                  <br>
-                  <br>
-                  <h4>Footwear (bar)</h4>
-                  <div id="footwear-chart"></div>
-                  <br>
-                  <br>
-                  <br>
+                  <div class="header-container text-center">
+                    <h4 id="age-header" class="chart-header inline">Age (All)</h4>
+                    <button type="button" id="age-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('age')">clear <i class="fa fa-times-circle"></i></button>
+                  </div>
+                  <svg id="age-bar" class="chart"></svg>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                  <br>
-                  <br>
-                  <br>
-                  <h4>Group Size (pie)</h4>
-                  <div id="group-chart"></div>
-                  <br>
-                  <br>
-                  <br>
+                  <div class="header-container text-center">
+                    <h4 id="gender-header" class="chart-header inline">Gender (All)</h4>
+                    <button type="button" id="gender-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('gender')">clear <i class="fa fa-times-circle"></i></button>
+                  </div>
+                  <svg id="gender-pie" class="chart"></svg>
+                </div>
+                <div class="col-sm-2 col-sm-2"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-4 col-md-4">
+                  <div class="header-container text-center">
+                    <h4 id="footwear-header" class="chart-header inline">Footwear (All)</h4>
+                    <button type="button" id="footwear-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('footwear')">clear <i class="fa fa-times-circle"></i></button>
+                  </div>
+                  <svg id="footwear-bar" class="chart"></svg>
                 </div>
                 <div class="col-sm-4 col-md-4">
-                  <br>
-                  <br>
-                  <br>
-                  <h4>Fitness (bar)</h4>
-                  <div id="fitness-chart"></div>
-                  <br>
-                  <br>
-                  <br>
+                  <div class="header-container text-center">
+                    <h4 id="group-header" class="chart-header inline">Group Size (All)</h4>
+                    <button type="button" id="group-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('group')">clear <i class="fa fa-times-circle"></i></button>
+                  </div>
+                  <svg id="group-pie" class="chart"></svg>
                 </div>
-               </div>
-               <a class="next-section" href="#signup" title="Down to 2015 Sign Up"><i class="fa fa-arrow-down"></i></a>
+                <div class="col-sm-4 col-md-4">
+                  <div class="header-container text-center">
+                    <h4 id="fitness-header" class="chart-header inline">Fitness (All)</h4>
+                    <button type="button" id="fitness-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('fitness')">clear <i class="fa fa-times-circle"></i></button>
+                  </div>
+                  <svg id="fitness-bar" class="chart"></svg>
+                </div>
+              </div>
+              <a class="next-section" href="#signup" title="Down to 2015 Sign Up"><i class="fa fa-arrow-down"></i></a>
             </div>
-
-         </div>
-
+          </div>
+          
       </div>
 
       <br>

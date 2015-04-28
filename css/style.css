@@ -196,7 +196,17 @@ h3 {
 
 
 /* bar chart styling */
+#demographics-subheader {
+  margin-top: -5px;
+  min-height: 20px;
+  color: #383838;
+}
+.header-container {
+  min-height: 54px;
+}
 .chart-header {
+  margin-top: 30px;
+  margin-bottom: 0px;
   margin-left: 32px;
 }
 .clear-btn {
