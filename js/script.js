@@ -19,9 +19,6 @@ var footwearAccessor = function(a) {return a.footwear;};
 var fitnessAccessor = function(a) {return a.fitness;};
 //formatting functions
 var percentFormatter = d3.format(".1%");
-//coordinated view functions
-var dispatch = d3.dispatch("load", "statechange");
-
 
 
 //load data

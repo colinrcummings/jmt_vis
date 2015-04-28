@@ -7,11 +7,13 @@
       <title>JMT 2014 Survey Results</title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
+      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <script src="js/lib/jquery-2.1.1.min.js"></script>
       <script src="js/lib/bootstrap.min.js"></script>
       <script src="js/lib/crossfilter.min.js"></script>
       <script src="js/lib/d3.v3.js"></script>
       <script src="test.js"></script>
+      <script src="js/maps.js"></script>
    </head>
    <body>
        <div class="container">
@@ -23,7 +25,10 @@
               <div class="col-sm-2 col-sm-2"></div>
 
               <div class="col-sm-4 col-md-4">
-                <h4>Age</h4>
+                <div class="text-center">
+                  <h4 id="age-header" class="chart-header inline">Age</h4>
+                  <button type="button" id="age-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('age')">clear <i class="fa fa-times-circle"></i></button>
+                </div>
                 <svg id="age-bar" class="chart"></svg>
               </div>
 
@@ -38,7 +43,10 @@
 
 
               <div class="col-sm-4 col-md-4">
-                <h4>Footwear</h4>
+                <div class="text-center">
+                  <h4 id="footwear-header" class="chart-header inline">Footwear</h4>
+                  <button type="button" id="footwear-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('footwear')">clear <i class="fa fa-times-circle"></i></button>
+                </div>
                 <svg id="footwear-bar" class="chart"></svg>
               </div>
 
@@ -48,12 +56,15 @@
               </div>
 
               <div class="col-sm-4 col-md-4">
-                <h4>Fitness</h4>
+                <div class="text-center">
+                  <h4 id="fitness-header" class="chart-header inline">Fitness</h4>
+                  <button type="button" id="fitness-clear-btn" class="btn btn-xs clear-btn inline" onclick="clearChartClick('fitness')">clear <i class="fa fa-times-circle"></i></button>
+                </div>
                 <svg id="fitness-bar" class="chart"></svg>
               </div>
 
 
-              </div>
+            </div>
             </div>
           </div>
 

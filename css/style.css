@@ -32,6 +32,9 @@ h3 {
   border: 1px solid #000;
   color: #000;
 }
+.inline {
+  display: inline-block;
+}
 
 
 /* splash styling */
@@ -193,6 +196,21 @@ h3 {
 
 
 /* bar chart styling */
+.chart-header {
+  margin-left: 32px;
+}
+.clear-btn {
+  display: none;
+  margin-left: 5px;
+  margin-bottom: 4px;
+  margin-right: 22px;
+  color: rgba(169, 68, 66, 0.8);
+  background-color: rgba(242, 222, 222, 0.8);
+}
+.clear-btn:hover {
+  color: rgba(169, 68, 66, 1);
+  background-color: rgba(242, 222, 222, 1);
+}
 #age-bar,
 #gender-pie,
 #footwear-bar,
@@ -204,6 +222,7 @@ h3 {
 .footwear-bar,
 .fitness-bar {
   opacity: 0.75;
+  cursor: pointer;
 }
 .age-bar:hover,
 .footwear-bar:hover,

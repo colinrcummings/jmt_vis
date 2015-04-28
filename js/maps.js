@@ -239,7 +239,7 @@ function mapPointTooltipShow (hoverObj) {
 }
 
 function tooltipHide () {
-  d3.selectAll('#map-tooltip, #map-point-tooltip')  
+  d3.selectAll('.tooltip')  
     .remove(); 
 }
 
