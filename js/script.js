@@ -32,10 +32,18 @@ var charts = {
   "fitness": {
     "name": "fitness",
     "domain": ['Decline to state', 'Below avg.', 'Average', 'Above avg.', 'Sig. above avg.']
-  }
+    },
+  "gender": {
+    "name": "gender"
+    },
+  "group": {
+    "name": "group"
+    }
 };
 var ageChart;
+var genderChart
 var footwearChart;
+var groupChart;
 var fitnessChart;
 var barGreens = ['#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#006d2c'];
 
@@ -70,9 +78,56 @@ d3.csv('data/jmt_2014_demographic_data.csv', function(data) {
   fitnessFilter = demoCrossFilter.dimension(fitnessAccessor);  
   //instantiate charts
   ageChart = new BarChart(charts.age);
+  genderChart = new PieChart(charts.gender);
   footwearChart = new BarChart(charts.footwear);
+  groupChart = new PieChart(charts.group);
   fitnessChart = new BarChart(charts.fitness);
 });
+
+
+//pie chart classes
+var PieChart = function(chart, data) {
+  this.viewBoxWidth = 440;
+  this.viewBoxHeight = this.viewBoxWidth * 0.49;
+  this.chartWidth = $('.chart').width();
+  this.chartHeight = this.chartWidth * 0.49;
+  this.radius = Math.min(this.viewBoxWidth, this.viewBoxHeight) / 2;
+  this.arc = d3.svg.arc()
+    .outerRadius(this.radius - 17);
+  this.pie = d3.layout.pie()
+    this.pie.value(function(d){ return d.values; });
+  this.svg = d3.select('#' + chart.name + '-pie')
+    .attr('preserveAspectRatio', 'xMidYMid')
+    .attr('viewBox', '0 0 ' + this.viewBoxWidth + ' ' + this.viewBoxHeight)
+    .attr("width", this.width)
+    .attr("height", this.height)
+    .append("g")
+    .attr("transform", "translate(" + this.viewBoxWidth  / 2 + "," + this.viewBoxHeight / 2 + ")");
+}
+
+PieChart.prototype.draw = function(chart, data) {
+  var colorScale = d3.scale.quantile()
+    .domain(data.map(function(d){return d.values}))
+    .range(barGreens);
+  this.path = this.svg.datum(data).selectAll('path')
+    .data(this.pie)
+    .enter().append('path')
+      .attr('class', chart.name + '-slice')
+      .attr('id', function(d){ return chart.name + '-' + d.data.key.split(' ').join('-'); })
+      .style('fill', 'white')
+      .style('stroke','white')
+      .each(function() { this._current = {startAngle: 0, endAngle: 0}; });
+  this.path
+    .transition()
+    .duration(750)
+    .style('fill', function(d){return colorScale(d.data.values)})
+    .style('stroke','#777')
+    .attr('d', this.arc)
+    .each(function(d){ this._current = d.data.values; });  
+    //need to use arcTween to animate values
+}
+
+
 
 
 //bar chart classes
@@ -196,7 +251,9 @@ BarChart.prototype.update = function(chart, data) {
 //chart view functions
 function drawCharts() {
   ageChart.draw(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
+  genderChart.draw(charts.gender, keyThenCount(genderAccessor, genderFilter.top(Infinity)));
   footwearChart.draw(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
+  groupChart.draw(charts.group, keyThenCount(groupAccessor, groupFilter.top(Infinity)));
   fitnessChart.draw(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
 }
 
@@ -305,7 +362,7 @@ function keyThenCount (accessor, data) {
 }
 
 
-//setup page
+//render page
 $( document ).ready(function(){
   //default view
   d3.selectAll('#jm-signature, #jm-subtitle')
@@ -328,7 +385,7 @@ $( document ).ready(function(){
   });
   $('#to-demographics').waypoint(function() {
     if (d3.select('#demographics-subheader').text().length === 0) {
-      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down to specific groupings.');
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down to explore specific groupings.');
       drawCharts();
     }
   });
