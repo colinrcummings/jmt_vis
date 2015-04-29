@@ -96,9 +96,9 @@ function drawCharts() {
 
 function updateCharts() {
   ageChart.update(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
-  //gender update
+  genderChart.update(charts.gender, keyThenCount(genderAccessor, genderFilter.top(Infinity)));
   footwearChart.update(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
-  //group update
+  groupChart.update(charts.group, keyThenCount(groupAccessor, groupFilter.top(Infinity)));
   fitnessChart.update(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
 }
 
@@ -217,7 +217,7 @@ BarChart.prototype.update = function(chart, data) {
   this.bars.exit().remove();
   this.bars
     .transition()
-    .duration(750)
+    .duration(500)
       .attr("height", function(d) { return y(0) - y(d.values); })
       .attr("y", function(d) { return y(d.values); })
       .style('fill', function(d){return colorScale(d.values)})
@@ -312,7 +312,7 @@ var PieChart = function(chart, data) {
   this.arc = d3.svg.arc()
     .outerRadius(this.radius - 17);
   this.pie = d3.layout.pie()
-    this.pie.value(function(d){ return d.values; });
+    .value(function(d){ return d.values; });
   this.svg = d3.select('#' + chart.name + '-pie')
     .attr('preserveAspectRatio', 'xMidYMid')
     .attr('viewBox', '0 0 ' + this.viewBoxWidth + ' ' + this.viewBoxHeight)
@@ -336,14 +336,14 @@ PieChart.prototype.draw = function(chart, data) {
       .each(function() { this._current = {startAngle: 0, endAngle: 0}; });
   this.path
     .on("click", function(d){
-        pieClick(this, d);
-      })
-      .on('mouseover', function(d) {
-        pieTooltipShow(d);
-      })  
-      .on('mouseout', function() { 
-        tooltipHide();
-      }) 
+       pieClick(this, d);
+    })
+    .on('mouseover', function(d) {
+      pieTooltipShow(d);
+    })  
+    .on('mouseout', function() { 
+      tooltipHide();
+    }) 
     .transition()
     .duration(750)
     .style('fill', function(d){return colorScale(d.data.values)})
@@ -354,8 +354,41 @@ PieChart.prototype.draw = function(chart, data) {
 }
 
 PieChart.prototype.update = function(chart, data) {
-
+  var colorScale = d3.scale.quantile()
+    .domain(data.map(function(d){return d.values}))
+    .range(barGreens);
+  // add transition to new path
+  this.path = this.svg.datum(data).selectAll('path')
+    .data(this.pie)
+    .transition()
+    .duration(500)
+    .style('fill', function(d){return colorScale(d.data.values)})
+    .style('stroke','#777')
+    .attrTween('d', arcTween);
+  // add any new paths
+  this.path = this.svg.datum(data).selectAll('path')
+    .data(this.pie)
+    .enter().append("path")
+      .attr('class', chart.name + '-slice')
+      .attr('id', function(d){ return chart.name + '-' + d.data.key.split(' ').join('-'); })
+      .style('fill', function(d){return colorScale(d.data.values)})
+      .style('stroke','#777')
+      .on("click", function(d){
+        pieClick(this, d);
+      })
+      .on('mouseover', function(d) {
+        pieTooltipShow(d);
+      })  
+      .on('mouseout', function() { 
+        tooltipHide();
+      }) 
+      .attr('d', this.arc)
+      .each(function(d){ this._current = d; });
+  // remove data not being used
+  this.path = this.svg.datum(data).selectAll("path")
+    .data(this.pie).exit().remove();
 }
+
 
 function arcTween(a) {
   var arc = d3.svg.arc()
@@ -481,12 +514,17 @@ $( document ).ready(function(){
   });
   $('#to-demographics').waypoint(function() {
     if (d3.select('#demographics-subheader').text().length === 0) {
-      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down to explore specific groupings.');
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore specific groupings.');
       drawCharts();
     }
   });
   $('.wp1').waypoint(function() {
     $('.wp1').addClass('animated fadeInUp');
+  }, {
+    offset: '75%'
+  });
+  $('.wp2').waypoint(function() {
+    $('.wp2').addClass('animated fadeIn delay-075s');
   }, {
     offset: '75%'
   });

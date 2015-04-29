@@ -5,19 +5,23 @@
       <meta http-equiv="x-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>JMT 2014 Survey Results</title>
+      <!-- General metadata -->
+      <meta name="description" content="A data visualization of the 2014 JMT Hiker Survey"/>
+      <link rel="canonical" href="http://colinrcummings.github.io/jmt_vis/"/>  
+      <!-- Facebook open-graph metadata -->
+      <meta property="og:title" content="2014 JMT Hiker Survey"/>
+      <meta property="og:description" content="A data visualization of the 2014 JMT Hiker Survey"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content="http://colinrcummings.github.io/jmt_vis/"/>
+      <meta property="og:image" content="images/jmt_survey_2014.jpg"/>
+      <!-- Signet metadata -->
+      <meta name="signet:authors" content="Colin Cummings"/>
+      <meta name="signet:links" content="http://www.twitter.com/colinrcummings"/>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/animate.css">
       <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/style.css">
-      <script src="js/lib/jquery-2.1.1.min.js"></script>
-      <script src="js/lib/bootstrap.min.js"></script>
-      <script src="js/lib/waypoints.min.js"></script>
-      <script src="js/lib/crossfilter.min.js"></script>
-      <script src="js/lib/d3.v3.js"></script>
-      <script src="js/lib/topojson.min.js"></script>
-      <script src="js/maps.js"></script>
-      <script src="js/script.js"></script>
    </head>
    <body>
       <div class="splash">
@@ -125,12 +129,12 @@
 
        <div class="container">
 
-   
          <div id="about" class="row text-center">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                <h3>About the Survey</h3>
                <p class="text-left">The 2nd Annual John Muir Trail (JMT) Hiker Survey was offered to 2014 hikers who planned hikes of at least five days including some portion of the JMT.   Social media and on-trail recruitment were used to solicit respondents. Approximately 80% of the survey respondents planned hikes of 110 miles or more. Most hiked southbound and planned to exit immediately east of Mt. Whitney. This report includes both those who reached their intended exit point and those who exited earlier (about 25%).  To be notified when new reports are issued, Facebook users can <a href="https://www.facebook.com/JMTHikerSurvey">follow the survey here</a>. New reports are also announced on the Facebook and Yahoo groups dedicated to the John Muir Trail and sporadically distributed to survey participants who requested e-mail notifications.</p>
+               <br>
                <a id="to-geography" class="next-section" href="#geography" title="Down to Respondent Geograph"><i class="fa fa-arrow-down"></i></a>
             </div>
             <div class="col-md-1"></div>
@@ -157,7 +161,6 @@
             <h3>Respondent Demographics</h3>
             <p id="demographics-subheader"></p>
             <div class="col-md-12">
-
               <div class="row">
                 <div class="col-sm-2 col-sm-2"></div>
                 <div class="col-sm-4 col-md-4">
@@ -176,7 +179,6 @@
                 </div>
                 <div class="col-sm-2 col-sm-2"></div>
               </div>
-
               <div class="row">
                 <div class="col-sm-4 col-md-4">
                   <div class="header-container text-center">
@@ -200,10 +202,12 @@
                   <svg id="fitness-bar" class="chart"></svg>
                 </div>
               </div>
-              <a class="next-section" href="#signup" title="Down to 2015 Sign Up"><i class="fa fa-arrow-down"></i></a>
+              <br>
+              <br>
+              <a id="to-signup" class="next-section" href="#signup" title="Down to 2015 Sign Up"><i class="fa fa-arrow-down"></i></a>
             </div>
           </div>
-          
+        
       </div>
 
       <br>
@@ -216,10 +220,21 @@
                   <div id="signup-btn-container">
                      <a href="http://bit.ly/JMT15CC" target="_blank" class="signup-btn wp1">Sign Up for the 2015 Survey</a>
                   </div>
+                  <p class="footer-credit wp2">Created by <a class="footer-link" target="_blank" href="http://twitter.com/colinrcummings/">Colin Cummings</a></p>
+                  <p class="footer-credit wp2">Photos by <a class="footer-link" target="_blank" href="http://trailtosummit.com/">Allison Nadler</a> and <a class="footer-link" target="_blank" href="http://johndittli.com/">John Dittli</a></p>
                </div>
             </div>
          </div>
-      </div>  
+      </div> 
 
-   </body>
+  </body>
+  <script src="js/lib/jquery-2.1.1.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/waypoints.min.js"></script>
+  <script src="js/lib/crossfilter.min.js"></script>
+  <script src="js/lib/d3.v3.js"></script>
+  <script src="js/lib/topojson.min.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/lib/signet.js"></script>
 </html>
