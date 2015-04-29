@@ -516,6 +516,7 @@ $( document ).ready(function(){
     if (d3.select('#demographics-subheader').text().length === 0) {
       d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore specific groupings.');
       drawCharts();
+      $(window).trigger('resize')
     }
   });
   $('.wp1').waypoint(function() {
