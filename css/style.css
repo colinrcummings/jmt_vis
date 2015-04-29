@@ -220,13 +220,6 @@ h3 {
   color: rgba(169, 68, 66, 1);
   background-color: rgba(242, 222, 222, 1);
 }
-#age-bar,
-#gender-pie,
-#footwear-bar,
-#group-pie,
-#fitness-bar {
-  width: 99%;
-}
 .age-bar,
 .footwear-bar,
 .fitness-bar,
