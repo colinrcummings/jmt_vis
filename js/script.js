@@ -514,7 +514,7 @@ $( document ).ready(function(){
   });
   $('#demographics-section').mouseover(function() {
     if (d3.select('#demographics-subheader').text().length === 0) {
-      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore different groupings.');
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click one or more to drill down and explore different groupings (e.g. female and solo).');
       drawCharts();
       $(window).trigger('resize');
     }
