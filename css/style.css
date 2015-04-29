@@ -276,14 +276,14 @@ h3 {
 }
 .footer-credit {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   text-shadow:
   -1px -1px 0 #000,
   1px -1px 0 #000,
   -1px 1px 0 #000,
   1px 1px 0 #000;
-  margin-bottom: 0px;
+  margin-bottom: 4px;
 }
 .footer-link,
 .footer-link:hover,

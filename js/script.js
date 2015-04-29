@@ -76,12 +76,6 @@ d3.csv('data/jmt_2014_demographic_data.csv', function(data) {
   groupFilter = demoCrossFilter.dimension(groupAccessor); 
   footwearFilter = demoCrossFilter.dimension(footwearAccessor);
   fitnessFilter = demoCrossFilter.dimension(fitnessAccessor);  
-  //instantiate charts
-  ageChart = new BarChart(charts.age);
-  genderChart = new PieChart(charts.gender);
-  footwearChart = new BarChart(charts.footwear);
-  groupChart = new PieChart(charts.group);
-  fitnessChart = new BarChart(charts.fitness);
 });
 
 
@@ -493,7 +487,7 @@ function keyThenCount (accessor, data) {
 
 //render page
 $( document ).ready(function(){
-  //default view
+  //setup splash
   d3.selectAll('#jm-signature, #jm-subtitle')
     .transition()        
       .duration(1000) 
@@ -502,9 +496,32 @@ $( document ).ready(function(){
     .style('display','inline-block');
   d3.select('#us')
     .style('background-color','#e6e6e6');
+  //setup map
   drawUSMap(false);
+  //setup charts
+  ageChart = new BarChart(charts.age);
+  genderChart = new PieChart(charts.gender);
+  footwearChart = new BarChart(charts.footwear);
+  groupChart = new PieChart(charts.group);
+  fitnessChart = new BarChart(charts.fitness);
 
-  //waypoints
+  //mouse position event
+  $('#geography-section').mouseover(function() {
+    if (d3.select('#map-subheader').text().length === 0) {
+      d3.select('#map-subheader').text('724 responses (93.8%) came from 42 states and the capital.');
+      styleUSMap(stateData); 
+      drawMapPoints();
+    }
+  });
+  $('#demographics-section').mouseover(function() {
+    if (d3.select('#demographics-subheader').text().length === 0) {
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore specific groupings.');
+      drawCharts();
+      $(window).trigger('resize');
+    }
+  });
+
+  //waypoint events
   $('#to-geography').waypoint(function() {
     if (d3.select('#map-subheader').text().length === 0) {
       d3.select('#map-subheader').text('724 responses (93.8%) came from 42 states and the capital.');
@@ -514,7 +531,7 @@ $( document ).ready(function(){
   });
   $('#to-demographics').waypoint(function() {
     if (d3.select('#demographics-subheader').text().length === 0) {
-      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore specific groupings.');
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore different groupings.');
       drawCharts();
       $(window).trigger('resize');
     }
@@ -525,7 +542,6 @@ $( document ).ready(function(){
   }, {
     offset: '75%'
   });
-
 
   //smooth scroll
   $('a[href*=#]:not([href=#])').click(function() {
