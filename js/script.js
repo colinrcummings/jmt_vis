@@ -520,14 +520,11 @@ $( document ).ready(function(){
   });
   $('.wp1').waypoint(function() {
     $('.wp1').addClass('animated fadeInUp');
-  }, {
-    offset: '75%'
-  });
-  $('.wp2').waypoint(function() {
     $('.wp2').addClass('animated fadeIn delay-075s');
   }, {
     offset: '75%'
   });
+
 
   //smooth scroll
   $('a[href*=#]:not([href=#])').click(function() {
