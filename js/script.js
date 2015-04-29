@@ -504,7 +504,6 @@ $( document ).ready(function(){
   footwearChart = new BarChart(charts.footwear);
   groupChart = new PieChart(charts.group);
   fitnessChart = new BarChart(charts.fitness);
-
   //mouse position event
   $('#geography-section').mouseover(function() {
     if (d3.select('#map-subheader').text().length === 0) {
@@ -515,12 +514,11 @@ $( document ).ready(function(){
   });
   $('#demographics-section').mouseover(function() {
     if (d3.select('#demographics-subheader').text().length === 0) {
-      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore specific groupings.');
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore different groupings.');
       drawCharts();
       $(window).trigger('resize');
     }
   });
-
   //waypoint events
   $('#to-geography').waypoint(function() {
     if (d3.select('#map-subheader').text().length === 0) {
@@ -542,7 +540,6 @@ $( document ).ready(function(){
   }, {
     offset: '75%'
   });
-
   //smooth scroll
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {

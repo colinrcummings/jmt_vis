@@ -220,6 +220,9 @@ h3 {
   color: rgba(169, 68, 66, 1);
   background-color: rgba(242, 222, 222, 1);
 }
+.chart {
+  width: 100% !important;
+}
 .age-bar,
 .footwear-bar,
 .fitness-bar,
