@@ -28,6 +28,28 @@ var mapPoints = [
     }
   }
 ];
+//spin.js vars
+var target = document.getElementById('map'),
+spinner,
+opts = {
+  lines: 12, // The number of lines to draw
+  length: 7, // The length of each line
+  width: 4, // The line thickness
+  radius: 7, // The radius of the inner circle
+  corners: 1, // Corner roundness (0..1)
+  rotate: 0, // The rotation offset
+  direction: 1, // 1: clockwise, -1: counterclockwise
+  color: '#000', // #rgb or #rrggbb or array of colors
+  speed: 1, // Rounds per second
+  trail: 60, // Afterglow percentage
+  shadow: false, // Whether to render a shadow
+  hwaccel: false, // Whether to use hardware acceleration
+  className: 'spinner', // The CSS class to assign to the spinner
+  zIndex: 2e9, // The z-index (defaults to 2000000000)
+  top: '50%', // Top position relative to parent
+  left: '50%' // Left position relative to parent
+};
+
 
 
 //map change functions
@@ -56,6 +78,8 @@ function mapChange (map){
 function drawWorldMap (styleFlag) {
   //remove existing map
   d3.selectAll('#map svg').remove();
+  //start spinner
+  startSpin();
   //setup svg dimensions
   var viewBoxWidth = 960;
   var viewBoxHeight = viewBoxWidth * 0.5;
@@ -103,6 +127,8 @@ function drawWorldMap (styleFlag) {
       styleCountryMap(countryData);
       drawMapPoints();
     }
+    //remove spinner
+    stopSpin();
   });
 }
 
@@ -313,3 +339,13 @@ $(window).resize(function() {
   mapSVG.attr('width', mapWidth);
   mapSVG.attr('height', mapWidth * 0.5);
 });
+
+
+//spin.js functions
+function startSpin () {
+  spinner = new Spinner(opts).spin(target);
+}
+
+function stopSpin () {
+  spinner = spinner.stop(); 
+}
