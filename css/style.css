@@ -91,6 +91,18 @@ h3 {
 .down-btn i {
   margin-left: 5px;
 }
+#sub-link-container {
+  margin-top: 7px;
+}
+#sub-link-container a {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: bold;
+}
+#sub-link-container a:hover,
+#sub-link-container a:focus {
+  color: rgba(255, 255, 255, 1);
+}
 @media screen and (max-width:680px){
   #jm-container {
     display: none;
