@@ -23,15 +23,15 @@ var percentFormatter = d3.format(".1%");
 var charts = {
   "age": {
     "name": "age",
-    "domain": ['Under 21', '21 to 32', '33 to 42', '43 to 52', '53 to 64','65 and up']
+    "domain": ['Under 30', '30 to 39', '40 to 49', '50 to 59', '60 and up']
     },
   "footwear": {
     "name": "footwear",
-    "domain": ['Boots','Hiking shoes','Trail runners','Ultra-light shoes','Sandals/barefoot']
+    "domain": ['Boots', 'Hiking shoes', 'Trail runners', 'Vibrams, sandals, none']
     },
   "fitness": {
     "name": "fitness",
-    "domain": ['Decline to state', 'Below avg.', 'Average', 'Above avg.', 'Sig. above avg.']
+    "domain": ['Decline to state', 'Out of shape', 'Below avg.', 'Average', 'Above avg.', 'Sig. above avg.']
     },
   "gender": {
     "name": "gender"
@@ -40,6 +40,8 @@ var charts = {
     "name": "group"
     }
 };
+
+
 var ageChart;
 var genderChart
 var footwearChart;
@@ -65,7 +67,7 @@ d3.csv('data/jmt_2014_us_by_country.csv', function(data) {
   countryData = data;
 });
 
-d3.csv('data/jmt_2014_demographic_data.csv', function(data) {
+d3.csv('data/jmt_2014_demographic_data_2.csv', function(data) {
   //update globals
   demoRespndents = data.length;
   //set crossfilter object
@@ -529,7 +531,7 @@ $( document ).ready(function(){
   });
   $('#to-demographics').waypoint(function() {
     if (d3.select('#demographics-subheader').text().length === 0) {
-      d3.select('#demographics-subheader').text('The charts below are interactive. Click to drill down and explore different groupings.');
+      d3.select('#demographics-subheader').text('The charts below are interactive. Click one or more to drill down and explore different groupings (e.g. female and solo).');
       drawCharts();
       $(window).trigger('resize');
     }

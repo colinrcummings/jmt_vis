@@ -51,7 +51,6 @@ opts = {
 };
 
 
-
 //map change functions
 function mapChange (map){
   switch(map) {

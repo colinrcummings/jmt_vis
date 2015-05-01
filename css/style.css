@@ -206,6 +206,9 @@ h3 {
 .state:hover {
   opacity: 1.0;
 }
+#to-demographics {
+  margin-top: 10px;
+}
 
 
 /* bar chart styling */
