@@ -214,7 +214,7 @@ BarChart.prototype.draw = function(chart, data) {
     .data(data)
     .enter().append("rect")
       .attr('class', chart.name + '-bar')
-      .attr('id', function(d){return chart.name + '-' + d.key.split(' ').join('-'); })
+      .attr('id', function(d){return chart.name + '-' + d.key.replace(/[_\W]+/g, '').split(' ').join('-').toLowerCase(); })
       .attr("x", function(d) { return x(d.key); })
       .attr("y", this.viewBoxHeight)
       .attr("width", this.x.rangeBand())
@@ -261,7 +261,7 @@ BarChart.prototype.update = function(chart, data) {
     .data(data, function(d) { return d.key; });
   this.bars.enter().append("rect")
     .attr('class', chart.name + '-bar')
-    .attr('id', function(d){return name + '-' + d.key.split(' ').join('-'); })
+    .attr('id', function(d){return name + '-' + d.key.replace(/[_\W]+/g, '').split(' ').join('-').toLowerCase(); })
     .attr("x", function(d) { return x(d.key); })
     .attr("y", this.viewBoxHeight)
     .attr("height", 0)
@@ -453,7 +453,7 @@ PieChart.prototype.draw = function(chart, data) {
     .data(this.pie)
     .enter().append('path')
       .attr('class', chart.name + '-slice')
-      .attr('id', function(d){ return chart.name + '-' + d.data.key.split(' ').join('-'); })
+      .attr('id', function(d){ return chart.name + '-' + d.data.key.replace(/[_\W]+/g, '').split(' ').join('-').toLowerCase(); })
       .style('fill', 'white')
       .style('stroke','white')
       .each(function() { this._current = {startAngle: 0, endAngle: 0}; });
@@ -493,7 +493,7 @@ PieChart.prototype.update = function(chart, data) {
     .data(this.pie)
     .enter().append("path")
       .attr('class', chart.name + '-slice')
-      .attr('id', function(d){ return chart.name + '-' + d.data.key.split(' ').join('-'); })
+      .attr('id', function(d){ return chart.name + '-' + d.data.key.replace(/[_\W]+/g, '').split(' ').join('-').toLowerCase(); })
       .style('fill', function(d){return colorScale(d.data.values)})
       .style('stroke','#777')
       .on("click", function(d){
