@@ -9,44 +9,90 @@ var demoCrossFilter;
 var genderFilter,
   ageFilter,
   groupFilter,
+  backpackingFilter,
+  trainingFilter,
+  fitnessFilter,
   footwearFilter,
-  fitnessFilter;
+  packweightFilter,
+  bodyweightFilter,
+  milesFilter,
+  dificultyFilter,
+  whitneyFilter;
 //accessor functions
 var genderAccessor = function(a) {return a.gender;};
 var ageAccessor = function(a) {return a.age_bin;};
 var groupAccessor = function(a) {return a.group_size;};
-var footwearAccessor = function(a) {return a.footwear;};
+var backpackingAccessor = function(a) {return a.backpacking;};
+var trainingAccessor = function(a) {return a.training;};
 var fitnessAccessor = function(a) {return a.fitness;};
+var footwearAccessor = function(a) {return a.footwear;};
+var packweightAccessor = function(a) {return a.pack_weight_bin;};
+var bodyweightAccessor = function(a) {return a.pack_weight_body_weight_bin;}; 
+var milesAccessor = function(a) {return a.mi_day_bin;};
+var dificultyAccessor = function(a) {return a.dificulty;};
+var whitneyAccessor = function(a) {return a.whitney;};
 //formatting functions
 var percentFormatter = d3.format(".1%");
 //chart vars
 var charts = {
+  "gender": {
+    "name": "gender"
+    },
   "age": {
     "name": "age",
     "domain": ['Under 30', '30 to 39', '40 to 49', '50 to 59', '60 and up']
+    },
+  "group": {
+    "name": "group"
+    },
+  "backpacking": {
+    "name": "backpacking",
+    "domain": ['< 5 days', '6-10 days', '11-20 days', '21-50 days', '51-100 days', '101 days +']
+    },
+  "training": {
+    "name": "training",
+    "domain": ['< 2 hrs', '2-4 hrs', '5-8 hrs', '9-16 hrs', '16 hrs +']
+    },
+  "fitness": {
+    "name": "fitness",
+    "domain": ['Decline to state', 'Out of shape', 'Below avg', 'Average', 'Above avg', 'Sig. above avg']
     },
   "footwear": {
     "name": "footwear",
     "domain": ['Boots', 'Hiking shoes', 'Trail runners', 'Vibrams, sandals, none']
     },
-  "fitness": {
-    "name": "fitness",
-    "domain": ['Decline to state', 'Out of shape', 'Below avg.', 'Average', 'Above avg.', 'Sig. above avg.']
+  "packweight": {
+    "name": "packweight",
+    "domain": ['< 25 lbs', '25-30 lbs', '30-35 lbs', '35-40 lbs', '40-45 lbs', '45-50 lbs', '50-55 lbs', '55 lbs +']
     },
-  "gender": {
-    "name": "gender"
+  "bodyweight": {
+    "name": "bodyweight",
+    "domain": ['< 16%', '16-20%', '20-24%', '24-28%', '28-32%', '32-36%', '36% +']
     },
-  "group": {
-    "name": "group"
+  "miles": {
+    "name": "miles",
+    "domain": ['< 8 mi', '8-10 mi', '10-12 mi', '12-14 mi', '14-16 mi', '16-18 mi', '18-20 mi', '20 mi +']
+    },
+  "dificulty": {
+    "name": "dificulty",
+    "domain": ['Not at all', 'Minimally', 'Somewhat', 'Fairly', 'Very', 'Death march']
+    },
+  "whitney": {
+    "name": "whitney"
     }
 };
-
-
-var ageChart;
-var genderChart
-var footwearChart;
-var groupChart;
-var fitnessChart;
+var genderChart,
+  ageChart,
+  groupChart,
+  backpackingChart,
+  trainingChart,
+  fitnessChart,
+  footwearChart,
+  packweightChart,
+  bodyweightChart,
+  milesChart,
+  dificultyChart,
+  whitneyChart;
 var barGreens = ['#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#006d2c'];
 
 
@@ -76,8 +122,15 @@ d3.csv('data/jmt_2014_demographic_data_2.csv', function(data) {
   genderFilter = demoCrossFilter.dimension(genderAccessor);
   ageFilter = demoCrossFilter.dimension(ageAccessor);
   groupFilter = demoCrossFilter.dimension(groupAccessor); 
-  footwearFilter = demoCrossFilter.dimension(footwearAccessor);
+  backpackingFilter = demoCrossFilter.dimension(backpackingAccessor);  
+  trainingFilter = demoCrossFilter.dimension(trainingAccessor);
   fitnessFilter = demoCrossFilter.dimension(fitnessAccessor);  
+  footwearFilter = demoCrossFilter.dimension(footwearAccessor);
+  packweightFilter = demoCrossFilter.dimension(packweightAccessor); 
+  bodyweightFilter = demoCrossFilter.dimension(bodyweightAccessor); 
+  milesFilter = demoCrossFilter.dimension(milesAccessor); 
+  dificultyFilter = demoCrossFilter.dimension(dificultyAccessor); 
+  whitneyFilter = demoCrossFilter.dimension(whitneyAccessor); 
 });
 
 
@@ -85,17 +138,31 @@ d3.csv('data/jmt_2014_demographic_data_2.csv', function(data) {
 function drawCharts() {
   ageChart.draw(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
   genderChart.draw(charts.gender, keyThenCount(genderAccessor, genderFilter.top(Infinity)));
-  footwearChart.draw(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
   groupChart.draw(charts.group, keyThenCount(groupAccessor, groupFilter.top(Infinity)));
+  backpackingChart.draw(charts.backpacking, keyThenCount(backpackingAccessor, backpackingFilter.top(Infinity)));
+  trainingChart.draw(charts.training, keyThenCount(trainingAccessor, trainingFilter.top(Infinity)));
   fitnessChart.draw(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
+  footwearChart.draw(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
+  packweightChart.draw(charts.packweight, keyThenCount(packweightAccessor, packweightFilter.top(Infinity)));
+  bodyweightChart.draw(charts.bodyweight, keyThenCount(bodyweightAccessor, bodyweightFilter.top(Infinity)));
+  milesChart.draw(charts.miles, keyThenCount(milesAccessor, milesFilter.top(Infinity)));
+  dificultyChart.draw(charts.dificulty, keyThenCount(dificultyAccessor, dificultyFilter.top(Infinity)));
+  whitneyChart.draw(charts.whitney, keyThenCount(whitneyAccessor, whitneyFilter.top(Infinity)));
 }
 
 function updateCharts() {
   ageChart.update(charts.age, keyThenCount(ageAccessor, ageFilter.top(Infinity)));
   genderChart.update(charts.gender, keyThenCount(genderAccessor, genderFilter.top(Infinity)));
-  footwearChart.update(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
   groupChart.update(charts.group, keyThenCount(groupAccessor, groupFilter.top(Infinity)));
+  backpackingChart.update(charts.backpacking, keyThenCount(backpackingAccessor, backpackingFilter.top(Infinity)));
+  trainingChart.update(charts.training, keyThenCount(trainingAccessor, trainingFilter.top(Infinity)));
   fitnessChart.update(charts.fitness, keyThenCount(fitnessAccessor, fitnessFilter.top(Infinity)));
+  footwearChart.update(charts.footwear, keyThenCount(footwearAccessor, footwearFilter.top(Infinity)));
+  packweightChart.update(charts.packweight, keyThenCount(packweightAccessor, packweightFilter.top(Infinity)));
+  bodyweightChart.update(charts.bodyweight, keyThenCount(bodyweightAccessor, bodyweightFilter.top(Infinity)));
+  milesChart.update(charts.miles, keyThenCount(milesAccessor, milesFilter.top(Infinity)));
+  dificultyChart.update(charts.dificulty, keyThenCount(dificultyAccessor, dificultyFilter.top(Infinity)));
+  whitneyChart.update(charts.whitney, keyThenCount(whitneyAccessor, whitneyFilter.top(Infinity)));
 }
 
 
@@ -262,15 +329,45 @@ function barClick(clickRect, clickObj) {
       d3.select('#age-clear-btn').style('display','inline-block');
       d3.select('#age-header').text('Age (' + clickObj.key + ')');
       break;
-    case 'footwear-bar':
-      footwearFilter.filter(clickObj.key);
-      d3.select('#footwear-clear-btn').style('display','inline-block');
-      d3.select('#footwear-header').text('Footwear (' + clickObj.key + ')');
+    case 'backpacking-bar':
+      backpackingFilter.filter(clickObj.key);
+      d3.select('#backpacking-clear-btn').style('display','inline-block');
+      d3.select('#backpacking-header').text('Prior Backpacking (' + clickObj.key + ')');
+      break;
+    case 'training-bar':
+      trainingFilter.filter(clickObj.key);
+      d3.select('#training-clear-btn').style('display','inline-block');
+      d3.select('#training-header').text('Weekly Training (' + clickObj.key + ')');
       break;
     case 'fitness-bar':
       fitnessFilter.filter(clickObj.key);
       d3.select('#fitness-clear-btn').style('display','inline-block');
       d3.select('#fitness-header').text('Fitness (' + clickObj.key + ')');
+      break;
+    case 'footwear-bar':
+      footwearFilter.filter(clickObj.key);
+      d3.select('#footwear-clear-btn').style('display','inline-block');
+      d3.select('#footwear-header').text('Footwear (' + clickObj.key + ')');
+      break;
+    case 'packweight-bar':
+      packweightFilter.filter(clickObj.key);
+      d3.select('#packweight-clear-btn').style('display','inline-block');
+      d3.select('#packweight-header').text('Pack Weight (' + clickObj.key + ')');
+      break;
+    case 'bodyweight-bar':
+      bodyweightFilter.filter(clickObj.key);
+      d3.select('#bodyweight-clear-btn').style('display','inline-block');
+      d3.select('#bodyweight-header').text('Pack % Bodyweight (' + clickObj.key + ')');
+      break;
+    case 'miles-bar':
+      milesFilter.filter(clickObj.key);
+      d3.select('#miles-clear-btn').style('display','inline-block');
+      d3.select('#miles-header').text('Daily Mileage (' + clickObj.key + ')');
+      break;
+    case 'dificulty-bar':
+      dificultyFilter.filter(clickObj.key);
+      d3.select('#dificulty-clear-btn').style('display','inline-block');
+      d3.select('#dificulty-header').text('Hike Dificulty Rating (' + clickObj.key + ')');
       break;
   }
   updateCharts();
@@ -283,15 +380,45 @@ function clearBarClick(filter) {
       d3.select('#age-clear-btn').style('display','none');
       d3.select('#age-header').text('Age (All)');
       break;
-    case 'footwear':
-      footwearFilter.filterAll();
-      d3.select('#footwear-clear-btn').style('display','none');
-      d3.select('#footwear-header').text('Footwear (All)');
+    case 'backpacking':
+      backpackingFilter.filterAll();
+      d3.select('#backpacking-clear-btn').style('display','none');
+      d3.select('#backpacking-header').text('Prior Backpacking (All)');
+      break;
+    case 'training':
+      trainingFilter.filterAll();
+      d3.select('#training-clear-btn').style('display','none');
+      d3.select('#training-header').text('Weekly Training (All)');
       break;
     case 'fitness':
       fitnessFilter.filterAll();
       d3.select('#fitness-clear-btn').style('display','none');
       d3.select('#fitness-header').text('Fitness (All)');
+      break;
+    case 'footwear':
+      footwearFilter.filterAll();
+      d3.select('#footwear-clear-btn').style('display','none');
+      d3.select('#footwear-header').text('Footwear (All)');
+      break;
+    case 'packweight':
+      packweightFilter.filterAll();
+      d3.select('#packweight-clear-btn').style('display','none');
+      d3.select('#packweight-header').text('Pack Weight (All)');
+      break;
+    case 'bodyweight':
+      bodyweightFilter.filterAll();
+      d3.select('#bodyweight-clear-btn').style('display','none');
+      d3.select('#bodyweight-header').text('Pack % Bodyweight (All)');
+      break;
+    case 'miles':
+      milesFilter.filterAll();
+      d3.select('#miles-clear-btn').style('display','none');
+      d3.select('#miles-header').text('Daily Mileage (All)');
+      break;
+    case 'dificulty':
+      dificultyFilter.filterAll();
+      d3.select('#dificulty-clear-btn').style('display','none');
+      d3.select('#dificulty-header').text('Hike Dificulty Rating (All)');
       break;
   }
   updateCharts();
@@ -442,6 +569,11 @@ function pieClick(clickRect, clickObj) {
       d3.select('#group-clear-btn').style('display','inline-block');
       d3.select('#group-header').text('Group Size (' + clickObj.data.key + ')');
       break;
+    case 'whitney-slice':
+      whitneyFilter.filter(clickObj.data.key);
+      d3.select('#whitney-clear-btn').style('display','inline-block');
+      d3.select('#whitney-header').text('Mt. Whitney (' + clickObj.data.key + ')');
+      break;
   }
   updateCharts();
 }
@@ -457,6 +589,11 @@ function clearPieClick(filter) {
       groupFilter.filterAll();
       d3.select('#group-clear-btn').style('display','none');
       d3.select('#group-header').text('Group Size (All)');
+      break;
+    case 'whitney':
+      whitneyFilter.filterAll();
+      d3.select('#whitney-clear-btn').style('display','none');
+      d3.select('#whitney-header').text('Mt. Whitney (All)');
       break;
   }
   updateCharts();
@@ -501,11 +638,19 @@ $( document ).ready(function(){
   //setup map
   drawUSMap(false);
   //setup charts
-  ageChart = new BarChart(charts.age);
   genderChart = new PieChart(charts.gender);
-  footwearChart = new BarChart(charts.footwear);
+  ageChart = new BarChart(charts.age);
   groupChart = new PieChart(charts.group);
+  backpackingChart = new BarChart(charts.backpacking);
+  trainingChart = new BarChart(charts.training);
   fitnessChart = new BarChart(charts.fitness);
+  footwearChart = new BarChart(charts.footwear);
+  packweightChart = new BarChart(charts.packweight);
+  bodyweightChart = new BarChart(charts.bodyweight);
+  milesChart = new BarChart(charts.miles);
+  dificultyChart = new BarChart(charts.dificulty);
+  whitneyChart = new PieChart(charts.whitney);
+
   //mouse position event
   $('#geography-section').mouseover(function() {
     if (d3.select('#map-subheader').text().length === 0) {

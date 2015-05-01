@@ -1,713 +1,713 @@
 respondent_id,age_bin,gender,group_size,backpacking,training,fitness,footwear,pack_weight_bin,pack_weight_body_weight_bin,mi_day_bin,dificulty,whitney
-3520370381,50 to 59,Male,Group of 2+,Over 100,5 to 8,Average,Trail runners,Under 25,Under 16%,10 to 12,Fairly,Attempted
-3671972039,40 to 49,Male,Solo,11 to 20,5 to 8,Out of shape,Boots,Under 25,Under 16%,10 to 12,Fairly,Attempted
-3555123761,40 to 49,Male,Group of 2+,51 to 100,5 to 8,Average,Trail runners,Under 25,Under 16%,20 and up,Very,Attempted
-3520110935,Under 30,Female,Mix of group/solo,6 to 10,9 to 16,Above avg.,Trail runners,Under 25,Under 16%,14 to 16,Fairly,Summited
-3524147804,30 to 39,Male,Solo,51 to 100,Under 2,Out of shape,Hiking shoes,30 to 35,Under 16%,8 to 10,Very,Attempted
-3685689480,50 to 59,Male,Group of 2+,Over 100,5 to 8,Below avg.,Boots,Under 25,Under 16%,10 to 12,Somewhat,Summited
-3520422666,60 and up,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Hiking shoes,25 to 30,Under 16%,10 to 12,Somewhat,Not planned
-3531208717,50 to 59,Male,Solo,Over 100,9 to 16,Above avg.,Hiking shoes,Under 25,Under 16%,20 and up,Somewhat,Summited
-3570775970,30 to 39,Male,Solo,Over 100,5 to 8,Above avg.,Trail runners,Under 25,Under 16%,10 to 12,Somewhat,Attempted
-3673360537,30 to 39,Male,Group of 2+,51 to 100,5 to 8,Out of shape,Boots,30 to 35,Under 16%,10 to 12,Very,Attempted
-3604842554,50 to 59,Female,Group of 2+,11 to 20,9 to 16,Sig. above avg.,Trail runners,Under 25,Under 16%,14 to 16,Minimally,Summited
-3541761232,30 to 39,Male,Group of 2+,51 to 100,5 to 8,Average,Trail runners,Under 25,Under 16%,14 to 16,Somewhat,Attempted
-3612364060,50 to 59,Female,Solo,11 to 20,2 to 4,Average,Trail runners,Under 25,Under 16%,8 to 10,Somewhat,Not planned
-3520506108,40 to 49,Male,Solo,51 to 100,9 to 16,Sig. above avg.,Trail runners,Under 25,Under 16%,20 and up,Somewhat,Attempted
-3531243625,40 to 49,Male,Solo,51 to 100,5 to 8,Above avg.,Trail runners,Under 25,Under 16%,8 to 10,Fairly,Not planned
-3527284030,50 to 59,Male,Mix of group/solo,21 to 50,9 to 16,Average,Trail runners,25 to 30,Under 16%,10 to 12,Fairly,Summited
-3519953498,Under 30,Female,Group of 2+,21 to 50,5 to 8,Average,Trail runners,Under 25,Under 16%,8 to 10,Minimally,Attempted
-3528964955,40 to 49,Male,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,Under 25,Under 16%,14 to 16,Not at all,Not planned
-3548517263,60 and up,Female,Group of 2+,Over 100,Under 2,Decline to state,Trail runners,Under 25,Under 16%,12 to 14,Somewhat,Not planned
-3522182682,40 to 49,Male,Group of 2+,21 to 50,9 to 16,Average,Trail runners,25 to 30,Under 16%,12 to 14,Somewhat,Summited
-3673978351,40 to 49,Female,Group of 2+,11 to 20,2 to 4,Average,Boots,Under 25,Under 16%,8 to 10,Very,Summited
-3520135267,50 to 59,Female,Group of 2+,21 to 50,2 to 4,Average,Boots,Under 25,Under 16%,Under 8,Somewhat,Summited
-3664356921,30 to 39,Male,Group of 2+,6 to 10,5 to 8,Below avg.,Hiking shoes,25 to 30,Under 16%,16 to 18,Very,Attempted
-3520212977,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Below avg.,Boots,25 to 30,Under 16%,12 to 14,Very,Summited
-3542558532,50 to 59,Female,Solo,Over 100,Over 16,Above avg.,Boots,Under 25,Under 16%,Under 8,Minimally,Attempted
-3522098416,60 and up,Female,Solo,Over 100,Under 2,Average,Trail runners,25 to 30,Under 16%,Under 8,Not at all,Attempted
-3521357000,40 to 49,Female,Group of 2+,Under 5,9 to 16,Below avg.,Boots,25 to 30,Under 16%,Under 8,Minimally,Not planned
-3523446079,30 to 39,Male,Solo,Over 100,9 to 16,Average,Trail runners,25 to 30,Under 16%,14 to 16,Minimally,Summited
-3562557497,30 to 39,Female,Group of 2+,21 to 50,9 to 16,Above avg.,Trail runners,Under 25,Under 16%,14 to 16,Minimally,Summited
-3543708521,50 to 59,Female,Group of 2+,Over 100,5 to 8,Above avg.,Trail runners,Under 25,Under 16%,Under 8,Fairly,Not planned
-3520088636,40 to 49,Male,Group of 2+,11 to 20,9 to 16,Average,Trail runners,25 to 30,Under 16%,14 to 16,Somewhat,Summited
-3552684134,30 to 39,Male,Solo,11 to 20,5 to 8,Above avg.,Hiking shoes,Under 25,Under 16%,Under 8,Somewhat,Not planned
-3520423158,40 to 49,Male,Group of 2+,Over 100,9 to 16,Average,Trail runners,25 to 30,Under 16%,8 to 10,Not at all,Not planned
-3521843636,50 to 59,Female,Group of 2+,Over 100,9 to 16,Above avg.,Trail runners,25 to 30,Under 16%,12 to 14,Somewhat,Not planned
-3527086355,50 to 59,Male,Solo,11 to 20,5 to 8,Average,Trail runners,Under 25,Under 16%,14 to 16,Somewhat,Summited
-3522056100,40 to 49,Male,Solo,Over 100,2 to 4,Sig. above avg.,Trail runners,Under 25,Under 16%,16 to 18,Minimally,Not planned
-3661281744,30 to 39,Male,Group of 2+,6 to 10,9 to 16,Average,Trail runners,Under 25,Under 16%,12 to 14,Very,Summited
-3519927249,40 to 49,Male,Solo,11 to 20,5 to 8,Below avg.,Boots,40 to 45,Under 16%,8 to 10,Somewhat,Attempted
-3522707544,50 to 59,Male,Solo,11 to 20,9 to 16,Below avg.,Hiking shoes,30 to 35,Under 16%,12 to 14,Fairly,Attempted
-3527531283,40 to 49,Male,Group of 2+,Over 100,5 to 8,Below avg.,Boots,30 to 35,Under 16%,18 to 20,Somewhat,Not planned
-3520218873,30 to 39,Male,Mix of group/solo,51 to 100,5 to 8,Average,Trail runners,25 to 30,Under 16%,14 to 16,Somewhat,Summited
-3667082680,Under 30,Female,Group of 2+,51 to 100,5 to 8,Average,Trail runners,Under 25,Under 16%,12 to 14,Fairly,Summited
-3520082537,Under 30,Male,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,Under 25,Under 16%,10 to 12,Somewhat,Summited
-3542476592,Under 30,Female,Group of 2+,21 to 50,Under 2,Average,Trail runners,Under 25,Under 16%,10 to 12,Fairly,Summited
-3520178021,40 to 49,Male,Group of 2+,Over 100,9 to 16,Sig. above avg.,Trail runners,25 to 30,Under 16%,20 and up,Minimally,Summited
-3520024857,60 and up,Male,Group of 2+,Over 100,9 to 16,Above avg.,"Vibrams, sandals, none",30 to 35,Under 16%,10 to 12,Somewhat,Summited
-3519986396,50 to 59,Male,Solo,11 to 20,5 to 8,Above avg.,Trail runners,25 to 30,Under 16%,10 to 12,Somewhat,Summited
-3520321097,50 to 59,Male,Solo,51 to 100,9 to 16,Above avg.,Trail runners,25 to 30,Under 16%,20 and up,Somewhat,Summited
-3526994838,60 and up,Male,Group of 2+,51 to 100,9 to 16,Average,Trail runners,25 to 30,Under 16%,Under 8,Minimally,Not planned
-3527094249,50 to 59,Male,Solo,51 to 100,9 to 16,Above avg.,Trail runners,25 to 30,Under 16%,14 to 16,Somewhat,Summited
-3520858575,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,25 to 30,Under 16%,16 to 18,Somewhat,Summited
-3571411848,50 to 59,Male,Group of 2+,21 to 50,Over 16,Average,Boots,25 to 30,Under 16%,10 to 12,Fairly,Not planned
-3542858408,Under 30,Female,Group of 2+,11 to 20,2 to 4,Average,Trail runners,25 to 30,Under 16%,12 to 14,Somewhat,Summited
-3521378898,40 to 49,Male,Solo,21 to 50,9 to 16,Sig. above avg.,Trail runners,25 to 30,Under 16%,18 to 20,Somewhat,Attempted
-3522164169,Under 30,Male,Group of 2+,Over 100,5 to 8,Above avg.,Trail runners,25 to 30,Under 16%,14 to 16,Not at all,Summited
-3520589547,60 and up,Male,Group of 2+,21 to 50,Under 2,Above avg.,Trail runners,25 to 30,Under 16%,Under 8,Not at all,Not planned
-3522195217,40 to 49,Male,Group of 2+,6 to 10,Over 16,Average,Trail runners,25 to 30,Under 16%,20 and up,Not at all,Summited
-3520449189,50 to 59,Male,Solo,Over 100,Under 2,Below avg.,Hiking shoes,30 to 35,Under 16%,16 to 18,Fairly,Attempted
-3617694569,50 to 59,Male,Group of 2+,21 to 50,Over 16,Sig. above avg.,"Vibrams, sandals, none",30 to 35,Under 16%,10 to 12,Minimally,Summited
-3520096384,Under 30,Male,Solo,Over 100,Over 16,Sig. above avg.,Trail runners,Under 25,Under 16%,20 and up,Minimally,Not planned
-3674617812,40 to 49,Male,Group of 2+,21 to 50,2 to 4,Average,Boots,Under 25,Under 16%,10 to 12,Somewhat,Not planned
-3520038122,30 to 39,Male,Solo,21 to 50,Over 16,Above avg.,Trail runners,25 to 30,Under 16%,12 to 14,Somewhat,Summited
-3543948214,40 to 49,Male,Group of 2+,21 to 50,9 to 16,Average,Boots,35 to 40,Under 16%,Under 8,Somewhat,Not planned
-3541732653,40 to 49,Female,Group of 2+,51 to 100,Over 16,Sig. above avg.,Trail runners,35 to 40,Under 16%,12 to 14,Fairly,Not planned
-3682491267,30 to 39,Male,Group of 2+,Over 100,9 to 16,Sig. above avg.,Boots,Under 25,Under 16%,12 to 14,Not at all,Not planned
-3543802694,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,30 to 35,Under 16%,10 to 12,Not at all,Attempted
-3527941501,40 to 49,Male,Solo,6 to 10,5 to 8,Below avg.,Trail runners,30 to 35,Under 16%,14 to 16,Fairly,Summited
-3520272806,Under 30,Male,Group of 2+,21 to 50,Over 16,Above avg.,Hiking shoes,40 to 45,Under 16%,14 to 16,Fairly,Summited
-3520123785,Under 30,Male,Mix of group/solo,Under 5,2 to 4,Below avg.,Trail runners,25 to 30,Under 16%,12 to 14,Very,Summited
-3573588573,Under 30,Male,Group of 2+,21 to 50,5 to 8,Average,Trail runners,Under 25,Under 16%,14 to 16,Fairly,Summited
-3531681512,Under 30,Male,Mix of group/solo,21 to 50,9 to 16,Average,Trail runners,35 to 40,Under 16%,18 to 20,Somewhat,Summited
-3520039969,50 to 59,Male,Group of 2+,6 to 10,Under 2,Below avg.,Hiking shoes,35 to 40,Under 16%,8 to 10,Minimally,Summited
-3535407648,40 to 49,Male,Group of 2+,Over 100,9 to 16,Below avg.,Trail runners,30 to 35,Under 16%,Under 8,Somewhat,Not planned
-3673628454,40 to 49,Male,Group of 2+,Over 100,5 to 8,Below avg.,Trail runners,30 to 35,Under 16%,Under 8,Fairly,Not planned
-3660705214,30 to 39,Male,Group of 2+,51 to 100,2 to 4,Below avg.,Boots,30 to 35,Under 16%,8 to 10,Fairly,Summited
-3549062259,Under 30,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Boots,30 to 35,Under 16%,12 to 14,Minimally,Not planned
-3617146485,Under 30,Female,Group of 2+,Under 5,Under 2,Below avg.,Hiking shoes,Under 25,Under 16%,Under 8,Very,Attempted
-3541762718,40 to 49,Male,Group of 2+,Under 5,5 to 8,Sig. above avg.,Boots,30 to 35,Under 16%,12 to 14,Somewhat,Not planned
-3520275408,50 to 59,Female,Group of 2+,11 to 20,5 to 8,Average,Boots,25 to 30,Under 16%,8 to 10,Fairly,Not planned
-3530211849,40 to 49,Male,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,30 to 35,Under 16%,12 to 14,Very,Not planned
-3527323536,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Sig. above avg.,Trail runners,Under 25,Under 16%,20 and up,Fairly,Not planned
-3673622522,30 to 39,Male,Group of 2+,11 to 20,9 to 16,Average,Trail runners,Under 25,Under 16%,16 to 18,Somewhat,Attempted
-3520116265,30 to 39,Male,Solo,51 to 100,9 to 16,Average,Trail runners,Under 25,Under 16%,16 to 18,Somewhat,Attempted
-3529136636,30 to 39,Female,Group of 2+,21 to 50,9 to 16,Below avg.,Trail runners,25 to 30,Under 16%,16 to 18,Somewhat,Attempted
-3520139557,30 to 39,Male,Solo,21 to 50,5 to 8,Sig. above avg.,Trail runners,25 to 30,Under 16%,16 to 18,Not at all,Summited
-3522867010,40 to 49,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Trail runners,30 to 35,Under 16%,10 to 12,Somewhat,Summited
-3522514641,40 to 49,Male,Solo,21 to 50,2 to 4,Above avg.,Trail runners,25 to 30,Under 16%,20 and up,Minimally,Summited
-3531083375,50 to 59,Male,Solo,Over 100,5 to 8,Above avg.,Trail runners,35 to 40,Under 16%,16 to 18,Somewhat,Summited
-3520147511,50 to 59,Male,Mix of group/solo,Over 100,9 to 16,Average,Hiking shoes,30 to 35,Under 16%,12 to 14,Fairly,Summited
-3527064553,40 to 49,Male,Solo,Over 100,9 to 16,Average,Trail runners,30 to 35,Under 16%,16 to 18,Fairly,Summited
-3520080101,60 and up,Male,Group of 2+,51 to 100,9 to 16,Sig. above avg.,Hiking shoes,30 to 35,16 to 20%,14 to 16,Fairly,Summited
-3520425772,50 to 59,Male,Group of 2+,Over 100,Over 16,Above avg.,Hiking shoes,30 to 35,16 to 20%,10 to 12,Somewhat,Summited
-3520950270,50 to 59,Male,Mix of group/solo,Over 100,2 to 4,Above avg.,Trail runners,25 to 30,16 to 20%,14 to 16,Fairly,Summited
-3527547882,40 to 49,Male,Solo,6 to 10,Under 2,Below avg.,Trail runners,35 to 40,16 to 20%,16 to 18,Somewhat,Attempted
-3527798975,50 to 59,Male,Solo,21 to 50,2 to 4,Average,Boots,25 to 30,16 to 20%,10 to 12,Minimally,Not planned
-3555768675,60 and up,Male,Solo,21 to 50,9 to 16,Above avg.,Trail runners,35 to 40,16 to 20%,10 to 12,Very,Not planned
-3538893540,30 to 39,Male,Solo,Over 100,Over 16,Below avg.,Boots,35 to 40,16 to 20%,14 to 16,Somewhat,Summited
-3527818475,60 and up,Male,Solo,21 to 50,9 to 16,Sig. above avg.,Hiking shoes,25 to 30,16 to 20%,18 to 20,Somewhat,Attempted
-3539395414,50 to 59,Male,Solo,Over 100,9 to 16,Average,Hiking shoes,25 to 30,16 to 20%,12 to 14,Fairly,Attempted
-3528939933,50 to 59,Male,Group of 2+,6 to 10,9 to 16,Above avg.,Hiking shoes,35 to 40,16 to 20%,16 to 18,Fairly,Summited
-3527783553,Under 30,Male,Solo,21 to 50,5 to 8,Above avg.,Trail runners,25 to 30,16 to 20%,16 to 18,Fairly,Summited
-3520030816,50 to 59,Male,Solo,Over 100,Over 16,Sig. above avg.,Trail runners,25 to 30,16 to 20%,20 and up,Very,Summited
-3666951886,40 to 49,Male,Group of 2+,Over 100,Under 2,Sig. above avg.,Hiking shoes,30 to 35,16 to 20%,20 and up,Fairly,Attempted
-3522984674,60 and up,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Hiking shoes,30 to 35,16 to 20%,8 to 10,Somewhat,Not planned
-3529190557,30 to 39,Male,Group of 2+,Under 5,9 to 16,Above avg.,Trail runners,25 to 30,16 to 20%,20 and up,Death march,Attempted
-3576383266,Under 30,Male,Group of 2+,51 to 100,2 to 4,Below avg.,Hiking shoes,35 to 40,16 to 20%,16 to 18,Fairly,Attempted
-3531110058,60 and up,Male,Solo,Over 100,Under 2,Below avg.,Hiking shoes,35 to 40,16 to 20%,10 to 12,Fairly,Summited
-3525280858,40 to 49,Male,Group of 2+,11 to 20,5 to 8,Average,Boots,35 to 40,16 to 20%,12 to 14,Very,Summited
-3520105744,40 to 49,Male,Solo,51 to 100,5 to 8,Average,Hiking shoes,35 to 40,16 to 20%,14 to 16,Somewhat,Summited
-3661744956,Under 30,Female,Group of 2+,11 to 20,Under 2,Below avg.,Boots,Under 25,16 to 20%,10 to 12,Somewhat,Not planned
-3522609137,30 to 39,Male,Solo,Under 5,2 to 4,Below avg.,Hiking shoes,35 to 40,16 to 20%,8 to 10,Fairly,Attempted
-3541731091,50 to 59,Male,Solo,21 to 50,5 to 8,Above avg.,Trail runners,35 to 40,16 to 20%,12 to 14,Very,Attempted
-3520299094,50 to 59,Female,Solo,51 to 100,Under 2,Out of shape,Hiking shoes,30 to 35,16 to 20%,14 to 16,Fairly,Summited
-3527079670,30 to 39,Male,Solo,11 to 20,9 to 16,Average,Trail runners,25 to 30,16 to 20%,20 and up,Very,Summited
-3660975147,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,25 to 30,16 to 20%,8 to 10,Somewhat,Not planned
-3527334895,Under 30,Male,Mix of group/solo,11 to 20,2 to 4,Average,Hiking shoes,35 to 40,16 to 20%,16 to 18,Fairly,Summited
-3674438856,40 to 49,Male,Group of 2+,51 to 100,5 to 8,Average,Trail runners,30 to 35,16 to 20%,8 to 10,Fairly,Not planned
-3520054829,60 and up,Male,Group of 2+,21 to 50,Over 16,Above avg.,Boots,25 to 30,16 to 20%,12 to 14,Not at all,Attempted
-3520079585,40 to 49,Male,Group of 2+,51 to 100,Over 16,Sig. above avg.,Trail runners,35 to 40,16 to 20%,18 to 20,Not at all,Summited
-3520198397,50 to 59,Male,Group of 2+,Over 100,5 to 8,Average,Hiking shoes,30 to 35,16 to 20%,10 to 12,Fairly,Not planned
-3527098842,40 to 49,Male,Solo,21 to 50,5 to 8,Above avg.,Boots,35 to 40,16 to 20%,14 to 16,Minimally,Summited
-3520189736,50 to 59,Female,Group of 2+,Under 5,5 to 8,Below avg.,Boots,30 to 35,16 to 20%,10 to 12,Very,Summited
-3571043685,60 and up,Male,Group of 2+,Under 5,5 to 8,Above avg.,Boots,25 to 30,16 to 20%,10 to 12,Minimally,Not planned
-3520062979,40 to 49,Female,Group of 2+,Over 100,2 to 4,Above avg.,Boots,25 to 30,16 to 20%,14 to 16,Somewhat,Summited
-3521413517,60 and up,Male,Solo,Over 100,9 to 16,Sig. above avg.,Trail runners,30 to 35,16 to 20%,18 to 20,Minimally,Not planned
-3647491411,40 to 49,Female,Group of 2+,21 to 50,2 to 4,Below avg.,Boots,35 to 40,16 to 20%,8 to 10,Very,Not planned
-3530761481,60 and up,Male,Group of 2+,Over 100,5 to 8,Average,Boots,35 to 40,16 to 20%,16 to 18,Somewhat,Summited
-3520987319,50 to 59,Male,Solo,51 to 100,5 to 8,Average,Hiking shoes,35 to 40,16 to 20%,12 to 14,Somewhat,Summited
-3531605828,40 to 49,Female,Group of 2+,Over 100,9 to 16,Average,Trail runners,25 to 30,16 to 20%,Under 8,Somewhat,Not planned
-3544017038,Under 30,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,25 to 30,16 to 20%,16 to 18,Minimally,Summited
-3528543430,50 to 59,Female,Mix of group/solo,6 to 10,2 to 4,Sig. above avg.,Hiking shoes,30 to 35,16 to 20%,10 to 12,Fairly,Summited
-3528925838,30 to 39,Male,Group of 2+,Over 100,Under 2,Below avg.,Trail runners,Under 25,16 to 20%,12 to 14,Minimally,Not planned
-3521777796,50 to 59,Male,Group of 2+,51 to 100,Over 16,Above avg.,Hiking shoes,25 to 30,16 to 20%,8 to 10,Not at all,Not planned
-3520027903,Under 30,Male,Group of 2+,21 to 50,5 to 8,Sig. above avg.,Hiking shoes,35 to 40,16 to 20%,14 to 16,Somewhat,Summited
-3520357845,50 to 59,Female,Group of 2+,Under 5,Over 16,Out of shape,Boots,40 to 45,16 to 20%,Under 8,Very,Not planned
-3587519720,60 and up,Male,Group of 2+,21 to 50,5 to 8,Average,Boots,30 to 35,16 to 20%,8 to 10,Very,Summited
-3674308651,Under 30,Female,Mix of group/solo,Under 5,5 to 8,Average,Trail runners,Under 25,16 to 20%,20 and up,Fairly,Summited
-3527516567,50 to 59,Male,Group of 2+,11 to 20,5 to 8,Sig. above avg.,Trail runners,30 to 35,16 to 20%,14 to 16,Fairly,Attempted
-3533999337,50 to 59,Female,Group of 2+,Under 5,2 to 4,Average,Boots,30 to 35,16 to 20%,10 to 12,Very,Not planned
-3580268094,40 to 49,Male,Solo,21 to 50,5 to 8,Below avg.,Boots,45 to 50,16 to 20%,12 to 14,Very,Attempted
-3522126541,50 to 59,Male,Group of 2+,51 to 100,2 to 4,Out of shape,Trail runners,35 to 40,16 to 20%,10 to 12,Fairly,Summited
-3520108492,50 to 59,Male,Group of 2+,11 to 20,9 to 16,Average,Trail runners,40 to 45,16 to 20%,10 to 12,Somewhat,Summited
-3520263930,50 to 59,Male,Solo,Under 5,9 to 16,Out of shape,Boots,45 to 50,16 to 20%,10 to 12,Very,Attempted
-3541799914,50 to 59,Female,Group of 2+,11 to 20,2 to 4,Average,Hiking shoes,30 to 35,16 to 20%,8 to 10,Fairly,Not planned
-3661360039,60 and up,Male,Group of 2+,21 to 50,Over 16,Above avg.,Hiking shoes,30 to 35,16 to 20%,10 to 12,Fairly,Attempted
-3519911134,30 to 39,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Hiking shoes,35 to 40,16 to 20%,10 to 12,Somewhat,Summited
-3550657866,Under 30,Female,Group of 2+,6 to 10,Over 16,Average,"Vibrams, sandals, none",25 to 30,16 to 20%,14 to 16,Minimally,Summited
-3520468998,50 to 59,Female,Mix of group/solo,51 to 100,9 to 16,Average,Trail runners,30 to 35,16 to 20%,12 to 14,Fairly,Summited
-3528142246,60 and up,Female,Group of 2+,21 to 50,Under 2,Out of shape,Hiking shoes,30 to 35,16 to 20%,Under 8,Very,Not planned
-3543873953,Under 30,Female,Group of 2+,11 to 20,5 to 8,Average,Trail runners,25 to 30,16 to 20%,18 to 20,Fairly,Summited
-3520193160,40 to 49,Male,Mix of group/solo,51 to 100,9 to 16,Below avg.,Boots,45 to 50,16 to 20%,12 to 14,Minimally,Summited
-3558057869,50 to 59,Male,Group of 2+,Under 5,9 to 16,Above avg.,Hiking shoes,30 to 35,16 to 20%,12 to 14,Somewhat,Attempted
-3544775217,30 to 39,Male,Group of 2+,6 to 10,Under 2,Below avg.,Boots,30 to 35,16 to 20%,Under 8,Somewhat,Not planned
-3572497824,30 to 39,Male,Group of 2+,11 to 20,Over 16,Above avg.,Trail runners,30 to 35,16 to 20%,20 and up,Minimally,Summited
-3661732210,Under 30,Male,Mix of group/solo,21 to 50,9 to 16,Sig. above avg.,Trail runners,30 to 35,16 to 20%,20 and up,Somewhat,Attempted
-3541809583,30 to 39,Female,Mix of group/solo,21 to 50,Over 16,Sig. above avg.,Boots,Under 25,16 to 20%,14 to 16,Somewhat,Not planned
-3520035201,Under 30,Male,Group of 2+,11 to 20,9 to 16,Sig. above avg.,Trail runners,30 to 35,16 to 20%,20 and up,Somewhat,Summited
-3530036347,40 to 49,Female,Group of 2+,51 to 100,2 to 4,Average,Trail runners,30 to 35,16 to 20%,10 to 12,Very,Summited
-3524021761,40 to 49,Male,Group of 2+,51 to 100,9 to 16,Sig. above avg.,Trail runners,30 to 35,16 to 20%,18 to 20,Minimally,Summited
-3542358724,50 to 59,Male,Group of 2+,21 to 50,2 to 4,Average,Trail runners,35 to 40,16 to 20%,10 to 12,Minimally,Summited
-3520398688,50 to 59,Female,Group of 2+,11 to 20,5 to 8,Sig. above avg.,Trail runners,25 to 30,16 to 20%,14 to 16,Somewhat,Summited
-3670608039,60 and up,Male,Group of 2+,51 to 100,5 to 8,Average,Boots,30 to 35,16 to 20%,Under 8,Minimally,Not planned
-3520191262,40 to 49,Male,Solo,Over 100,5 to 8,Average,Trail runners,35 to 40,16 to 20%,14 to 16,Somewhat,Summited
-3542312648,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Average,Trail runners,40 to 45,16 to 20%,10 to 12,Very,Summited
-3520166727,40 to 49,Male,Solo,11 to 20,5 to 8,Average,Trail runners,40 to 45,16 to 20%,12 to 14,Somewhat,Summited
-3523005079,Under 30,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Trail runners,25 to 30,16 to 20%,16 to 18,Somewhat,Attempted
-3520342072,Under 30,Female,Group of 2+,21 to 50,2 to 4,Average,Boots,35 to 40,16 to 20%,12 to 14,Minimally,Summited
-3620784082,40 to 49,Male,Solo,Under 5,2 to 4,Above avg.,"Vibrams, sandals, none",30 to 35,16 to 20%,18 to 20,Very,Summited
-3522590953,40 to 49,Male,Group of 2+,51 to 100,2 to 4,Average,Trail runners,30 to 35,16 to 20%,10 to 12,Somewhat,Summited
-3523134975,40 to 49,Male,Solo,Under 5,5 to 8,Average,Trail runners,30 to 35,16 to 20%,12 to 14,Somewhat,Summited
-3520944863,Under 30,Male,Solo,Under 5,2 to 4,Average,Boots,35 to 40,16 to 20%,12 to 14,Somewhat,Attempted
-3519913594,30 to 39,Male,Group of 2+,6 to 10,5 to 8,Out of shape,Boots,45 to 50,16 to 20%,12 to 14,Somewhat,Attempted
-3660699569,Under 30,Male,Group of 2+,11 to 20,9 to 16,Average,Hiking shoes,30 to 35,16 to 20%,10 to 12,Minimally,Attempted
-3525072011,40 to 49,Male,Solo,21 to 50,9 to 16,Above avg.,Trail runners,30 to 35,16 to 20%,16 to 18,Somewhat,Summited
-3522928893,60 and up,Male,Group of 2+,21 to 50,5 to 8,Sig. above avg.,Boots,30 to 35,16 to 20%,10 to 12,Minimally,Summited
-3522813842,60 and up,Male,Group of 2+,Over 100,Over 16,Sig. above avg.,Boots,35 to 40,16 to 20%,10 to 12,Minimally,Attempted
-3660690158,60 and up,Male,Group of 2+,Over 100,Over 16,Sig. above avg.,Boots,35 to 40,16 to 20%,12 to 14,Not at all,Summited
-3519902965,30 to 39,Male,Group of 2+,21 to 50,Over 16,Above avg.,Trail runners,35 to 40,16 to 20%,20 and up,Fairly,Summited
-3520220619,50 to 59,Male,Group of 2+,11 to 20,2 to 4,Average,Boots,35 to 40,16 to 20%,8 to 10,Somewhat,Not planned
-3528855206,50 to 59,Male,Group of 2+,21 to 50,Over 16,Above avg.,Trail runners,35 to 40,16 to 20%,10 to 12,Minimally,Not planned
-3519980086,50 to 59,Male,Group of 2+,11 to 20,9 to 16,Above avg.,Trail runners,35 to 40,16 to 20%,12 to 14,Very,Not planned
-3520068532,40 to 49,Male,Group of 2+,6 to 10,5 to 8,Below avg.,Hiking shoes,35 to 40,16 to 20%,8 to 10,Fairly,Not planned
-3543057874,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,35 to 40,16 to 20%,12 to 14,Somewhat,Summited
-3520081106,50 to 59,Male,Solo,Over 100,5 to 8,Above avg.,Trail runners,30 to 35,16 to 20%,14 to 16,Not at all,Not planned
-3520274814,60 and up,Male,Solo,Over 100,9 to 16,Above avg.,Trail runners,30 to 35,16 to 20%,10 to 12,Somewhat,Summited
-3571905483,Under 30,Female,Group of 2+,21 to 50,2 to 4,Below avg.,Hiking shoes,25 to 30,16 to 20%,8 to 10,Somewhat,Not planned
-3528758547,50 to 59,Male,Solo,21 to 50,5 to 8,Average,Boots,40 to 45,16 to 20%,12 to 14,Somewhat,Summited
-3527592105,50 to 59,Male,Solo,21 to 50,5 to 8,Above avg.,Trail runners,30 to 35,16 to 20%,20 and up,Fairly,Attempted
-3541763199,30 to 39,Female,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,25 to 30,16 to 20%,14 to 16,Minimally,Summited
-3520196206,30 to 39,Female,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,25 to 30,16 to 20%,Under 8,Fairly,Not planned
-3560608573,30 to 39,Female,Group of 2+,Under 5,Under 2,Below avg.,Hiking shoes,25 to 30,16 to 20%,12 to 14,Fairly,Not planned
-3520109186,30 to 39,Female,Group of 2+,11 to 20,2 to 4,Below avg.,Trail runners,25 to 30,16 to 20%,14 to 16,Somewhat,Summited
-3520889972,50 to 59,Male,Group of 2+,11 to 20,9 to 16,Average,Hiking shoes,40 to 45,16 to 20%,10 to 12,Very,Summited
-3520364186,60 and up,Female,Group of 2+,51 to 100,2 to 4,Average,Boots,25 to 30,16 to 20%,10 to 12,Minimally,Not planned
-3520063488,40 to 49,Male,Group of 2+,11 to 20,Under 2,Above avg.,Boots,45 to 50,16 to 20%,12 to 14,Fairly,Summited
-3519901784,30 to 39,Female,Group of 2+,51 to 100,2 to 4,Average,Trail runners,30 to 35,16 to 20%,12 to 14,Fairly,Summited
-3545409800,Under 30,Male,Mix of group/solo,Under 5,Over 16,Above avg.,Trail runners,30 to 35,16 to 20%,20 and up,Very,Summited
-3522128101,50 to 59,Female,Group of 2+,51 to 100,Under 2,Average,Boots,35 to 40,16 to 20%,10 to 12,Fairly,Summited
-3542248387,40 to 49,Male,Mix of group/solo,11 to 20,Under 2,Average,Trail runners,35 to 40,16 to 20%,10 to 12,Minimally,Summited
-3519908490,50 to 59,Male,Group of 2+,Under 5,9 to 16,Average,Boots,35 to 40,16 to 20%,14 to 16,Fairly,Summited
-3666949894,50 to 59,Male,Mix of group/solo,51 to 100,9 to 16,Above avg.,Boots,35 to 40,16 to 20%,8 to 10,Not at all,Not planned
-3521327021,60 and up,Male,Group of 2+,Over 100,9 to 16,Above avg.,Trail runners,35 to 40,16 to 20%,10 to 12,Fairly,Summited
-3541734468,Under 30,Female,Group of 2+,6 to 10,Under 2,Below avg.,Boots,35 to 40,16 to 20%,12 to 14,Fairly,Summited
-3525997045,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Below avg.,Boots,45 to 50,16 to 20%,10 to 12,Very,Summited
-3523650185,30 to 39,Female,Group of 2+,11 to 20,5 to 8,Sig. above avg.,Boots,30 to 35,16 to 20%,12 to 14,Not at all,Attempted
-3520067560,30 to 39,Male,Group of 2+,21 to 50,2 to 4,Below avg.,Hiking shoes,40 to 45,16 to 20%,8 to 10,Minimally,Not planned
-3520553136,30 to 39,Male,Solo,21 to 50,9 to 16,Above avg.,Trail runners,30 to 35,16 to 20%,14 to 16,Minimally,Not planned
-3572434372,50 to 59,Male,Group of 2+,6 to 10,2 to 4,Average,Boots,30 to 35,16 to 20%,10 to 12,Fairly,Summited
-3541856927,60 and up,Male,Solo,Over 100,Under 2,Above avg.,Hiking shoes,40 to 45,16 to 20%,10 to 12,Fairly,Summited
-3520226533,30 to 39,Female,Group of 2+,6 to 10,9 to 16,Above avg.,Trail runners,25 to 30,16 to 20%,20 and up,Minimally,Summited
-3527263106,60 and up,Female,Solo,Over 100,Over 16,Sig. above avg.,Trail runners,25 to 30,16 to 20%,16 to 18,Somewhat,Not planned
-3520377189,Under 30,Male,Mix of group/solo,Under 5,Under 2,Below avg.,Boots,45 to 50,16 to 20%,10 to 12,Fairly,Not planned
-3671479867,Under 30,Male,Solo,Over 100,Under 2,Average,Trail runners,30 to 35,16 to 20%,16 to 18,Somewhat,Summited
-3521408949,50 to 59,Male,Group of 2+,21 to 50,Over 16,Above avg.,Hiking shoes,30 to 35,16 to 20%,8 to 10,Somewhat,Not planned
-3667137490,30 to 39,Male,Group of 2+,21 to 50,2 to 4,Out of shape,Hiking shoes,45 to 50,16 to 20%,Under 8,Fairly,Not planned
-3519918363,40 to 49,Male,Group of 2+,21 to 50,5 to 8,Sig. above avg.,Trail runners,30 to 35,16 to 20%,20 and up,Very,Attempted
-3534145411,40 to 49,Male,Group of 2+,21 to 50,Under 2,Below avg.,Hiking shoes,35 to 40,16 to 20%,12 to 14,Fairly,Not planned
-3519902580,60 and up,Female,Group of 2+,21 to 50,Under 2,Above avg.,Trail runners,40 to 45,16 to 20%,Under 8,Fairly,Not planned
-3520273580,30 to 39,Male,Solo,51 to 100,9 to 16,Sig. above avg.,Trail runners,25 to 30,20 to 24%,20 and up,Somewhat,Not planned
-3527194175,Under 30,Female,Group of 2+,21 to 50,9 to 16,Average,Trail runners,30 to 35,20 to 24%,Under 8,Fairly,Not planned
-3520167086,50 to 59,Female,Group of 2+,6 to 10,5 to 8,Average,Hiking shoes,35 to 40,20 to 24%,Under 8,Fairly,Not planned
-3528659777,40 to 49,Female,Group of 2+,Over 100,5 to 8,Average,Trail runners,30 to 35,20 to 24%,8 to 10,Fairly,Attempted
-3536143832,60 and up,Female,Group of 2+,Under 5,5 to 8,Average,Hiking shoes,Under 25,20 to 24%,10 to 12,Somewhat,Not planned
-3520788719,50 to 59,Male,Group of 2+,6 to 10,9 to 16,Sig. above avg.,Boots,40 to 45,20 to 24%,10 to 12,Minimally,Summited
-3531744680,30 to 39,Male,Group of 2+,Over 100,5 to 8,Average,Boots,30 to 35,20 to 24%,10 to 12,Somewhat,Not planned
-3520311104,30 to 39,Female,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,40 to 45,20 to 24%,12 to 14,Fairly,Summited
-3528645838,30 to 39,Male,Group of 2+,Over 100,5 to 8,Out of shape,Trail runners,45 to 50,20 to 24%,12 to 14,Somewhat,Attempted
-3536290382,60 and up,Male,Group of 2+,Over 100,Over 16,Above avg.,Trail runners,35 to 40,20 to 24%,14 to 16,Somewhat,Attempted
-3674671135,30 to 39,Male,Solo,51 to 100,2 to 4,Above avg.,Boots,30 to 35,20 to 24%,14 to 16,Minimally,Summited
-3661985088,Under 30,Female,Group of 2+,Over 100,5 to 8,Above avg.,Trail runners,30 to 35,20 to 24%,14 to 16,Not at all,Summited
-3520164052,50 to 59,Male,Group of 2+,6 to 10,5 to 8,Above avg.,Trail runners,40 to 45,20 to 24%,14 to 16,Minimally,Summited
-3520184762,40 to 49,Male,Mix of group/solo,21 to 50,Over 16,Sig. above avg.,Boots,40 to 45,20 to 24%,16 to 18,Fairly,Summited
-3520257708,30 to 39,Male,Solo,21 to 50,5 to 8,Average,Trail runners,30 to 35,20 to 24%,18 to 20,Somewhat,Summited
-3525337923,Under 30,Male,Solo,Under 5,Under 2,Below avg.,Trail runners,35 to 40,20 to 24%,14 to 16,Fairly,Attempted
-3531282775,Under 30,Male,Group of 2+,Under 5,2 to 4,Sig. above avg.,Trail runners,30 to 35,20 to 24%,12 to 14,Somewhat,Not planned
-3520094050,50 to 59,Female,Group of 2+,Over 100,5 to 8,Above avg.,Boots,30 to 35,20 to 24%,12 to 14,Not at all,Summited
-3519940988,60 and up,Female,Solo,Over 100,Over 16,Above avg.,Trail runners,25 to 30,20 to 24%,14 to 16,Minimally,Summited
-3529091899,30 to 39,Female,Group of 2+,Under 5,9 to 16,Average,Trail runners,25 to 30,20 to 24%,14 to 16,Somewhat,Summited
-3527087471,50 to 59,Female,Solo,11 to 20,9 to 16,Above avg.,Trail runners,25 to 30,20 to 24%,16 to 18,Not at all,Summited
-3520031940,40 to 49,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,35 to 40,20 to 24%,16 to 18,Very,Summited
-3527376424,40 to 49,Male,Group of 2+,51 to 100,Over 16,Average,Boots,35 to 40,20 to 24%,12 to 14,Minimally,Attempted
-3523015153,30 to 39,Male,Group of 2+,Under 5,5 to 8,Above avg.,Trail runners,30 to 35,20 to 24%,18 to 20,Not at all,Summited
-3521641078,60 and up,Male,Group of 2+,Over 100,9 to 16,Above avg.,Boots,35 to 40,20 to 24%,10 to 12,Somewhat,Summited
-3520036655,50 to 59,Male,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,45 to 50,20 to 24%,12 to 14,Very,Summited
-3520353136,40 to 49,Male,Group of 2+,6 to 10,2 to 4,Below avg.,Boots,35 to 40,20 to 24%,10 to 12,Somewhat,Attempted
-3520440882,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Hiking shoes,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3528721265,30 to 39,Female,Solo,6 to 10,9 to 16,Sig. above avg.,Trail runners,25 to 30,20 to 24%,20 and up,Very,Summited
-3525336774,40 to 49,Male,Group of 2+,51 to 100,5 to 8,Average,Trail runners,35 to 40,20 to 24%,10 to 12,Somewhat,Not planned
-3520355941,30 to 39,Male,Group of 2+,Under 5,5 to 8,Below avg.,Boots,35 to 40,20 to 24%,10 to 12,Very,Summited
-3673861506,30 to 39,Male,Group of 2+,21 to 50,9 to 16,Average,Trail runners,35 to 40,20 to 24%,18 to 20,Somewhat,Attempted
-3520068736,60 and up,Female,Group of 2+,51 to 100,Over 16,Sig. above avg.,Boots,35 to 40,20 to 24%,Under 8,Minimally,Attempted
-3646739861,50 to 59,Male,Group of 2+,Under 5,5 to 8,Average,Boots,35 to 40,20 to 24%,10 to 12,Somewhat,Not planned
-3528212077,60 and up,Male,Solo,6 to 10,5 to 8,Average,Hiking shoes,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3647504389,40 to 49,Female,Group of 2+,21 to 50,9 to 16,Average,Hiking shoes,30 to 35,20 to 24%,10 to 12,Somewhat,Not planned
-3674613763,30 to 39,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,30 to 35,20 to 24%,8 to 10,Fairly,Not planned
-3520369510,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,30 to 35,20 to 24%,12 to 14,Somewhat,Summited
-3527233703,50 to 59,Female,Mix of group/solo,Over 100,Over 16,Above avg.,Trail runners,35 to 40,20 to 24%,14 to 16,Not at all,Summited
-3520458891,60 and up,Male,Solo,51 to 100,9 to 16,Sig. above avg.,Boots,35 to 40,20 to 24%,12 to 14,Not at all,Summited
-3527316782,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Below avg.,Boots,45 to 50,20 to 24%,10 to 12,Fairly,Not planned
-3520420701,50 to 59,Female,Group of 2+,51 to 100,Over 16,Above avg.,Hiking shoes,25 to 30,20 to 24%,10 to 12,Fairly,Not planned
-3527063768,60 and up,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,25 to 30,20 to 24%,12 to 14,Fairly,Summited
-3520379384,Under 30,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3521487006,40 to 49,Male,Group of 2+,11 to 20,9 to 16,Above avg.,Trail runners,35 to 40,20 to 24%,16 to 18,Fairly,Attempted
-3521680185,60 and up,Male,Solo,51 to 100,9 to 16,Average,Trail runners,35 to 40,20 to 24%,10 to 12,Very,Summited
-3667740865,Under 30,Male,Group of 2+,11 to 20,Over 16,Above avg.,Trail runners,35 to 40,20 to 24%,14 to 16,Fairly,Summited
-3521851728,Under 30,Male,Solo,21 to 50,5 to 8,Above avg.,Hiking shoes,30 to 35,20 to 24%,16 to 18,Fairly,Summited
-3527754759,40 to 49,Female,Solo,21 to 50,Over 16,Below avg.,Hiking shoes,40 to 45,20 to 24%,8 to 10,Very,Attempted
-3666926161,30 to 39,Male,Solo,21 to 50,9 to 16,Average,Trail runners,35 to 40,20 to 24%,20 and up,Not at all,Attempted
-3527059735,30 to 39,Male,Group of 2+,Over 100,9 to 16,Average,Hiking shoes,40 to 45,20 to 24%,12 to 14,Somewhat,Summited
-3528330224,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Average,Boots,40 to 45,20 to 24%,16 to 18,Fairly,Summited
-3522716049,60 and up,Male,Solo,21 to 50,5 to 8,Average,Boots,45 to 50,20 to 24%,Under 8,Fairly,Summited
-3520850352,50 to 59,Male,Group of 2+,Over 100,9 to 16,Above avg.,Hiking shoes,35 to 40,20 to 24%,16 to 18,Fairly,Summited
-3520410892,50 to 59,Male,Group of 2+,51 to 100,2 to 4,Above avg.,Trail runners,35 to 40,20 to 24%,12 to 14,Very,Summited
-3527073335,60 and up,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,25 to 30,20 to 24%,10 to 12,Fairly,Summited
-3520308854,50 to 59,Female,Solo,51 to 100,9 to 16,Above avg.,Boots,30 to 35,20 to 24%,10 to 12,Somewhat,Not planned
-3522271873,60 and up,Female,Solo,51 to 100,5 to 8,Above avg.,Trail runners,25 to 30,20 to 24%,8 to 10,Fairly,Not planned
-3647163234,30 to 39,Male,Group of 2+,51 to 100,2 to 4,Above avg.,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3528482383,30 to 39,Female,Mix of group/solo,51 to 100,2 to 4,Average,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3520093195,50 to 59,Female,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,30 to 35,20 to 24%,12 to 14,Minimally,Summited
-3527047453,Under 30,Male,Mix of group/solo,51 to 100,9 to 16,Above avg.,Trail runners,30 to 35,20 to 24%,12 to 14,Minimally,Summited
-3527319705,40 to 49,Male,Solo,11 to 20,9 to 16,Average,Trail runners,40 to 45,20 to 24%,14 to 16,Somewhat,Summited
-3522461128,40 to 49,Female,Mix of group/solo,Under 5,2 to 4,Average,Trail runners,30 to 35,20 to 24%,12 to 14,Fairly,Summited
-3560279294,Under 30,Female,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3520542885,30 to 39,Male,Group of 2+,51 to 100,2 to 4,Average,Trail runners,30 to 35,20 to 24%,10 to 12,Fairly,Not planned
-3521367522,30 to 39,Male,Group of 2+,21 to 50,9 to 16,Average,Boots,35 to 40,20 to 24%,10 to 12,Minimally,Not planned
-3520097766,Under 30,Male,Solo,21 to 50,2 to 4,Average,Boots,40 to 45,20 to 24%,12 to 14,Fairly,Summited
-3531543715,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Below avg.,Boots,55 and up,20 to 24%,8 to 10,Very,Not planned
-3520337322,50 to 59,Female,Group of 2+,11 to 20,Over 16,Above avg.,"Vibrams, sandals, none",25 to 30,20 to 24%,10 to 12,Minimally,Summited
-3527679041,50 to 59,Female,Group of 2+,Under 5,9 to 16,Above avg.,Boots,25 to 30,20 to 24%,10 to 12,Fairly,Not planned
-3520394271,50 to 59,Male,Group of 2+,Under 5,9 to 16,Average,Boots,30 to 35,20 to 24%,12 to 14,Fairly,Summited
-3521451950,30 to 39,Female,Solo,21 to 50,5 to 8,Average,Hiking shoes,35 to 40,20 to 24%,10 to 12,Fairly,Attempted
-3590946995,30 to 39,Male,Solo,Under 5,9 to 16,Average,Boots,40 to 45,20 to 24%,12 to 14,Somewhat,Not planned
-3573325537,30 to 39,Male,Group of 2+,11 to 20,2 to 4,Above avg.,Trail runners,40 to 45,20 to 24%,14 to 16,Fairly,Summited
-3519920361,Under 30,Female,Group of 2+,Over 100,5 to 8,Sig. above avg.,Trail runners,25 to 30,20 to 24%,18 to 20,Minimally,Summited
-3522728529,30 to 39,Female,Solo,Over 100,Over 16,Above avg.,Trail runners,25 to 30,20 to 24%,12 to 14,Minimally,Summited
-3542439685,Under 30,Male,Group of 2+,21 to 50,Under 2,Below avg.,Hiking shoes,25 to 30,20 to 24%,20 and up,Somewhat,Summited
-3527942866,60 and up,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Boots,35 to 40,20 to 24%,Under 8,Fairly,Not planned
-3520407624,60 and up,Male,Group of 2+,Over 100,Under 2,Average,"Vibrams, sandals, none",45 to 50,20 to 24%,12 to 14,Fairly,Attempted
-3528587287,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Average,Boots,50 to 55,20 to 24%,12 to 14,Somewhat,Summited
-3642204031,60 and up,Male,Solo,Over 100,Over 16,Average,Trail runners,35 to 40,20 to 24%,20 and up,Somewhat,Not planned
-3568965653,50 to 59,Male,Group of 2+,51 to 100,2 to 4,Average,Boots,40 to 45,20 to 24%,14 to 16,Fairly,Summited
-3531649672,40 to 49,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,45 to 50,20 to 24%,10 to 12,Fairly,Summited
-3521324840,50 to 59,Male,Solo,51 to 100,5 to 8,Average,Hiking shoes,40 to 45,20 to 24%,8 to 10,Somewhat,Not planned
-3527624148,Under 30,Male,Group of 2+,Over 100,2 to 4,Above avg.,Trail runners,35 to 40,20 to 24%,Under 8,Not at all,Not planned
-3663490655,50 to 59,Female,Group of 2+,Over 100,5 to 8,Average,Boots,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3528786991,Under 30,Female,Group of 2+,11 to 20,2 to 4,Average,Hiking shoes,35 to 40,20 to 24%,12 to 14,Fairly,Summited
-3519948589,40 to 49,Male,Group of 2+,51 to 100,Under 2,Average,Trail runners,35 to 40,20 to 24%,14 to 16,Fairly,Summited
-3523027428,Under 30,Male,Solo,Over 100,9 to 16,Average,"Vibrams, sandals, none",35 to 40,20 to 24%,16 to 18,Somewhat,Summited
-3520802352,40 to 49,Male,Group of 2+,21 to 50,9 to 16,Average,Trail runners,35 to 40,20 to 24%,16 to 18,Fairly,Attempted
-3527084402,Under 30,Female,Solo,21 to 50,9 to 16,Average,Hiking shoes,30 to 35,20 to 24%,12 to 14,Somewhat,Not planned
-3570962859,30 to 39,Male,Group of 2+,Over 100,5 to 8,Average,Trail runners,40 to 45,20 to 24%,14 to 16,Minimally,Not planned
-3520533056,30 to 39,Female,Group of 2+,21 to 50,5 to 8,Below avg.,Trail runners,45 to 50,20 to 24%,10 to 12,Somewhat,Summited
-3529976411,Under 30,Male,Group of 2+,Over 100,5 to 8,Above avg.,Hiking shoes,45 to 50,20 to 24%,14 to 16,Somewhat,Attempted
-3520318436,60 and up,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Boots,30 to 35,20 to 24%,10 to 12,Fairly,Summited
-3520362800,Under 30,Female,Group of 2+,21 to 50,2 to 4,Average,Boots,30 to 35,20 to 24%,12 to 14,Minimally,Summited
-3520122189,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,40 to 45,20 to 24%,14 to 16,Somewhat,Not planned
-3570861923,60 and up,Male,Group of 2+,51 to 100,9 to 16,Sig. above avg.,Boots,40 to 45,20 to 24%,14 to 16,Somewhat,Summited
-3550753587,50 to 59,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,40 to 45,20 to 24%,10 to 12,Somewhat,Summited
-3522256534,50 to 59,Female,Group of 2+,11 to 20,9 to 16,Sig. above avg.,Trail runners,30 to 35,20 to 24%,12 to 14,Minimally,Not planned
-3528402995,50 to 59,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,35 to 40,20 to 24%,8 to 10,Fairly,Summited
-3539302584,60 and up,Male,Mix of group/solo,Over 100,Over 16,Sig. above avg.,Trail runners,25 to 30,20 to 24%,8 to 10,Somewhat,Not planned
-3531452839,Under 30,Male,Solo,Over 100,5 to 8,Above avg.,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Attempted
-3522767183,50 to 59,Female,Mix of group/solo,21 to 50,2 to 4,Below avg.,Trail runners,30 to 35,20 to 24%,12 to 14,Fairly,Summited
-3521531540,50 to 59,Male,Solo,Over 100,Under 2,Average,Boots,40 to 45,20 to 24%,10 to 12,Fairly,Summited
-3520093521,40 to 49,Female,Group of 2+,51 to 100,2 to 4,Above avg.,Trail runners,35 to 40,20 to 24%,16 to 18,Somewhat,Summited
-3520430659,50 to 59,Male,Group of 2+,51 to 100,Under 2,Below avg.,Boots,55 and up,20 to 24%,Under 8,Minimally,Not planned
-3528586059,30 to 39,Male,Group of 2+,21 to 50,2 to 4,Below avg.,Boots,55 and up,20 to 24%,10 to 12,Somewhat,Summited
-3548695087,50 to 59,Male,Group of 2+,6 to 10,5 to 8,Average,Boots,40 to 45,20 to 24%,8 to 10,Fairly,Summited
-3527210395,40 to 49,Male,Group of 2+,51 to 100,2 to 4,Average,Boots,40 to 45,20 to 24%,12 to 14,Minimally,Summited
-3520391385,60 and up,Female,Group of 2+,51 to 100,2 to 4,Average,Trail runners,25 to 30,20 to 24%,10 to 12,Fairly,Attempted
-3620292233,40 to 49,Female,Solo,51 to 100,Under 2,Above avg.,Trail runners,30 to 35,20 to 24%,20 and up,Minimally,Attempted
-3614942158,Under 30,Female,Group of 2+,Over 100,9 to 16,Average,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Not planned
-3521563414,50 to 59,Female,Mix of group/solo,Over 100,5 to 8,Average,Boots,30 to 35,20 to 24%,12 to 14,Somewhat,Not planned
-3597678357,Under 30,Male,Solo,11 to 20,5 to 8,Average,Boots,50 to 55,20 to 24%,14 to 16,Not at all,Attempted
-3615268216,40 to 49,Male,Group of 2+,Under 5,Under 2,Below avg.,Boots,40 to 45,20 to 24%,14 to 16,Fairly,Not planned
-3520501552,30 to 39,Male,Solo,51 to 100,9 to 16,Above avg.,Trail runners,35 to 40,20 to 24%,20 and up,Very,Summited
-3524318399,40 to 49,Male,Solo,6 to 10,9 to 16,Above avg.,Trail runners,35 to 40,20 to 24%,10 to 12,Somewhat,Summited
-3520084967,30 to 39,Male,Solo,Under 5,Under 2,Below avg.,Trail runners,50 to 55,20 to 24%,10 to 12,Somewhat,Summited
-3522143975,40 to 49,Male,Mix of group/solo,Over 100,Over 16,Sig. above avg.,Hiking shoes,40 to 45,20 to 24%,18 to 20,Somewhat,Not planned
-3522801103,50 to 59,Male,Group of 2+,Over 100,9 to 16,Above avg.,Boots,45 to 50,20 to 24%,12 to 14,Somewhat,Summited
-3522792137,50 to 59,Female,Group of 2+,11 to 20,2 to 4,Average,Boots,35 to 40,20 to 24%,14 to 16,Fairly,Summited
-3520125348,50 to 59,Male,Group of 2+,51 to 100,Under 2,Below avg.,Boots,55 and up,20 to 24%,Under 8,Very,Attempted
-3520027520,60 and up,Male,Group of 2+,Over 100,9 to 16,Average,Hiking shoes,40 to 45,20 to 24%,8 to 10,Minimally,Summited
-3521389400,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,40 to 45,20 to 24%,20 and up,Fairly,Summited
-3520172957,60 and up,Male,Group of 2+,6 to 10,9 to 16,Above avg.,Hiking shoes,35 to 40,20 to 24%,10 to 12,Somewhat,Summited
-3522663045,40 to 49,Male,Group of 2+,51 to 100,9 to 16,Average,Hiking shoes,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3527293697,50 to 59,Male,Solo,21 to 50,Under 2,Average,Boots,35 to 40,20 to 24%,18 to 20,Minimally,Not planned
-3542454483,Under 30,Male,Group of 2+,11 to 20,2 to 4,Above avg.,Trail runners,30 to 35,20 to 24%,12 to 14,Fairly,Summited
-3550562364,30 to 39,Female,Solo,21 to 50,5 to 8,Above avg.,Trail runners,30 to 35,20 to 24%,14 to 16,Somewhat,Not planned
-3520183282,Under 30,Male,Mix of group/solo,11 to 20,5 to 8,Average,Trail runners,45 to 50,20 to 24%,16 to 18,Minimally,Not planned
-3520225884,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,35 to 40,20 to 24%,8 to 10,Minimally,Summited
-3520487715,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Hiking shoes,30 to 35,20 to 24%,10 to 12,Not at all,Not planned
-3528661361,60 and up,Male,Solo,51 to 100,9 to 16,Above avg.,Boots,40 to 45,20 to 24%,8 to 10,Somewhat,Not planned
-3520208184,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,45 to 50,20 to 24%,8 to 10,Not at all,Not planned
-3529341820,40 to 49,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,30 to 35,20 to 24%,8 to 10,Somewhat,Not planned
-3520246337,30 to 39,Female,Group of 2+,Over 100,5 to 8,Average,Trail runners,35 to 40,20 to 24%,8 to 10,Death march,Summited
-3521204637,40 to 49,Male,Group of 2+,Under 5,5 to 8,Above avg.,Boots,50 to 55,20 to 24%,10 to 12,Fairly,Summited
-3520198065,50 to 59,Female,Group of 2+,Under 5,Under 2,Average,Boots,35 to 40,20 to 24%,8 to 10,Fairly,Attempted
-3528203904,Under 30,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,35 to 40,20 to 24%,10 to 12,Somewhat,Summited
-3532343375,40 to 49,Male,Group of 2+,11 to 20,5 to 8,Average,Hiking shoes,40 to 45,20 to 24%,12 to 14,Fairly,Summited
-3528631955,30 to 39,Female,Solo,Under 5,9 to 16,Above avg.,Trail runners,25 to 30,20 to 24%,20 and up,Somewhat,Summited
-3520119324,40 to 49,Female,Group of 2+,Over 100,Under 2,Average,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Attempted
-3521558608,Under 30,Male,Group of 2+,21 to 50,2 to 4,Out of shape,Boots,55 and up,20 to 24%,10 to 12,Somewhat,Summited
-3542117833,60 and up,Male,Group of 2+,Over 100,5 to 8,Above avg.,Boots,40 to 45,20 to 24%,12 to 14,Somewhat,Attempted
-3527040146,Under 30,Male,Group of 2+,11 to 20,9 to 16,Above avg.,Boots,40 to 45,20 to 24%,8 to 10,Minimally,Not planned
-3543210140,60 and up,Male,Group of 2+,21 to 50,Under 2,Above avg.,Boots,40 to 45,20 to 24%,10 to 12,Minimally,Not planned
-3542548897,40 to 49,Male,Group of 2+,21 to 50,9 to 16,Sig. above avg.,Trail runners,35 to 40,20 to 24%,16 to 18,Very,Summited
-3527245702,50 to 59,Female,Group of 2+,11 to 20,9 to 16,Above avg.,Boots,35 to 40,20 to 24%,10 to 12,Fairly,Summited
-3616446882,30 to 39,Female,Group of 2+,21 to 50,Under 2,Above avg.,Boots,35 to 40,20 to 24%,12 to 14,Fairly,Not planned
-3527604399,Under 30,Female,Mix of group/solo,6 to 10,5 to 8,Average,Boots,35 to 40,20 to 24%,12 to 14,Not at all,Summited
-3520228336,30 to 39,Male,Group of 2+,Under 5,Under 2,Below avg.,Boots,45 to 50,20 to 24%,8 to 10,Fairly,Not planned
-3520041300,Under 30,Male,Mix of group/solo,21 to 50,2 to 4,Above avg.,Trail runners,35 to 40,20 to 24%,20 and up,Minimally,Summited
-3528486816,40 to 49,Male,Solo,21 to 50,2 to 4,Below avg.,Hiking shoes,45 to 50,20 to 24%,10 to 12,Fairly,Summited
-3522180845,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,40 to 45,20 to 24%,12 to 14,Very,Summited
-3520133574,60 and up,Male,Solo,21 to 50,5 to 8,Above avg.,Trail runners,30 to 35,20 to 24%,14 to 16,Minimally,Summited
-3528761708,50 to 59,Male,Group of 2+,21 to 50,2 to 4,Below avg.,Hiking shoes,40 to 45,20 to 24%,8 to 10,Fairly,Summited
-3528727987,30 to 39,Male,Group of 2+,Under 5,2 to 4,Average,Hiking shoes,30 to 35,20 to 24%,10 to 12,Somewhat,Not planned
-3533679675,Under 30,Male,Group of 2+,Under 5,5 to 8,Average,Hiking shoes,50 to 55,20 to 24%,10 to 12,Fairly,Summited
-3571383960,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Hiking shoes,30 to 35,20 to 24%,10 to 12,Minimally,Summited
-3520222672,40 to 49,Female,Solo,21 to 50,9 to 16,Sig. above avg.,Hiking shoes,30 to 35,20 to 24%,14 to 16,Fairly,Attempted
-3520438140,Under 30,Female,Solo,21 to 50,Over 16,Sig. above avg.,Trail runners,30 to 35,20 to 24%,20 and up,Somewhat,Attempted
-3520197466,50 to 59,Female,Solo,21 to 50,2 to 4,Average,Trail runners,35 to 40,20 to 24%,12 to 14,Somewhat,Summited
-3528967496,40 to 49,Male,Group of 2+,51 to 100,5 to 8,Average,Trail runners,40 to 45,24 to 28%,14 to 16,Somewhat,Not planned
-3531666659,40 to 49,Male,Solo,21 to 50,Over 16,Above avg.,Boots,45 to 50,24 to 28%,16 to 18,Minimally,Summited
-3529204024,40 to 49,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,35 to 40,24 to 28%,Under 8,Somewhat,Not planned
-3527953849,Under 30,Female,Group of 2+,11 to 20,5 to 8,Average,Trail runners,35 to 40,24 to 28%,14 to 16,Fairly,Summited
-3522194075,30 to 39,Female,Group of 2+,Over 100,5 to 8,Above avg.,Boots,35 to 40,24 to 28%,16 to 18,Minimally,Not planned
-3529082565,Under 30,Male,Group of 2+,21 to 50,5 to 8,Average,Boots,35 to 40,24 to 28%,10 to 12,Very,Not planned
-3524693091,Under 30,Male,Group of 2+,Under 5,2 to 4,Below avg.,Boots,35 to 40,24 to 28%,12 to 14,Fairly,Summited
-3526980326,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Average,Boots,50 to 55,24 to 28%,12 to 14,Fairly,Summited
-3520149264,60 and up,Male,Solo,51 to 100,9 to 16,Sig. above avg.,Hiking shoes,35 to 40,24 to 28%,12 to 14,Somewhat,Summited
-3665827062,50 to 59,Female,Group of 2+,51 to 100,Over 16,Average,Boots,55 and up,24 to 28%,8 to 10,Minimally,Not planned
-3542708588,60 and up,Male,Group of 2+,Over 100,9 to 16,Above avg.,Trail runners,40 to 45,24 to 28%,8 to 10,Somewhat,Not planned
-3532172997,60 and up,Male,Solo,Over 100,5 to 8,Below avg.,Boots,40 to 45,24 to 28%,8 to 10,Fairly,Attempted
-3545737549,50 to 59,Male,Group of 2+,6 to 10,5 to 8,Sig. above avg.,Boots,35 to 40,24 to 28%,8 to 10,Minimally,Summited
-3527192869,Under 30,Female,Solo,Under 5,5 to 8,Average,Boots,35 to 40,24 to 28%,16 to 18,Somewhat,Summited
-3523773474,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,35 to 40,24 to 28%,12 to 14,Somewhat,Not planned
-3527831977,30 to 39,Female,Mix of group/solo,21 to 50,2 to 4,Below avg.,Hiking shoes,35 to 40,24 to 28%,10 to 12,Fairly,Summited
-3527678313,40 to 49,Female,Group of 2+,Under 5,5 to 8,Above avg.,Trail runners,30 to 35,24 to 28%,10 to 12,Minimally,Summited
-3529057560,40 to 49,Male,Mix of group/solo,21 to 50,2 to 4,Above avg.,Boots,40 to 45,24 to 28%,10 to 12,Somewhat,Summited
-3522547922,Under 30,Female,Group of 2+,21 to 50,2 to 4,Average,Boots,35 to 40,24 to 28%,8 to 10,Fairly,Summited
-3520196490,30 to 39,Female,Solo,51 to 100,Under 2,Below avg.,Hiking shoes,35 to 40,24 to 28%,10 to 12,Fairly,Not planned
-3529123546,30 to 39,Male,Mix of group/solo,21 to 50,9 to 16,Above avg.,Boots,35 to 40,24 to 28%,14 to 16,Fairly,Summited
-3520204995,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,40 to 45,24 to 28%,10 to 12,Fairly,Summited
-3541804520,30 to 39,Male,Solo,21 to 50,Under 2,Average,Trail runners,45 to 50,24 to 28%,14 to 16,Somewhat,Summited
-3632625959,30 to 39,Female,Group of 2+,11 to 20,Under 2,Above avg.,Boots,30 to 35,24 to 28%,10 to 12,Somewhat,Not planned
-3522837133,60 and up,Female,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,35 to 40,24 to 28%,10 to 12,Somewhat,Summited
-3520075008,Under 30,Male,Mix of group/solo,11 to 20,2 to 4,Average,Trail runners,35 to 40,24 to 28%,12 to 14,Fairly,Attempted
-3542769122,Under 30,Male,Solo,21 to 50,Under 2,Below avg.,Boots,35 to 40,24 to 28%,12 to 14,Very,Attempted
-3520417033,50 to 59,Male,Group of 2+,11 to 20,9 to 16,Average,Trail runners,45 to 50,24 to 28%,10 to 12,Very,Summited
-3520198346,Under 30,Male,Group of 2+,51 to 100,5 to 8,Sig. above avg.,Trail runners,25 to 30,24 to 28%,16 to 18,Somewhat,Summited
-3550160475,60 and up,Female,Solo,Over 100,9 to 16,Above avg.,Boots,30 to 35,24 to 28%,10 to 12,Somewhat,Not planned
-3527259876,50 to 59,Female,Group of 2+,6 to 10,5 to 8,Above avg.,Boots,35 to 40,24 to 28%,10 to 12,Minimally,Summited
-3528194825,40 to 49,Female,Group of 2+,Under 5,Under 2,Average,Boots,35 to 40,24 to 28%,Under 8,Minimally,Not planned
-3519974778,50 to 59,Female,Group of 2+,Over 100,9 to 16,Above avg.,Boots,35 to 40,24 to 28%,12 to 14,Very,Summited
-3527838044,Under 30,Male,Mix of group/solo,6 to 10,5 to 8,Average,Boots,40 to 45,24 to 28%,10 to 12,Minimally,Summited
-3520503834,50 to 59,Male,Group of 2+,Under 5,5 to 8,Average,Boots,45 to 50,24 to 28%,12 to 14,Minimally,Not planned
-3527376464,50 to 59,Male,Solo,21 to 50,5 to 8,Average,Boots,35 to 40,24 to 28%,12 to 14,Somewhat,Not planned
-3520941360,50 to 59,Male,Solo,Under 5,Under 2,Average,"Vibrams, sandals, none",55 and up,24 to 28%,8 to 10,Fairly,Not planned
-3572479191,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,30 to 35,24 to 28%,10 to 12,Fairly,Not planned
-3560954303,30 to 39,Female,Group of 2+,21 to 50,Under 2,Above avg.,Hiking shoes,35 to 40,24 to 28%,10 to 12,Somewhat,Not planned
-3527051990,40 to 49,Male,Group of 2+,21 to 50,Under 2,Average,Boots,40 to 45,24 to 28%,10 to 12,Fairly,Not planned
-3520054113,50 to 59,Male,Group of 2+,11 to 20,2 to 4,Average,Trail runners,45 to 50,24 to 28%,10 to 12,Minimally,Summited
-3519904400,60 and up,Male,Mix of group/solo,51 to 100,5 to 8,Average,Boots,35 to 40,24 to 28%,12 to 14,Very,Not planned
-3520493828,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Trail runners,35 to 40,24 to 28%,12 to 14,Somewhat,Not planned
-3520143505,50 to 59,Female,Group of 2+,6 to 10,Under 2,Average,Boots,35 to 40,24 to 28%,12 to 14,Very,Summited
-3528593639,30 to 39,Female,Solo,51 to 100,Over 16,Above avg.,Hiking shoes,30 to 35,24 to 28%,12 to 14,Minimally,Summited
-3520124833,40 to 49,Male,Group of 2+,Over 100,9 to 16,Above avg.,Boots,45 to 50,24 to 28%,12 to 14,Fairly,Attempted
-3525190578,Under 30,Female,Group of 2+,Over 100,5 to 8,Below avg.,Trail runners,35 to 40,24 to 28%,14 to 16,Fairly,Summited
-3545625381,40 to 49,Male,Solo,51 to 100,9 to 16,Above avg.,Trail runners,35 to 40,24 to 28%,14 to 16,Fairly,Not planned
-3530413299,Under 30,Male,Group of 2+,11 to 20,5 to 8,Average,Boots,40 to 45,24 to 28%,14 to 16,Somewhat,Attempted
-3521150132,Under 30,Male,Solo,51 to 100,Under 2,Below avg.,Boots,50 to 55,24 to 28%,14 to 16,Somewhat,Summited
-3520119403,40 to 49,Female,Solo,6 to 10,9 to 16,Above avg.,Hiking shoes,30 to 35,24 to 28%,16 to 18,Fairly,Summited
-3527644780,30 to 39,Female,Solo,51 to 100,Over 16,Above avg.,Trail runners,35 to 40,24 to 28%,18 to 20,Somewhat,Attempted
-3522821697,40 to 49,Male,Solo,21 to 50,9 to 16,Average,Hiking shoes,55 and up,24 to 28%,10 to 12,Minimally,Attempted
-3664967626,30 to 39,Male,Group of 2+,Under 5,Over 16,Above avg.,Boots,45 to 50,24 to 28%,12 to 14,Fairly,Summited
-3646566992,60 and up,Male,Solo,Over 100,9 to 16,Above avg.,Hiking shoes,45 to 50,24 to 28%,12 to 14,Somewhat,Not planned
-3679443957,60 and up,Female,Group of 2+,Over 100,2 to 4,Above avg.,Boots,40 to 45,24 to 28%,8 to 10,Somewhat,Not planned
-3519931318,30 to 39,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Trail runners,35 to 40,24 to 28%,12 to 14,Somewhat,Summited
-3520013307,40 to 49,Female,Mix of group/solo,Under 5,Over 16,Average,Hiking shoes,25 to 30,24 to 28%,10 to 12,Fairly,Summited
-3527472957,Under 30,Male,Mix of group/solo,6 to 10,5 to 8,Below avg.,Hiking shoes,50 to 55,24 to 28%,10 to 12,Somewhat,Summited
-3661745241,30 to 39,Female,Group of 2+,51 to 100,5 to 8,Average,Trail runners,45 to 50,24 to 28%,12 to 14,Minimally,Attempted
-3528851928,50 to 59,Female,Solo,Over 100,2 to 4,Average,Boots,35 to 40,24 to 28%,8 to 10,Fairly,Not planned
-3520236668,50 to 59,Female,Group of 2+,6 to 10,2 to 4,Above avg.,Trail runners,30 to 35,24 to 28%,12 to 14,Somewhat,Summited
-3578277191,60 and up,Female,Group of 2+,6 to 10,Over 16,Above avg.,Boots,30 to 35,24 to 28%,10 to 12,Minimally,Not planned
-3520413589,50 to 59,Male,Group of 2+,51 to 100,2 to 4,Above avg.,Hiking shoes,45 to 50,24 to 28%,8 to 10,Fairly,Summited
-3526331793,60 and up,Male,Group of 2+,Over 100,9 to 16,Average,Boots,45 to 50,24 to 28%,10 to 12,Fairly,Summited
-3522441190,30 to 39,Male,Group of 2+,11 to 20,Under 2,Below avg.,Hiking shoes,45 to 50,24 to 28%,12 to 14,Very,Attempted
-3674362373,30 to 39,Female,Solo,11 to 20,5 to 8,Average,Trail runners,30 to 35,24 to 28%,12 to 14,Fairly,Attempted
-3527044779,60 and up,Male,Group of 2+,Under 5,9 to 16,Above avg.,Boots,40 to 45,24 to 28%,10 to 12,Very,Not planned
-3527882904,50 to 59,Male,Group of 2+,21 to 50,Over 16,Above avg.,Boots,40 to 45,24 to 28%,10 to 12,Fairly,Summited
-3521994336,Under 30,Male,Mix of group/solo,21 to 50,5 to 8,Above avg.,Hiking shoes,40 to 45,24 to 28%,18 to 20,Somewhat,Summited
-3520301401,Under 30,Male,Group of 2+,6 to 10,5 to 8,Average,Trail runners,35 to 40,24 to 28%,10 to 12,Fairly,Not planned
-3528467506,Under 30,Female,Group of 2+,Under 5,5 to 8,Average,Trail runners,35 to 40,24 to 28%,12 to 14,Minimally,Summited
-3527336638,Under 30,Male,Solo,6 to 10,Under 2,Below avg.,Boots,45 to 50,24 to 28%,10 to 12,Somewhat,Summited
-3529128404,30 to 39,Female,Mix of group/solo,51 to 100,2 to 4,Average,Trail runners,40 to 45,24 to 28%,20 and up,Fairly,Not planned
-3529075815,50 to 59,Male,Solo,Under 5,2 to 4,Below avg.,Boots,35 to 40,24 to 28%,8 to 10,Fairly,Not planned
-3520429274,50 to 59,Male,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,30 to 35,24 to 28%,10 to 12,Minimally,Not planned
-3531254894,50 to 59,Female,Group of 2+,11 to 20,5 to 8,Average,Hiking shoes,30 to 35,24 to 28%,10 to 12,Minimally,Summited
-3661853300,30 to 39,Female,Group of 2+,21 to 50,2 to 4,Below avg.,Boots,40 to 45,24 to 28%,14 to 16,Death march,Summited
-3520059231,60 and up,Male,Mix of group/solo,Under 5,5 to 8,Average,Boots,40 to 45,24 to 28%,10 to 12,Very,Summited
-3541999508,30 to 39,Male,Mix of group/solo,Under 5,5 to 8,Above avg.,Boots,45 to 50,24 to 28%,14 to 16,Fairly,Summited
-3605195319,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Average,Boots,50 to 55,24 to 28%,10 to 12,Very,Summited
-3519951487,50 to 59,Female,Group of 2+,Over 100,Over 16,Sig. above avg.,Boots,35 to 40,24 to 28%,Under 8,Fairly,Not planned
-3519944378,60 and up,Female,Group of 2+,51 to 100,5 to 8,Above avg.,Hiking shoes,35 to 40,24 to 28%,8 to 10,Fairly,Not planned
-3541731710,30 to 39,Female,Group of 2+,6 to 10,9 to 16,Above avg.,Boots,35 to 40,24 to 28%,10 to 12,Not at all,Not planned
-3520083322,Under 30,Male,Mix of group/solo,Under 5,9 to 16,Below avg.,Boots,35 to 40,24 to 28%,12 to 14,Very,Not planned
-3560953678,40 to 49,Male,Group of 2+,6 to 10,5 to 8,Average,Hiking shoes,40 to 45,24 to 28%,Under 8,Minimally,Not planned
-3521415045,40 to 49,Female,Group of 2+,51 to 100,2 to 4,Average,Hiking shoes,35 to 40,24 to 28%,12 to 14,Fairly,Summited
-3527386343,Under 30,Female,Group of 2+,51 to 100,Under 2,Average,Boots,35 to 40,24 to 28%,14 to 16,Fairly,Summited
-3522862763,30 to 39,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Hiking shoes,35 to 40,24 to 28%,12 to 14,Somewhat,Not planned
-3661461660,40 to 49,Female,Group of 2+,11 to 20,2 to 4,Average,Boots,40 to 45,24 to 28%,10 to 12,Fairly,Not planned
-3528935960,50 to 59,Female,Group of 2+,Over 100,5 to 8,Sig. above avg.,Boots,40 to 45,24 to 28%,12 to 14,Somewhat,Summited
-3545921338,30 to 39,Male,Group of 2+,21 to 50,5 to 8,Average,Boots,50 to 55,24 to 28%,12 to 14,Somewhat,Summited
-3542651622,40 to 49,Male,Group of 2+,11 to 20,5 to 8,Average,Boots,50 to 55,24 to 28%,14 to 16,Minimally,Summited
-3536491900,40 to 49,Female,Mix of group/solo,11 to 20,2 to 4,Above avg.,Trail runners,30 to 35,24 to 28%,12 to 14,Somewhat,Summited
-3527802310,30 to 39,Female,Group of 2+,Under 5,Under 2,Below avg.,Boots,45 to 50,24 to 28%,10 to 12,Very,Summited
-3528997623,Under 30,Male,Group of 2+,6 to 10,9 to 16,Below avg.,Boots,45 to 50,24 to 28%,12 to 14,Minimally,Summited
-3631437281,50 to 59,Male,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,45 to 50,24 to 28%,10 to 12,Somewhat,Summited
-3520307824,40 to 49,Female,Group of 2+,6 to 10,5 to 8,Above avg.,Boots,40 to 45,24 to 28%,8 to 10,Very,Not planned
-3521175438,40 to 49,Female,Group of 2+,51 to 100,5 to 8,Average,Hiking shoes,30 to 35,24 to 28%,10 to 12,Fairly,Not planned
-3544455567,60 and up,Male,Mix of group/solo,Over 100,Over 16,Above avg.,Hiking shoes,55 and up,24 to 28%,12 to 14,Minimally,Summited
-3519938101,30 to 39,Female,Group of 2+,6 to 10,5 to 8,Above avg.,Hiking shoes,35 to 40,24 to 28%,12 to 14,Minimally,Not planned
-3572978078,Under 30,Male,Group of 2+,Under 5,5 to 8,Above avg.,Boots,45 to 50,24 to 28%,18 to 20,Fairly,Summited
-3527281703,50 to 59,Female,Group of 2+,11 to 20,Over 16,Sig. above avg.,Trail runners,40 to 45,24 to 28%,8 to 10,Minimally,Not planned
-3527811851,30 to 39,Female,Mix of group/solo,11 to 20,9 to 16,Average,Boots,30 to 35,24 to 28%,12 to 14,Very,Not planned
-3520859142,60 and up,Male,Group of 2+,21 to 50,9 to 16,Sig. above avg.,Hiking shoes,45 to 50,24 to 28%,10 to 12,Minimally,Summited
-3544731772,50 to 59,Female,Group of 2+,Over 100,9 to 16,Above avg.,Hiking shoes,40 to 45,24 to 28%,14 to 16,Minimally,Summited
-3520152438,60 and up,Male,Group of 2+,51 to 100,5 to 8,Sig. above avg.,Boots,50 to 55,24 to 28%,10 to 12,Somewhat,Summited
-3663865916,40 to 49,Female,Solo,51 to 100,5 to 8,Average,Boots,35 to 40,24 to 28%,10 to 12,Somewhat,Attempted
-3528655089,40 to 49,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,35 to 40,24 to 28%,12 to 14,Fairly,Summited
-3520194981,30 to 39,Female,Group of 2+,6 to 10,9 to 16,Average,Boots,55 and up,24 to 28%,14 to 16,Somewhat,Attempted
-3525246704,40 to 49,Male,Solo,11 to 20,Under 2,Below avg.,Hiking shoes,55 and up,24 to 28%,10 to 12,Fairly,Summited
-3528914819,30 to 39,Female,Solo,11 to 20,5 to 8,Above avg.,Hiking shoes,30 to 35,24 to 28%,10 to 12,Fairly,Summited
-3542731595,40 to 49,Female,Group of 2+,Under 5,2 to 4,Below avg.,Trail runners,40 to 45,24 to 28%,Under 8,Somewhat,Not planned
-3570807718,50 to 59,Male,Group of 2+,11 to 20,2 to 4,Average,Hiking shoes,40 to 45,24 to 28%,10 to 12,Minimally,Summited
-3528382867,60 and up,Male,Group of 2+,Under 5,9 to 16,Sig. above avg.,Boots,50 to 55,24 to 28%,10 to 12,Fairly,Summited
-3626008488,50 to 59,Female,Group of 2+,11 to 20,9 to 16,Average,Hiking shoes,30 to 35,24 to 28%,8 to 10,Somewhat,Not planned
-3534080907,30 to 39,Male,Group of 2+,11 to 20,9 to 16,Average,Hiking shoes,40 to 45,24 to 28%,10 to 12,Fairly,Not planned
-3529272694,40 to 49,Female,Mix of group/solo,21 to 50,5 to 8,Average,Boots,40 to 45,24 to 28%,10 to 12,Somewhat,Attempted
-3519902154,Under 30,Male,Group of 2+,6 to 10,5 to 8,Average,Trail runners,40 to 45,24 to 28%,12 to 14,Somewhat,Summited
-3527826880,Under 30,Male,Group of 2+,Under 5,Under 2,Out of shape,Boots,30 to 35,24 to 28%,10 to 12,Fairly,Summited
-3572026086,40 to 49,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,35 to 40,24 to 28%,12 to 14,Somewhat,Not planned
-3522593631,Under 30,Male,Mix of group/solo,51 to 100,Over 16,Above avg.,Boots,45 to 50,24 to 28%,12 to 14,Fairly,Summited
-3541949766,30 to 39,Male,Group of 2+,11 to 20,2 to 4,Below avg.,Boots,40 to 45,24 to 28%,Under 8,Somewhat,Not planned
-3542317426,30 to 39,Female,Group of 2+,Over 100,9 to 16,Average,Hiking shoes,40 to 45,24 to 28%,12 to 14,Somewhat,Summited
-3570863585,Under 30,Male,Group of 2+,Over 100,5 to 8,Average,Hiking shoes,45 to 50,24 to 28%,12 to 14,Fairly,Summited
-3554191241,50 to 59,Female,Group of 2+,Over 100,9 to 16,Above avg.,Hiking shoes,30 to 35,24 to 28%,18 to 20,Minimally,Not planned
-3532351089,40 to 49,Female,Group of 2+,21 to 50,5 to 8,Average,Trail runners,40 to 45,24 to 28%,12 to 14,Somewhat,Summited
-3571577863,50 to 59,Female,Group of 2+,51 to 100,2 to 4,Above avg.,"Vibrams, sandals, none",35 to 40,24 to 28%,Under 8,Somewhat,Not planned
-3631492646,50 to 59,Female,Group of 2+,6 to 10,2 to 4,Above avg.,Boots,35 to 40,24 to 28%,10 to 12,Very,Attempted
-3527696654,50 to 59,Female,Group of 2+,51 to 100,9 to 16,Average,Boots,55 and up,24 to 28%,Under 8,Fairly,Not planned
-3520155180,60 and up,Female,Solo,Over 100,9 to 16,Average,Boots,35 to 40,24 to 28%,12 to 14,Minimally,Attempted
-3520361587,60 and up,Female,Solo,21 to 50,Under 2,Average,Hiking shoes,40 to 45,24 to 28%,Under 8,Very,Not planned
-3523163622,40 to 49,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,35 to 40,24 to 28%,10 to 12,Minimally,Summited
-3527075002,40 to 49,Male,Mix of group/solo,51 to 100,9 to 16,Above avg.,Hiking shoes,50 to 55,24 to 28%,12 to 14,Somewhat,Summited
-3527672515,60 and up,Female,Group of 2+,51 to 100,5 to 8,Sig. above avg.,Boots,35 to 40,24 to 28%,8 to 10,Fairly,Summited
-3523805865,60 and up,Male,Group of 2+,51 to 100,9 to 16,Sig. above avg.,Boots,45 to 50,24 to 28%,10 to 12,Fairly,Not planned
-3520083230,30 to 39,Male,Group of 2+,21 to 50,5 to 8,Sig. above avg.,Boots,50 to 55,24 to 28%,10 to 12,Somewhat,Not planned
-3520992563,30 to 39,Male,Group of 2+,Over 100,5 to 8,Above avg.,Boots,45 to 50,24 to 28%,12 to 14,Fairly,Summited
-3519943711,50 to 59,Male,Group of 2+,Over 100,5 to 8,Above avg.,Boots,45 to 50,24 to 28%,14 to 16,Minimally,Summited
-3661463756,Under 30,Male,Group of 2+,21 to 50,5 to 8,Average,Trail runners,50 to 55,24 to 28%,12 to 14,Somewhat,Summited
-3646544497,Under 30,Male,Group of 2+,21 to 50,5 to 8,Average,Boots,45 to 50,24 to 28%,12 to 14,Somewhat,Not planned
-3574024541,40 to 49,Female,Mix of group/solo,21 to 50,9 to 16,Sig. above avg.,Hiking shoes,45 to 50,24 to 28%,14 to 16,Not at all,Not planned
-3519903770,30 to 39,Female,Group of 2+,11 to 20,2 to 4,Average,Hiking shoes,35 to 40,24 to 28%,12 to 14,Fairly,Summited
-3529165455,50 to 59,Female,Mix of group/solo,11 to 20,9 to 16,Above avg.,Boots,35 to 40,24 to 28%,14 to 16,Somewhat,Summited
-3543970853,Under 30,Male,Group of 2+,Under 5,Under 2,Out of shape,Boots,50 to 55,24 to 28%,14 to 16,Very,Attempted
-3521249796,Under 30,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,50 to 55,24 to 28%,10 to 12,Fairly,Summited
-3521097192,40 to 49,Male,Group of 2+,Under 5,Under 2,Below avg.,Hiking shoes,45 to 50,24 to 28%,Under 8,Fairly,Not planned
-3520168414,30 to 39,Male,Group of 2+,11 to 20,5 to 8,Average,"Vibrams, sandals, none",45 to 50,24 to 28%,10 to 12,Somewhat,Not planned
-3533919485,60 and up,Male,Group of 2+,11 to 20,9 to 16,Sig. above avg.,Boots,45 to 50,24 to 28%,10 to 12,Somewhat,Summited
-3522431822,60 and up,Male,Solo,21 to 50,5 to 8,Decline to state,Hiking shoes,35 to 40,24 to 28%,Under 8,Very,Not planned
-3528007001,40 to 49,Female,Group of 2+,21 to 50,9 to 16,Average,Trail runners,40 to 45,24 to 28%,8 to 10,Minimally,Not planned
-3574943514,30 to 39,Female,Group of 2+,Over 100,5 to 8,Average,Boots,40 to 45,24 to 28%,12 to 14,Somewhat,Summited
-3520090448,60 and up,Male,Mix of group/solo,21 to 50,9 to 16,Above avg.,Boots,55 and up,24 to 28%,10 to 12,Minimally,Summited
-3520072366,Under 30,Male,Solo,6 to 10,5 to 8,Sig. above avg.,Hiking shoes,55 and up,24 to 28%,18 to 20,Fairly,Summited
-3527121595,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,35 to 40,24 to 28%,14 to 16,Fairly,Summited
-3669625781,50 to 59,Male,Solo,21 to 50,Over 16,Sig. above avg.,Boots,45 to 50,24 to 28%,20 and up,Fairly,Summited
-3519912206,60 and up,Male,Group of 2+,51 to 100,5 to 8,Sig. above avg.,Boots,45 to 50,24 to 28%,10 to 12,Not at all,Attempted
-3573002476,Under 30,Female,Group of 2+,Under 5,2 to 4,Below avg.,Boots,50 to 55,24 to 28%,12 to 14,Very,Attempted
-3522005863,Under 30,Male,Mix of group/solo,21 to 50,2 to 4,Above avg.,Boots,50 to 55,24 to 28%,14 to 16,Somewhat,Attempted
-3520023268,Under 30,Female,Solo,Over 100,5 to 8,Average,Boots,35 to 40,24 to 28%,16 to 18,Somewhat,Summited
-3527069366,30 to 39,Female,Group of 2+,21 to 50,2 to 4,Average,Boots,35 to 40,24 to 28%,12 to 14,Fairly,Not planned
-3668179206,Under 30,Male,Group of 2+,Under 5,5 to 8,Average,Boots,50 to 55,24 to 28%,8 to 10,Somewhat,Summited
-3520121342,60 and up,Male,Mix of group/solo,Over 100,Over 16,Sig. above avg.,Boots,40 to 45,24 to 28%,10 to 12,Somewhat,Summited
-3520498058,Under 30,Female,Group of 2+,Over 100,5 to 8,Average,Boots,50 to 55,24 to 28%,10 to 12,Fairly,Summited
-3522978790,30 to 39,Male,Solo,6 to 10,Under 2,Below avg.,Boots,50 to 55,24 to 28%,10 to 12,Very,Summited
-3546160184,Under 30,Male,Group of 2+,51 to 100,Under 2,Below avg.,Boots,40 to 45,24 to 28%,14 to 16,Fairly,Summited
-3522045422,Under 30,Female,Group of 2+,51 to 100,2 to 4,Average,Trail runners,45 to 50,24 to 28%,14 to 16,Fairly,Summited
-3520107144,Under 30,Female,Group of 2+,Under 5,9 to 16,Below avg.,Boots,30 to 35,24 to 28%,10 to 12,Somewhat,Summited
-3542122152,Under 30,Male,Solo,11 to 20,9 to 16,Sig. above avg.,Boots,55 and up,24 to 28%,10 to 12,Fairly,Summited
-3552786764,50 to 59,Female,Group of 2+,11 to 20,2 to 4,Average,Boots,35 to 40,24 to 28%,10 to 12,Somewhat,Not planned
-3674452477,40 to 49,Male,Solo,51 to 100,Under 2,Below avg.,Trail runners,55 and up,24 to 28%,12 to 14,Fairly,Summited
-3535670925,40 to 49,Male,Solo,6 to 10,9 to 16,Above avg.,Boots,50 to 55,24 to 28%,14 to 16,Minimally,Attempted
-3556447166,30 to 39,Male,Group of 2+,Over 100,5 to 8,Average,Boots,55 and up,24 to 28%,10 to 12,Fairly,Summited
-3528830117,Under 30,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Trail runners,40 to 45,24 to 28%,12 to 14,Fairly,Summited
-3522885501,60 and up,Female,Group of 2+,21 to 50,9 to 16,Above avg.,Trail runners,35 to 40,24 to 28%,12 to 14,Somewhat,Summited
-3522837891,30 to 39,Female,Mix of group/solo,21 to 50,5 to 8,Average,Hiking shoes,45 to 50,28 to 32%,8 to 10,Fairly,Not planned
-3526651817,Under 30,Male,Group of 2+,11 to 20,2 to 4,Below avg.,"Vibrams, sandals, none",45 to 50,28 to 32%,8 to 10,Fairly,Not planned
-3570916344,30 to 39,Male,Group of 2+,21 to 50,9 to 16,Above avg.,Trail runners,45 to 50,28 to 32%,14 to 16,Minimally,Summited
-3527396710,50 to 59,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Boots,55 and up,28 to 32%,10 to 12,Very,Summited
-3541904335,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Boots,50 to 55,28 to 32%,12 to 14,Somewhat,Not planned
-3561206330,30 to 39,Female,Group of 2+,11 to 20,5 to 8,Above avg.,Boots,35 to 40,28 to 32%,8 to 10,Very,Not planned
-3525277316,30 to 39,Female,Group of 2+,21 to 50,9 to 16,Average,Boots,35 to 40,28 to 32%,12 to 14,Fairly,Summited
-3519920398,30 to 39,Male,Solo,21 to 50,Over 16,Sig. above avg.,Boots,55 and up,28 to 32%,12 to 14,Somewhat,Summited
-3519974761,30 to 39,Female,Group of 2+,11 to 20,Under 2,Below avg.,Boots,35 to 40,28 to 32%,12 to 14,Very,Attempted
-3521827621,50 to 59,Female,Group of 2+,21 to 50,Under 2,Below avg.,Boots,40 to 45,28 to 32%,8 to 10,Fairly,Summited
-3522752579,30 to 39,Female,Group of 2+,Over 100,5 to 8,Average,Hiking shoes,45 to 50,28 to 32%,10 to 12,Somewhat,Summited
-3521721107,50 to 59,Female,Group of 2+,11 to 20,5 to 8,Average,Trail runners,45 to 50,28 to 32%,10 to 12,Fairly,Summited
-3521661165,30 to 39,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Trail runners,45 to 50,28 to 32%,20 and up,Minimally,Summited
-3543770681,Under 30,Female,Group of 2+,Under 5,2 to 4,Average,Boots,40 to 45,28 to 32%,Under 8,Very,Attempted
-3528583103,50 to 59,Female,Group of 2+,11 to 20,2 to 4,Above avg.,Boots,40 to 45,28 to 32%,10 to 12,Minimally,Summited
-3530601590,Under 30,Male,Group of 2+,Over 100,Under 2,Decline to state,Hiking shoes,45 to 50,28 to 32%,12 to 14,Somewhat,Summited
-3530303878,30 to 39,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,40 to 45,28 to 32%,14 to 16,Very,Attempted
-3551270550,30 to 39,Female,Solo,11 to 20,9 to 16,Above avg.,Boots,35 to 40,28 to 32%,14 to 16,Somewhat,Summited
-3519933386,Under 30,Female,Solo,21 to 50,Over 16,Sig. above avg.,Trail runners,35 to 40,28 to 32%,14 to 16,Somewhat,Attempted
-3521687269,Under 30,Male,Group of 2+,Under 5,9 to 16,Above avg.,Hiking shoes,45 to 50,28 to 32%,14 to 16,Somewhat,Summited
-3520176424,40 to 49,Male,Group of 2+,21 to 50,Under 2,Below avg.,Boots,55 and up,28 to 32%,10 to 12,Somewhat,Summited
-3520095727,50 to 59,Male,Group of 2+,6 to 10,5 to 8,Average,Hiking shoes,55 and up,28 to 32%,10 to 12,Somewhat,Summited
-3522185131,Under 30,Male,Group of 2+,Under 5,5 to 8,Below avg.,Boots,55 and up,28 to 32%,12 to 14,Fairly,Summited
-3520175767,Under 30,Male,Group of 2+,Under 5,9 to 16,Average,"Vibrams, sandals, none",50 to 55,28 to 32%,12 to 14,Fairly,Summited
-3661561219,Under 30,Female,Group of 2+,6 to 10,Over 16,Above avg.,Boots,30 to 35,28 to 32%,12 to 14,Very,Summited
-3520237282,Under 30,Female,Group of 2+,21 to 50,Under 2,Below avg.,Trail runners,30 to 35,28 to 32%,12 to 14,Fairly,Summited
-3542785292,40 to 49,Female,Group of 2+,Under 5,Over 16,Above avg.,Boots,40 to 45,28 to 32%,10 to 12,Minimally,Not planned
-3520489404,40 to 49,Female,Solo,21 to 50,9 to 16,Above avg.,Boots,40 to 45,28 to 32%,10 to 12,Fairly,Summited
-3521766642,50 to 59,Female,Group of 2+,51 to 100,5 to 8,Above avg.,Trail runners,40 to 45,28 to 32%,10 to 12,Somewhat,Summited
-3528023127,Under 30,Female,Group of 2+,Under 5,9 to 16,Average,Trail runners,35 to 40,28 to 32%,14 to 16,Somewhat,Summited
-3521423286,40 to 49,Female,Solo,11 to 20,5 to 8,Average,Trail runners,45 to 50,28 to 32%,10 to 12,Somewhat,Summited
-3547754198,30 to 39,Female,Mix of group/solo,6 to 10,5 to 8,Above avg.,Trail runners,35 to 40,28 to 32%,16 to 18,Very,Summited
-3534262431,50 to 59,Male,Group of 2+,Over 100,2 to 4,Below avg.,Boots,50 to 55,28 to 32%,Under 8,Not at all,Not planned
-3520446217,Under 30,Female,Mix of group/solo,Under 5,5 to 8,Sig. above avg.,Hiking shoes,50 to 55,28 to 32%,12 to 14,Fairly,Summited
-3520284372,60 and up,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Trail runners,35 to 40,28 to 32%,10 to 12,Somewhat,Summited
-3527237221,50 to 59,Female,Group of 2+,51 to 100,5 to 8,Sig. above avg.,Trail runners,35 to 40,28 to 32%,16 to 18,Somewhat,Summited
-3525898809,60 and up,Male,Group of 2+,6 to 10,9 to 16,Above avg.,Boots,55 and up,28 to 32%,10 to 12,Somewhat,Summited
-3520447212,50 to 59,Male,Solo,21 to 50,9 to 16,Sig. above avg.,Trail runners,45 to 50,28 to 32%,14 to 16,Minimally,Summited
-3571968713,50 to 59,Female,Group of 2+,6 to 10,5 to 8,Average,Boots,35 to 40,28 to 32%,12 to 14,Very,Attempted
-3520303598,30 to 39,Female,Solo,21 to 50,5 to 8,Above avg.,Hiking shoes,35 to 40,28 to 32%,14 to 16,Minimally,Summited
-3527043487,40 to 49,Female,Group of 2+,11 to 20,2 to 4,Below avg.,Boots,50 to 55,28 to 32%,Under 8,Death march,Not planned
-3526825755,30 to 39,Female,Group of 2+,Over 100,5 to 8,Out of shape,Boots,55 and up,28 to 32%,Under 8,Somewhat,Attempted
-3680288476,50 to 59,Female,Group of 2+,11 to 20,9 to 16,Sig. above avg.,Trail runners,35 to 40,28 to 32%,12 to 14,Somewhat,Summited
-3545733947,40 to 49,Female,Group of 2+,Under 5,5 to 8,Average,Trail runners,45 to 50,28 to 32%,10 to 12,Fairly,Summited
-3569274185,30 to 39,Female,Group of 2+,51 to 100,5 to 8,Average,Hiking shoes,40 to 45,28 to 32%,8 to 10,Somewhat,Summited
-3520572395,40 to 49,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Trail runners,45 to 50,28 to 32%,12 to 14,Fairly,Summited
-3527174232,30 to 39,Male,Mix of group/solo,Over 100,Under 2,Below avg.,Boots,55 and up,28 to 32%,12 to 14,Minimally,Summited
-3520251591,Under 30,Male,Group of 2+,21 to 50,5 to 8,Sig. above avg.,Boots,40 to 45,28 to 32%,10 to 12,Somewhat,Summited
-3527243492,50 to 59,Female,Solo,6 to 10,9 to 16,Above avg.,Boots,40 to 45,28 to 32%,8 to 10,Somewhat,Attempted
-3521593866,30 to 39,Female,Group of 2+,21 to 50,9 to 16,Above avg.,Boots,40 to 45,28 to 32%,12 to 14,Minimally,Summited
-3563472193,40 to 49,Male,Solo,6 to 10,9 to 16,Average,Boots,45 to 50,28 to 32%,10 to 12,Somewhat,Attempted
-3527181837,30 to 39,Female,Solo,11 to 20,9 to 16,Above avg.,Boots,45 to 50,28 to 32%,16 to 18,Fairly,Summited
-3520061760,50 to 59,Female,Group of 2+,Over 100,Over 16,Above avg.,Boots,40 to 45,28 to 32%,10 to 12,Fairly,Not planned
-3529748035,30 to 39,Female,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,30 to 35,28 to 32%,10 to 12,Very,Summited
-3527542935,50 to 59,Female,Mix of group/solo,Under 5,5 to 8,Average,Trail runners,35 to 40,28 to 32%,12 to 14,Fairly,Summited
-3544085034,Under 30,Female,Group of 2+,Under 5,2 to 4,Below avg.,Boots,40 to 45,28 to 32%,8 to 10,Very,Not planned
-3532049279,60 and up,Male,Group of 2+,6 to 10,2 to 4,Above avg.,Boots,55 and up,28 to 32%,8 to 10,Somewhat,Summited
-3550368747,Under 30,Female,Group of 2+,11 to 20,2 to 4,Below avg.,Boots,45 to 50,28 to 32%,10 to 12,Minimally,Not planned
-3615716222,40 to 49,Female,Solo,Under 5,2 to 4,Average,Boots,35 to 40,28 to 32%,12 to 14,Minimally,Attempted
-3615469919,40 to 49,Male,Group of 2+,51 to 100,Over 16,Above avg.,Hiking shoes,50 to 55,28 to 32%,8 to 10,Minimally,Summited
-3551813834,50 to 59,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Boots,55 and up,28 to 32%,14 to 16,Very,Summited
-3670182503,Under 30,Female,Group of 2+,11 to 20,5 to 8,Above avg.,Hiking shoes,40 to 45,28 to 32%,10 to 12,Fairly,Attempted
-3520129216,50 to 59,Male,Group of 2+,21 to 50,5 to 8,Average,Boots,50 to 55,28 to 32%,10 to 12,Somewhat,Summited
-3520242463,Under 30,Male,Solo,51 to 100,Over 16,Above avg.,Boots,35 to 40,28 to 32%,18 to 20,Fairly,Summited
-3520096961,30 to 39,Female,Group of 2+,21 to 50,9 to 16,Above avg.,Trail runners,45 to 50,28 to 32%,10 to 12,Very,Attempted
-3616004467,Under 30,Female,Group of 2+,Under 5,5 to 8,Average,Boots,35 to 40,28 to 32%,12 to 14,Fairly,Summited
-3546216844,Under 30,Female,Group of 2+,11 to 20,9 to 16,Average,Trail runners,35 to 40,28 to 32%,12 to 14,Somewhat,Summited
-3661116256,50 to 59,Male,Solo,11 to 20,5 to 8,Above avg.,Boots,55 and up,28 to 32%,10 to 12,Somewhat,Summited
-3527109184,50 to 59,Female,Group of 2+,Over 100,5 to 8,Above avg.,Boots,35 to 40,28 to 32%,8 to 10,Not at all,Not planned
-3542556516,Under 30,Male,Group of 2+,21 to 50,Under 2,Average,Boots,55 and up,28 to 32%,8 to 10,Fairly,Summited
-3521673164,Under 30,Male,Group of 2+,21 to 50,2 to 4,Average,Boots,50 to 55,28 to 32%,8 to 10,Fairly,Attempted
-3519922422,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Average,Hiking shoes,50 to 55,28 to 32%,10 to 12,Fairly,Summited
-3543266805,50 to 59,Male,Solo,Under 5,9 to 16,Sig. above avg.,Boots,55 and up,28 to 32%,8 to 10,Fairly,Attempted
-3546487686,Under 30,Female,Group of 2+,11 to 20,5 to 8,Above avg.,Boots,40 to 45,28 to 32%,12 to 14,Fairly,Summited
-3520369655,50 to 59,Female,Group of 2+,6 to 10,9 to 16,Sig. above avg.,Boots,40 to 45,28 to 32%,Under 8,Fairly,Not planned
-3647189231,40 to 49,Male,Group of 2+,Under 5,5 to 8,Average,Boots,55 and up,28 to 32%,12 to 14,Fairly,Summited
-3529313979,30 to 39,Female,Solo,11 to 20,2 to 4,Below avg.,Hiking shoes,35 to 40,28 to 32%,8 to 10,Fairly,Attempted
-3673952684,30 to 39,Male,Group of 2+,21 to 50,5 to 8,Below avg.,Boots,45 to 50,28 to 32%,12 to 14,Somewhat,Attempted
-3527363068,50 to 59,Female,Group of 2+,Over 100,2 to 4,Average,Hiking shoes,35 to 40,28 to 32%,8 to 10,Minimally,Summited
-3521245848,50 to 59,Male,Solo,Over 100,5 to 8,Average,Boots,55 and up,28 to 32%,12 to 14,Fairly,Not planned
-3520264486,40 to 49,Male,Group of 2+,Under 5,Under 2,Average,Trail runners,55 and up,28 to 32%,8 to 10,Somewhat,Attempted
-3522713308,Under 30,Female,Group of 2+,6 to 10,5 to 8,Out of shape,Trail runners,45 to 50,32 to 36%,10 to 12,Very,Summited
-3522147873,40 to 49,Male,Solo,21 to 50,5 to 8,Above avg.,Boots,55 and up,32 to 36%,14 to 16,Somewhat,Summited
-3520120853,60 and up,Female,Group of 2+,6 to 10,Over 16,Above avg.,Boots,40 to 45,32 to 36%,8 to 10,Minimally,Attempted
-3522134384,30 to 39,Male,Solo,51 to 100,9 to 16,Above avg.,Trail runners,50 to 55,32 to 36%,16 to 18,Fairly,Not planned
-3527195187,50 to 59,Male,Group of 2+,Over 100,9 to 16,Sig. above avg.,Boots,55 and up,32 to 36%,12 to 14,Minimally,Attempted
-3527074512,50 to 59,Female,Group of 2+,11 to 20,5 to 8,Above avg.,Trail runners,35 to 40,32 to 36%,12 to 14,Fairly,Summited
-3521830794,Under 30,Male,Mix of group/solo,21 to 50,5 to 8,Above avg.,Boots,40 to 45,32 to 36%,12 to 14,Fairly,Summited
-3520387133,50 to 59,Male,Mix of group/solo,Under 5,5 to 8,Above avg.,Boots,55 and up,32 to 36%,10 to 12,Somewhat,Summited
-3674914255,Under 30,Female,Group of 2+,Under 5,9 to 16,Above avg.,Trail runners,40 to 45,32 to 36%,10 to 12,Somewhat,Not planned
-3520340732,Under 30,Female,Solo,Under 5,2 to 4,Average,Boots,40 to 45,32 to 36%,10 to 12,Very,Attempted
-3527611820,50 to 59,Male,Group of 2+,51 to 100,9 to 16,Above avg.,Hiking shoes,55 and up,32 to 36%,10 to 12,Fairly,Summited
-3528102213,Under 30,Female,Group of 2+,6 to 10,9 to 16,Above avg.,Boots,45 to 50,32 to 36%,12 to 14,Fairly,Summited
-3520953481,40 to 49,Female,Group of 2+,Over 100,9 to 16,Average,Boots,40 to 45,32 to 36%,12 to 14,Somewhat,Summited
-3529115012,40 to 49,Male,Group of 2+,6 to 10,2 to 4,Average,Boots,50 to 55,32 to 36%,Under 8,Fairly,Not planned
-3534094487,60 and up,Female,Group of 2+,51 to 100,9 to 16,Sig. above avg.,Boots,45 to 50,32 to 36%,10 to 12,Somewhat,Not planned
-3524357628,30 to 39,Male,Group of 2+,6 to 10,Under 2,Average,Hiking shoes,55 and up,32 to 36%,10 to 12,Fairly,Summited
-3524734893,Under 30,Male,Solo,21 to 50,2 to 4,Below avg.,Boots,55 and up,32 to 36%,12 to 14,Very,Attempted
-3523013562,Under 30,Female,Solo,21 to 50,5 to 8,Above avg.,Boots,50 to 55,32 to 36%,14 to 16,Somewhat,Summited
-3534099144,50 to 59,Male,Group of 2+,Under 5,9 to 16,Sig. above avg.,Boots,50 to 55,32 to 36%,8 to 10,Somewhat,Not planned
-3521140717,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,50 to 55,32 to 36%,12 to 14,Fairly,Summited
-3528085292,30 to 39,Female,Group of 2+,Under 5,5 to 8,Average,Boots,45 to 50,32 to 36%,8 to 10,Somewhat,Summited
-3542556472,30 to 39,Female,Group of 2+,21 to 50,Under 2,Average,Boots,55 and up,32 to 36%,8 to 10,Fairly,Summited
-3527072228,30 to 39,Female,Group of 2+,11 to 20,5 to 8,Above avg.,Boots,45 to 50,32 to 36%,14 to 16,Somewhat,Attempted
-3522878767,Under 30,Female,Group of 2+,Over 100,Under 2,Average,Trail runners,55 and up,32 to 36%,12 to 14,Fairly,Summited
-3527182633,Under 30,Female,Solo,21 to 50,5 to 8,Average,Hiking shoes,40 to 45,32 to 36%,10 to 12,Minimally,Summited
-3524752008,50 to 59,Female,Group of 2+,6 to 10,9 to 16,Above avg.,Trail runners,40 to 45,32 to 36%,12 to 14,Somewhat,Summited
-3627321600,Under 30,Female,Group of 2+,Under 5,5 to 8,Average,Boots,40 to 45,32 to 36%,10 to 12,Somewhat,Summited
-3674399841,Under 30,Female,Group of 2+,11 to 20,5 to 8,Average,Boots,50 to 55,32 to 36%,12 to 14,Minimally,Summited
-3522344823,Under 30,Female,Group of 2+,Under 5,9 to 16,Average,Boots,45 to 50,32 to 36%,10 to 12,Somewhat,Summited
-3520534725,50 to 59,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,50 to 55,32 to 36%,12 to 14,Very,Summited
-3523479746,Under 30,Male,Group of 2+,21 to 50,Over 16,Above avg.,Boots,55 and up,32 to 36%,10 to 12,Fairly,Summited
-3524060276,Under 30,Male,Group of 2+,11 to 20,9 to 16,Sig. above avg.,Hiking shoes,45 to 50,32 to 36%,10 to 12,Fairly,Summited
-3520133951,Under 30,Female,Group of 2+,6 to 10,9 to 16,Above avg.,Boots,40 to 45,32 to 36%,14 to 16,Fairly,Summited
-3520040948,30 to 39,Female,Group of 2+,21 to 50,Over 16,Above avg.,Boots,55 and up,32 to 36%,16 to 18,Somewhat,Summited
-3667049248,40 to 49,Female,Group of 2+,Under 5,5 to 8,Above avg.,Boots,45 to 50,32 to 36%,12 to 14,Minimally,Summited
-3680334912,30 to 39,Female,Group of 2+,Under 5,9 to 16,Above avg.,Boots,40 to 45,32 to 36%,12 to 14,Fairly,Summited
-3554578444,40 to 49,Female,Solo,21 to 50,9 to 16,Average,Boots,45 to 50,32 to 36%,12 to 14,Minimally,Summited
-3521744499,30 to 39,Female,Group of 2+,Under 5,9 to 16,Above avg.,Trail runners,40 to 45,32 to 36%,8 to 10,Very,Not planned
-3527985780,Under 30,Female,Mix of group/solo,21 to 50,5 to 8,Above avg.,Hiking shoes,45 to 50,32 to 36%,10 to 12,Somewhat,Not planned
-3521746301,Under 30,Female,Group of 2+,6 to 10,9 to 16,Average,Boots,50 to 55,32 to 36%,10 to 12,Minimally,Summited
-3527146564,30 to 39,Female,Solo,Under 5,5 to 8,Above avg.,Hiking shoes,45 to 50,36% and up,12 to 14,Very,Summited
-3521463994,Under 30,Female,Group of 2+,11 to 20,9 to 16,Above avg.,Trail runners,45 to 50,36% and up,10 to 12,Somewhat,Summited
-3539780895,Under 30,Male,Group of 2+,51 to 100,5 to 8,Above avg.,Hiking shoes,50 to 55,36% and up,14 to 16,Somewhat,Summited
-3572175663,Under 30,Female,Group of 2+,51 to 100,9 to 16,Above avg.,Boots,45 to 50,36% and up,10 to 12,Somewhat,Summited
-3615847635,50 to 59,Male,Solo,11 to 20,5 to 8,Above avg.,Boots,55 and up,36% and up,8 to 10,Somewhat,Summited
-3542830525,60 and up,Male,Solo,51 to 100,9 to 16,Above avg.,Trail runners,55 and up,36% and up,10 to 12,Minimally,Not planned
-3532611735,Under 30,Female,Group of 2+,Under 5,2 to 4,Average,Boots,40 to 45,36% and up,12 to 14,Fairly,Summited
-3519905121,Under 30,Female,Mix of group/solo,21 to 50,2 to 4,Average,Boots,50 to 55,36% and up,12 to 14,Fairly,Attempted
-3544084393,30 to 39,Female,Solo,21 to 50,2 to 4,Below avg.,Trail runners,50 to 55,36% and up,16 to 18,Very,Not planned
-3542640477,Under 30,Female,Group of 2+,6 to 10,2 to 4,Average,Boots,55 and up,36% and up,12 to 14,Somewhat,Summited
-3528505574,40 to 49,Female,Group of 2+,Under 5,9 to 16,Above avg.,Hiking shoes,55 and up,36% and up,10 to 12,Fairly,Attempted
-3530540622,30 to 39,Male,Group of 2+,21 to 50,Under 2,Average,Boots,55 and up,36% and up,14 to 16,Death march,Summited
-3528798995,50 to 59,Female,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,50 to 55,36% and up,8 to 10,Somewhat,Summited
-3520141752,40 to 49,Male,Mix of group/solo,11 to 20,Over 16,Average,Boots,45 to 50,36% and up,18 to 20,Somewhat,Summited
-3543144190,50 to 59,Male,Solo,Over 100,5 to 8,Below avg.,Boots,55 and up,36% and up,10 to 12,Fairly,Not planned
-3520108702,Under 30,Male,Solo,11 to 20,5 to 8,Below avg.,Hiking shoes,55 and up,36% and up,10 to 12,Fairly,Summited
-3520086985,Under 30,Male,Group of 2+,6 to 10,2 to 4,Above avg.,Boots,55 and up,36% and up,14 to 16,Somewhat,Summited
-3540552912,50 to 59,Male,Mix of group/solo,21 to 50,2 to 4,Average,Boots,55 and up,36% and up,14 to 16,Minimally,Summited
-3521530478,30 to 39,Male,Group of 2+,21 to 50,Under 2,Below avg.,Boots,55 and up,36% and up,12 to 14,Somewhat,Summited
-3524927985,Under 30,Female,Group of 2+,21 to 50,9 to 16,Average,Boots,55 and up,36% and up,8 to 10,Very,Summited
-3570828320,Under 30,Male,Group of 2+,51 to 100,Over 16,Sig. above avg.,Trail runners,55 and up,36% and up,14 to 16,Fairly,Summited
-3520690640,Under 30,Male,Solo,21 to 50,Under 2,Average,Hiking shoes,55 and up,36% and up,20 and up,Fairly,Summited
-3529920016,Under 30,Female,Group of 2+,11 to 20,9 to 16,Average,Boots,40 to 45,36% and up,12 to 14,Very,Summited
-3528189175,Under 30,Female,Group of 2+,21 to 50,9 to 16,Average,Trail runners,40 to 45,36% and up,10 to 12,Fairly,Summited
-3529087946,Under 30,Female,Group of 2+,51 to 100,2 to 4,Average,Boots,45 to 50,36% and up,10 to 12,Minimally,Not planned
-3520311322,Under 30,Female,Group of 2+,21 to 50,5 to 8,Average,Boots,45 to 50,36% and up,12 to 14,Fairly,Not planned
-3570790117,30 to 39,Male,Group of 2+,11 to 20,5 to 8,Above avg.,Trail runners,55 and up,36% and up,12 to 14,Minimally,Summited
-3519935071,Under 30,Female,Group of 2+,Under 5,5 to 8,Below avg.,Boots,45 to 50,36% and up,12 to 14,Very,Summited
-3524377857,Under 30,Female,Group of 2+,21 to 50,Over 16,Sig. above avg.,Boots,40 to 45,36% and up,Under 8,Somewhat,Not planned
-3669805546,Under 30,Male,Group of 2+,6 to 10,Under 2,Below avg.,Boots,55 and up,36% and up,12 to 14,Somewhat,Summited
-3668445792,30 to 39,Male,Solo,6 to 10,Over 16,Average,Trail runners,55 and up,36% and up,12 to 14,Fairly,Not planned
-3674296794,Under 30,Female,Group of 2+,21 to 50,9 to 16,Average,Trail runners,55 and up,36% and up,8 to 10,Minimally,Summited
-3527048923,30 to 39,Female,Mix of group/solo,21 to 50,5 to 8,Average,Hiking shoes,55 and up,36% and up,8 to 10,Fairly,Summited
-3527947561,Under 30,Male,Group of 2+,21 to 50,5 to 8,Above avg.,Boots,55 and up,36% and up,12 to 14,Somewhat,Summited
+3520370381,50 to 59,Male,Group of 2+,101 days +,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,10-12 mi,Fairly,Attempted
+3671972039,40 to 49,Male,Solo,11-20 days,5-8 hrs,Out of shape,Boots,< 25 lbs,< 16%,10-12 mi,Fairly,Attempted
+3685689480,50 to 59,Male,Group of 2+,101 days +,5-8 hrs,Below avg,Boots,< 25 lbs,< 16%,10-12 mi,Somewhat,Summited
+3570775970,30 to 39,Male,Solo,101 days +,5-8 hrs,Above avg,Trail runners,< 25 lbs,< 16%,10-12 mi,Somewhat,Attempted
+3520082537,Under 30,Male,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,< 25 lbs,< 16%,10-12 mi,Somewhat,Summited
+3542476592,Under 30,Female,Group of 2+,21-50 days,< 2 hrs,Average,Trail runners,< 25 lbs,< 16%,10-12 mi,Fairly,Summited
+3674617812,40 to 49,Male,Group of 2+,21-50 days,2-4 hrs,Average,Boots,< 25 lbs,< 16%,10-12 mi,Somewhat,Not planned
+3661744956,Under 30,Female,Group of 2+,11-20 days,< 2 hrs,Below avg,Boots,< 25 lbs,16-20%,10-12 mi,Somewhat,Not planned
+3536143832,60 and up,Female,Group of 2+,< 5 days,5-8 hrs,Average,Hiking shoes,< 25 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3527798975,50 to 59,Male,Solo,21-50 days,2-4 hrs,Average,Boots,25-30 lbs,16-20%,10-12 mi,Minimally,Not planned
+3571043685,60 and up,Male,Group of 2+,< 5 days,5-8 hrs,Above avg,Boots,25-30 lbs,16-20%,10-12 mi,Minimally,Not planned
+3520364186,60 and up,Female,Group of 2+,51-100 days,2-4 hrs,Average,Boots,25-30 lbs,16-20%,10-12 mi,Minimally,Not planned
+3520420701,50 to 59,Female,Group of 2+,51-100 days,16 hrs +,Above avg,Hiking shoes,25-30 lbs,20-24%,10-12 mi,Fairly,Not planned
+3527073335,60 and up,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,25-30 lbs,20-24%,10-12 mi,Fairly,Summited
+3520337322,50 to 59,Female,Group of 2+,11-20 days,16 hrs +,Above avg,"Vibrams, sandals, none",25-30 lbs,20-24%,10-12 mi,Minimally,Summited
+3527679041,50 to 59,Female,Group of 2+,< 5 days,9-16 hrs,Above avg,Boots,25-30 lbs,20-24%,10-12 mi,Fairly,Not planned
+3520391385,60 and up,Female,Group of 2+,51-100 days,2-4 hrs,Average,Trail runners,25-30 lbs,20-24%,10-12 mi,Fairly,Attempted
+3520013307,40 to 49,Female,Mix of group/solo,< 5 days,16 hrs +,Average,Hiking shoes,25-30 lbs,24-28%,10-12 mi,Fairly,Summited
+3520422666,60 and up,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Hiking shoes,25-30 lbs,< 16%,10-12 mi,Somewhat,Not planned
+3527284030,50 to 59,Male,Mix of group/solo,21-50 days,9-16 hrs,Average,Trail runners,25-30 lbs,< 16%,10-12 mi,Fairly,Summited
+3519986396,50 to 59,Male,Solo,11-20 days,5-8 hrs,Above avg,Trail runners,25-30 lbs,< 16%,10-12 mi,Somewhat,Summited
+3571411848,50 to 59,Male,Group of 2+,21-50 days,16 hrs +,Average,Boots,25-30 lbs,< 16%,10-12 mi,Fairly,Not planned
+3520425772,50 to 59,Male,Group of 2+,101 days +,16 hrs +,Above avg,Hiking shoes,30-35 lbs,16-20%,10-12 mi,Somewhat,Summited
+3520198397,50 to 59,Male,Group of 2+,101 days +,5-8 hrs,Average,Hiking shoes,30-35 lbs,16-20%,10-12 mi,Fairly,Not planned
+3520189736,50 to 59,Female,Group of 2+,< 5 days,5-8 hrs,Below avg,Boots,30-35 lbs,16-20%,10-12 mi,Very,Summited
+3528543430,50 to 59,Female,Mix of group/solo,6-10 days,2-4 hrs,Sig. above avg,Hiking shoes,30-35 lbs,16-20%,10-12 mi,Fairly,Summited
+3533999337,50 to 59,Female,Group of 2+,< 5 days,2-4 hrs,Average,Boots,30-35 lbs,16-20%,10-12 mi,Very,Not planned
+3661360039,60 and up,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Hiking shoes,30-35 lbs,16-20%,10-12 mi,Fairly,Attempted
+3530036347,40 to 49,Female,Group of 2+,51-100 days,2-4 hrs,Average,Trail runners,30-35 lbs,16-20%,10-12 mi,Very,Summited
+3522590953,40 to 49,Male,Group of 2+,51-100 days,2-4 hrs,Average,Trail runners,30-35 lbs,16-20%,10-12 mi,Somewhat,Summited
+3660699569,Under 30,Male,Group of 2+,11-20 days,9-16 hrs,Average,Hiking shoes,30-35 lbs,16-20%,10-12 mi,Minimally,Attempted
+3522928893,60 and up,Male,Group of 2+,21-50 days,5-8 hrs,Sig. above avg,Boots,30-35 lbs,16-20%,10-12 mi,Minimally,Summited
+3520274814,60 and up,Male,Solo,101 days +,9-16 hrs,Above avg,Trail runners,30-35 lbs,16-20%,10-12 mi,Somewhat,Summited
+3572434372,50 to 59,Male,Group of 2+,6-10 days,2-4 hrs,Average,Boots,30-35 lbs,16-20%,10-12 mi,Fairly,Summited
+3531744680,30 to 39,Male,Group of 2+,101 days +,5-8 hrs,Average,Boots,30-35 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3647504389,40 to 49,Female,Group of 2+,21-50 days,9-16 hrs,Average,Hiking shoes,30-35 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3520308854,50 to 59,Female,Solo,51-100 days,9-16 hrs,Above avg,Boots,30-35 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3520542885,30 to 39,Male,Group of 2+,51-100 days,2-4 hrs,Average,Trail runners,30-35 lbs,20-24%,10-12 mi,Fairly,Not planned
+3520318436,60 and up,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Boots,30-35 lbs,20-24%,10-12 mi,Fairly,Summited
+3520487715,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Hiking shoes,30-35 lbs,20-24%,10-12 mi,Not at all,Not planned
+3528727987,30 to 39,Male,Group of 2+,< 5 days,2-4 hrs,Average,Hiking shoes,30-35 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3571383960,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Hiking shoes,30-35 lbs,20-24%,10-12 mi,Minimally,Summited
+3527678313,40 to 49,Female,Group of 2+,< 5 days,5-8 hrs,Above avg,Trail runners,30-35 lbs,24-28%,10-12 mi,Minimally,Summited
+3632625959,30 to 39,Female,Group of 2+,11-20 days,< 2 hrs,Above avg,Boots,30-35 lbs,24-28%,10-12 mi,Somewhat,Not planned
+3550160475,60 and up,Female,Solo,101 days +,9-16 hrs,Above avg,Boots,30-35 lbs,24-28%,10-12 mi,Somewhat,Not planned
+3572479191,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,30-35 lbs,24-28%,10-12 mi,Fairly,Not planned
+3578277191,60 and up,Female,Group of 2+,6-10 days,16 hrs +,Above avg,Boots,30-35 lbs,24-28%,10-12 mi,Minimally,Not planned
+3520429274,50 to 59,Male,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,30-35 lbs,24-28%,10-12 mi,Minimally,Not planned
+3531254894,50 to 59,Female,Group of 2+,11-20 days,5-8 hrs,Average,Hiking shoes,30-35 lbs,24-28%,10-12 mi,Minimally,Summited
+3521175438,40 to 49,Female,Group of 2+,51-100 days,5-8 hrs,Average,Hiking shoes,30-35 lbs,24-28%,10-12 mi,Fairly,Not planned
+3528914819,30 to 39,Female,Solo,11-20 days,5-8 hrs,Above avg,Hiking shoes,30-35 lbs,24-28%,10-12 mi,Fairly,Summited
+3527826880,Under 30,Male,Group of 2+,< 5 days,< 2 hrs,Out of shape,Boots,30-35 lbs,24-28%,10-12 mi,Fairly,Summited
+3520107144,Under 30,Female,Group of 2+,< 5 days,9-16 hrs,Below avg,Boots,30-35 lbs,24-28%,10-12 mi,Somewhat,Summited
+3529748035,30 to 39,Female,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,30-35 lbs,28-32%,10-12 mi,Very,Summited
+3673360537,30 to 39,Male,Group of 2+,51-100 days,5-8 hrs,Out of shape,Boots,30-35 lbs,< 16%,10-12 mi,Very,Attempted
+3520024857,60 and up,Male,Group of 2+,101 days +,9-16 hrs,Above avg,"Vibrams, sandals, none",30-35 lbs,< 16%,10-12 mi,Somewhat,Summited
+3617694569,50 to 59,Male,Group of 2+,21-50 days,16 hrs +,Sig. above avg,"Vibrams, sandals, none",30-35 lbs,< 16%,10-12 mi,Minimally,Summited
+3543802694,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,30-35 lbs,< 16%,10-12 mi,Not at all,Attempted
+3522867010,40 to 49,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Trail runners,30-35 lbs,< 16%,10-12 mi,Somewhat,Summited
+3555768675,60 and up,Male,Solo,21-50 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,16-20%,10-12 mi,Very,Not planned
+3531110058,60 and up,Male,Solo,101 days +,< 2 hrs,Below avg,Hiking shoes,35-40 lbs,16-20%,10-12 mi,Fairly,Summited
+3522126541,50 to 59,Male,Group of 2+,51-100 days,2-4 hrs,Out of shape,Trail runners,35-40 lbs,16-20%,10-12 mi,Fairly,Summited
+3519911134,30 to 39,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Hiking shoes,35-40 lbs,16-20%,10-12 mi,Somewhat,Summited
+3542358724,50 to 59,Male,Group of 2+,21-50 days,2-4 hrs,Average,Trail runners,35-40 lbs,16-20%,10-12 mi,Minimally,Summited
+3522813842,60 and up,Male,Group of 2+,101 days +,16 hrs +,Sig. above avg,Boots,35-40 lbs,16-20%,10-12 mi,Minimally,Attempted
+3528855206,50 to 59,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Trail runners,35-40 lbs,16-20%,10-12 mi,Minimally,Not planned
+3522128101,50 to 59,Female,Group of 2+,51-100 days,< 2 hrs,Average,Boots,35-40 lbs,16-20%,10-12 mi,Fairly,Summited
+3542248387,40 to 49,Male,Mix of group/solo,11-20 days,< 2 hrs,Average,Trail runners,35-40 lbs,16-20%,10-12 mi,Minimally,Summited
+3521327021,60 and up,Male,Group of 2+,101 days +,9-16 hrs,Above avg,Trail runners,35-40 lbs,16-20%,10-12 mi,Fairly,Summited
+3521641078,60 and up,Male,Group of 2+,101 days +,9-16 hrs,Above avg,Boots,35-40 lbs,20-24%,10-12 mi,Somewhat,Summited
+3520353136,40 to 49,Male,Group of 2+,6-10 days,2-4 hrs,Below avg,Boots,35-40 lbs,20-24%,10-12 mi,Somewhat,Attempted
+3525336774,40 to 49,Male,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,35-40 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3520355941,30 to 39,Male,Group of 2+,< 5 days,5-8 hrs,Below avg,Boots,35-40 lbs,20-24%,10-12 mi,Very,Summited
+3646739861,50 to 59,Male,Group of 2+,< 5 days,5-8 hrs,Average,Boots,35-40 lbs,20-24%,10-12 mi,Somewhat,Not planned
+3521680185,60 and up,Male,Solo,51-100 days,9-16 hrs,Average,Trail runners,35-40 lbs,20-24%,10-12 mi,Very,Summited
+3521367522,30 to 39,Male,Group of 2+,21-50 days,9-16 hrs,Average,Boots,35-40 lbs,20-24%,10-12 mi,Minimally,Not planned
+3521451950,30 to 39,Female,Solo,21-50 days,5-8 hrs,Average,Hiking shoes,35-40 lbs,20-24%,10-12 mi,Fairly,Attempted
+3524318399,40 to 49,Male,Solo,6-10 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,20-24%,10-12 mi,Somewhat,Summited
+3520172957,60 and up,Male,Group of 2+,6-10 days,9-16 hrs,Above avg,Hiking shoes,35-40 lbs,20-24%,10-12 mi,Somewhat,Summited
+3528203904,Under 30,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,20-24%,10-12 mi,Somewhat,Summited
+3527245702,50 to 59,Female,Group of 2+,11-20 days,9-16 hrs,Above avg,Boots,35-40 lbs,20-24%,10-12 mi,Fairly,Summited
+3529082565,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,10-12 mi,Very,Not planned
+3527831977,30 to 39,Female,Mix of group/solo,21-50 days,2-4 hrs,Below avg,Hiking shoes,35-40 lbs,24-28%,10-12 mi,Fairly,Summited
+3520196490,30 to 39,Female,Solo,51-100 days,< 2 hrs,Below avg,Hiking shoes,35-40 lbs,24-28%,10-12 mi,Fairly,Not planned
+3522837133,60 and up,Female,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,35-40 lbs,24-28%,10-12 mi,Somewhat,Summited
+3527259876,50 to 59,Female,Group of 2+,6-10 days,5-8 hrs,Above avg,Boots,35-40 lbs,24-28%,10-12 mi,Minimally,Summited
+3560954303,30 to 39,Female,Group of 2+,21-50 days,< 2 hrs,Above avg,Hiking shoes,35-40 lbs,24-28%,10-12 mi,Somewhat,Not planned
+3520301401,Under 30,Male,Group of 2+,6-10 days,5-8 hrs,Average,Trail runners,35-40 lbs,24-28%,10-12 mi,Fairly,Not planned
+3541731710,30 to 39,Female,Group of 2+,6-10 days,9-16 hrs,Above avg,Boots,35-40 lbs,24-28%,10-12 mi,Not at all,Not planned
+3663865916,40 to 49,Female,Solo,51-100 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,10-12 mi,Somewhat,Attempted
+3631492646,50 to 59,Female,Group of 2+,6-10 days,2-4 hrs,Above avg,Boots,35-40 lbs,24-28%,10-12 mi,Very,Attempted
+3523163622,40 to 49,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,35-40 lbs,24-28%,10-12 mi,Minimally,Summited
+3552786764,50 to 59,Female,Group of 2+,11-20 days,2-4 hrs,Average,Boots,35-40 lbs,24-28%,10-12 mi,Somewhat,Not planned
+3520284372,60 and up,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Trail runners,35-40 lbs,28-32%,10-12 mi,Somewhat,Summited
+3520108492,50 to 59,Male,Group of 2+,11-20 days,9-16 hrs,Average,Trail runners,40-45 lbs,16-20%,10-12 mi,Somewhat,Summited
+3542312648,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,40-45 lbs,16-20%,10-12 mi,Very,Summited
+3520889972,50 to 59,Male,Group of 2+,11-20 days,9-16 hrs,Average,Hiking shoes,40-45 lbs,16-20%,10-12 mi,Very,Summited
+3541856927,60 and up,Male,Solo,101 days +,< 2 hrs,Above avg,Hiking shoes,40-45 lbs,16-20%,10-12 mi,Fairly,Summited
+3520788719,50 to 59,Male,Group of 2+,6-10 days,9-16 hrs,Sig. above avg,Boots,40-45 lbs,20-24%,10-12 mi,Minimally,Summited
+3550753587,50 to 59,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,40-45 lbs,20-24%,10-12 mi,Somewhat,Summited
+3521531540,50 to 59,Male,Solo,101 days +,< 2 hrs,Average,Boots,40-45 lbs,20-24%,10-12 mi,Fairly,Summited
+3543210140,60 and up,Male,Group of 2+,21-50 days,< 2 hrs,Above avg,Boots,40-45 lbs,20-24%,10-12 mi,Minimally,Not planned
+3529057560,40 to 49,Male,Mix of group/solo,21-50 days,2-4 hrs,Above avg,Boots,40-45 lbs,24-28%,10-12 mi,Somewhat,Summited
+3520204995,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,40-45 lbs,24-28%,10-12 mi,Fairly,Summited
+3527838044,Under 30,Male,Mix of group/solo,6-10 days,5-8 hrs,Average,Boots,40-45 lbs,24-28%,10-12 mi,Minimally,Summited
+3527051990,40 to 49,Male,Group of 2+,21-50 days,< 2 hrs,Average,Boots,40-45 lbs,24-28%,10-12 mi,Fairly,Not planned
+3527044779,60 and up,Male,Group of 2+,< 5 days,9-16 hrs,Above avg,Boots,40-45 lbs,24-28%,10-12 mi,Very,Not planned
+3527882904,50 to 59,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Boots,40-45 lbs,24-28%,10-12 mi,Fairly,Summited
+3520059231,60 and up,Male,Mix of group/solo,< 5 days,5-8 hrs,Average,Boots,40-45 lbs,24-28%,10-12 mi,Very,Summited
+3661461660,40 to 49,Female,Group of 2+,11-20 days,2-4 hrs,Average,Boots,40-45 lbs,24-28%,10-12 mi,Fairly,Not planned
+3570807718,50 to 59,Male,Group of 2+,11-20 days,2-4 hrs,Average,Hiking shoes,40-45 lbs,24-28%,10-12 mi,Minimally,Summited
+3534080907,30 to 39,Male,Group of 2+,11-20 days,9-16 hrs,Average,Hiking shoes,40-45 lbs,24-28%,10-12 mi,Fairly,Not planned
+3529272694,40 to 49,Female,Mix of group/solo,21-50 days,5-8 hrs,Average,Boots,40-45 lbs,24-28%,10-12 mi,Somewhat,Attempted
+3520121342,60 and up,Male,Mix of group/solo,101 days +,16 hrs +,Sig. above avg,Boots,40-45 lbs,24-28%,10-12 mi,Somewhat,Summited
+3528583103,50 to 59,Female,Group of 2+,11-20 days,2-4 hrs,Above avg,Boots,40-45 lbs,28-32%,10-12 mi,Minimally,Summited
+3542785292,40 to 49,Female,Group of 2+,< 5 days,16 hrs +,Above avg,Boots,40-45 lbs,28-32%,10-12 mi,Minimally,Not planned
+3520489404,40 to 49,Female,Solo,21-50 days,9-16 hrs,Above avg,Boots,40-45 lbs,28-32%,10-12 mi,Fairly,Summited
+3521766642,50 to 59,Female,Group of 2+,51-100 days,5-8 hrs,Above avg,Trail runners,40-45 lbs,28-32%,10-12 mi,Somewhat,Summited
+3520251591,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Sig. above avg,Boots,40-45 lbs,28-32%,10-12 mi,Somewhat,Summited
+3520061760,50 to 59,Female,Group of 2+,101 days +,16 hrs +,Above avg,Boots,40-45 lbs,28-32%,10-12 mi,Fairly,Not planned
+3670182503,Under 30,Female,Group of 2+,11-20 days,5-8 hrs,Above avg,Hiking shoes,40-45 lbs,28-32%,10-12 mi,Fairly,Attempted
+3674914255,Under 30,Female,Group of 2+,< 5 days,9-16 hrs,Above avg,Trail runners,40-45 lbs,32-36%,10-12 mi,Somewhat,Not planned
+3520340732,Under 30,Female,Solo,< 5 days,2-4 hrs,Average,Boots,40-45 lbs,32-36%,10-12 mi,Very,Attempted
+3527182633,Under 30,Female,Solo,21-50 days,5-8 hrs,Average,Hiking shoes,40-45 lbs,32-36%,10-12 mi,Minimally,Summited
+3627321600,Under 30,Female,Group of 2+,< 5 days,5-8 hrs,Average,Boots,40-45 lbs,32-36%,10-12 mi,Somewhat,Summited
+3528189175,Under 30,Female,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,40-45 lbs,36% +,10-12 mi,Fairly,Summited
+3520263930,50 to 59,Male,Solo,< 5 days,9-16 hrs,Out of shape,Boots,45-50 lbs,16-20%,10-12 mi,Very,Attempted
+3525997045,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Below avg,Boots,45-50 lbs,16-20%,10-12 mi,Very,Summited
+3520377189,Under 30,Male,Mix of group/solo,< 5 days,< 2 hrs,Below avg,Boots,45-50 lbs,16-20%,10-12 mi,Fairly,Not planned
+3527316782,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Below avg,Boots,45-50 lbs,20-24%,10-12 mi,Fairly,Not planned
+3531649672,40 to 49,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,45-50 lbs,20-24%,10-12 mi,Fairly,Summited
+3520533056,30 to 39,Female,Group of 2+,21-50 days,5-8 hrs,Below avg,Trail runners,45-50 lbs,20-24%,10-12 mi,Somewhat,Summited
+3528486816,40 to 49,Male,Solo,21-50 days,2-4 hrs,Below avg,Hiking shoes,45-50 lbs,20-24%,10-12 mi,Fairly,Summited
+3520417033,50 to 59,Male,Group of 2+,11-20 days,9-16 hrs,Average,Trail runners,45-50 lbs,24-28%,10-12 mi,Very,Summited
+3520054113,50 to 59,Male,Group of 2+,11-20 days,2-4 hrs,Average,Trail runners,45-50 lbs,24-28%,10-12 mi,Minimally,Summited
+3526331793,60 and up,Male,Group of 2+,101 days +,9-16 hrs,Average,Boots,45-50 lbs,24-28%,10-12 mi,Fairly,Summited
+3527336638,Under 30,Male,Solo,6-10 days,< 2 hrs,Below avg,Boots,45-50 lbs,24-28%,10-12 mi,Somewhat,Summited
+3527802310,30 to 39,Female,Group of 2+,< 5 days,< 2 hrs,Below avg,Boots,45-50 lbs,24-28%,10-12 mi,Very,Summited
+3631437281,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,45-50 lbs,24-28%,10-12 mi,Somewhat,Summited
+3520859142,60 and up,Male,Group of 2+,21-50 days,9-16 hrs,Sig. above avg,Hiking shoes,45-50 lbs,24-28%,10-12 mi,Minimally,Summited
+3523805865,60 and up,Male,Group of 2+,51-100 days,9-16 hrs,Sig. above avg,Boots,45-50 lbs,24-28%,10-12 mi,Fairly,Not planned
+3520168414,30 to 39,Male,Group of 2+,11-20 days,5-8 hrs,Average,"Vibrams, sandals, none",45-50 lbs,24-28%,10-12 mi,Somewhat,Not planned
+3533919485,60 and up,Male,Group of 2+,11-20 days,9-16 hrs,Sig. above avg,Boots,45-50 lbs,24-28%,10-12 mi,Somewhat,Summited
+3519912206,60 and up,Male,Group of 2+,51-100 days,5-8 hrs,Sig. above avg,Boots,45-50 lbs,24-28%,10-12 mi,Not at all,Attempted
+3522752579,30 to 39,Female,Group of 2+,101 days +,5-8 hrs,Average,Hiking shoes,45-50 lbs,28-32%,10-12 mi,Somewhat,Summited
+3521721107,50 to 59,Female,Group of 2+,11-20 days,5-8 hrs,Average,Trail runners,45-50 lbs,28-32%,10-12 mi,Fairly,Summited
+3521423286,40 to 49,Female,Solo,11-20 days,5-8 hrs,Average,Trail runners,45-50 lbs,28-32%,10-12 mi,Somewhat,Summited
+3545733947,40 to 49,Female,Group of 2+,< 5 days,5-8 hrs,Average,Trail runners,45-50 lbs,28-32%,10-12 mi,Fairly,Summited
+3563472193,40 to 49,Male,Solo,6-10 days,9-16 hrs,Average,Boots,45-50 lbs,28-32%,10-12 mi,Somewhat,Attempted
+3550368747,Under 30,Female,Group of 2+,11-20 days,2-4 hrs,Below avg,Boots,45-50 lbs,28-32%,10-12 mi,Minimally,Not planned
+3520096961,30 to 39,Female,Group of 2+,21-50 days,9-16 hrs,Above avg,Trail runners,45-50 lbs,28-32%,10-12 mi,Very,Attempted
+3522713308,Under 30,Female,Group of 2+,6-10 days,5-8 hrs,Out of shape,Trail runners,45-50 lbs,32-36%,10-12 mi,Very,Summited
+3534094487,60 and up,Female,Group of 2+,51-100 days,9-16 hrs,Sig. above avg,Boots,45-50 lbs,32-36%,10-12 mi,Somewhat,Not planned
+3522344823,Under 30,Female,Group of 2+,< 5 days,9-16 hrs,Average,Boots,45-50 lbs,32-36%,10-12 mi,Somewhat,Summited
+3524060276,Under 30,Male,Group of 2+,11-20 days,9-16 hrs,Sig. above avg,Hiking shoes,45-50 lbs,32-36%,10-12 mi,Fairly,Summited
+3527985780,Under 30,Female,Mix of group/solo,21-50 days,5-8 hrs,Above avg,Hiking shoes,45-50 lbs,32-36%,10-12 mi,Somewhat,Not planned
+3521463994,Under 30,Female,Group of 2+,11-20 days,9-16 hrs,Above avg,Trail runners,45-50 lbs,36% +,10-12 mi,Somewhat,Summited
+3572175663,Under 30,Female,Group of 2+,51-100 days,9-16 hrs,Above avg,Boots,45-50 lbs,36% +,10-12 mi,Somewhat,Summited
+3529087946,Under 30,Female,Group of 2+,51-100 days,2-4 hrs,Average,Boots,45-50 lbs,36% +,10-12 mi,Minimally,Not planned
+3520084967,30 to 39,Male,Solo,< 5 days,< 2 hrs,Below avg,Trail runners,50-55 lbs,20-24%,10-12 mi,Somewhat,Summited
+3521204637,40 to 49,Male,Group of 2+,< 5 days,5-8 hrs,Above avg,Boots,50-55 lbs,20-24%,10-12 mi,Fairly,Summited
+3533679675,Under 30,Male,Group of 2+,< 5 days,5-8 hrs,Average,Hiking shoes,50-55 lbs,20-24%,10-12 mi,Fairly,Summited
+3527472957,Under 30,Male,Mix of group/solo,6-10 days,5-8 hrs,Below avg,Hiking shoes,50-55 lbs,24-28%,10-12 mi,Somewhat,Summited
+3605195319,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Average,Boots,50-55 lbs,24-28%,10-12 mi,Very,Summited
+3520152438,60 and up,Male,Group of 2+,51-100 days,5-8 hrs,Sig. above avg,Boots,50-55 lbs,24-28%,10-12 mi,Somewhat,Summited
+3528382867,60 and up,Male,Group of 2+,< 5 days,9-16 hrs,Sig. above avg,Boots,50-55 lbs,24-28%,10-12 mi,Fairly,Summited
+3520083230,30 to 39,Male,Group of 2+,21-50 days,5-8 hrs,Sig. above avg,Boots,50-55 lbs,24-28%,10-12 mi,Somewhat,Not planned
+3521249796,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,50-55 lbs,24-28%,10-12 mi,Fairly,Summited
+3520498058,Under 30,Female,Group of 2+,101 days +,5-8 hrs,Average,Boots,50-55 lbs,24-28%,10-12 mi,Fairly,Summited
+3522978790,30 to 39,Male,Solo,6-10 days,< 2 hrs,Below avg,Boots,50-55 lbs,24-28%,10-12 mi,Very,Summited
+3520129216,50 to 59,Male,Group of 2+,21-50 days,5-8 hrs,Average,Boots,50-55 lbs,28-32%,10-12 mi,Somewhat,Summited
+3519922422,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,50-55 lbs,28-32%,10-12 mi,Fairly,Summited
+3521746301,Under 30,Female,Group of 2+,6-10 days,9-16 hrs,Average,Boots,50-55 lbs,32-36%,10-12 mi,Minimally,Summited
+3528586059,30 to 39,Male,Group of 2+,21-50 days,2-4 hrs,Below avg,Boots,55 lbs +,20-24%,10-12 mi,Somewhat,Summited
+3521558608,Under 30,Male,Group of 2+,21-50 days,2-4 hrs,Out of shape,Boots,55 lbs +,20-24%,10-12 mi,Somewhat,Summited
+3522821697,40 to 49,Male,Solo,21-50 days,9-16 hrs,Average,Hiking shoes,55 lbs +,24-28%,10-12 mi,Minimally,Attempted
+3525246704,40 to 49,Male,Solo,11-20 days,< 2 hrs,Below avg,Hiking shoes,55 lbs +,24-28%,10-12 mi,Fairly,Summited
+3520090448,60 and up,Male,Mix of group/solo,21-50 days,9-16 hrs,Above avg,Boots,55 lbs +,24-28%,10-12 mi,Minimally,Summited
+3542122152,Under 30,Male,Solo,11-20 days,9-16 hrs,Sig. above avg,Boots,55 lbs +,24-28%,10-12 mi,Fairly,Summited
+3556447166,30 to 39,Male,Group of 2+,101 days +,5-8 hrs,Average,Boots,55 lbs +,24-28%,10-12 mi,Fairly,Summited
+3527396710,50 to 59,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Boots,55 lbs +,28-32%,10-12 mi,Very,Summited
+3520176424,40 to 49,Male,Group of 2+,21-50 days,< 2 hrs,Below avg,Boots,55 lbs +,28-32%,10-12 mi,Somewhat,Summited
+3520095727,50 to 59,Male,Group of 2+,6-10 days,5-8 hrs,Average,Hiking shoes,55 lbs +,28-32%,10-12 mi,Somewhat,Summited
+3525898809,60 and up,Male,Group of 2+,6-10 days,9-16 hrs,Above avg,Boots,55 lbs +,28-32%,10-12 mi,Somewhat,Summited
+3661116256,50 to 59,Male,Solo,11-20 days,5-8 hrs,Above avg,Boots,55 lbs +,28-32%,10-12 mi,Somewhat,Summited
+3520387133,50 to 59,Male,Mix of group/solo,< 5 days,5-8 hrs,Above avg,Boots,55 lbs +,32-36%,10-12 mi,Somewhat,Summited
+3527611820,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Hiking shoes,55 lbs +,32-36%,10-12 mi,Fairly,Summited
+3524357628,30 to 39,Male,Group of 2+,6-10 days,< 2 hrs,Average,Hiking shoes,55 lbs +,32-36%,10-12 mi,Fairly,Summited
+3523479746,Under 30,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Boots,55 lbs +,32-36%,10-12 mi,Fairly,Summited
+3542830525,60 and up,Male,Solo,51-100 days,9-16 hrs,Above avg,Trail runners,55 lbs +,36% +,10-12 mi,Minimally,Not planned
+3528505574,40 to 49,Female,Group of 2+,< 5 days,9-16 hrs,Above avg,Hiking shoes,55 lbs +,36% +,10-12 mi,Fairly,Attempted
+3543144190,50 to 59,Male,Solo,101 days +,5-8 hrs,Below avg,Boots,55 lbs +,36% +,10-12 mi,Fairly,Not planned
+3520108702,Under 30,Male,Solo,11-20 days,5-8 hrs,Below avg,Hiking shoes,55 lbs +,36% +,10-12 mi,Fairly,Summited
+3548517263,60 and up,Female,Group of 2+,101 days +,< 2 hrs,Decline to state,Trail runners,< 25 lbs,< 16%,12-14 mi,Somewhat,Not planned
+3661281744,30 to 39,Male,Group of 2+,6-10 days,9-16 hrs,Average,Trail runners,< 25 lbs,< 16%,12-14 mi,Very,Summited
+3667082680,Under 30,Female,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,12-14 mi,Fairly,Summited
+3682491267,30 to 39,Male,Group of 2+,101 days +,9-16 hrs,Sig. above avg,Boots,< 25 lbs,< 16%,12-14 mi,Not at all,Not planned
+3528925838,30 to 39,Male,Group of 2+,101 days +,< 2 hrs,Below avg,Trail runners,< 25 lbs,16-20%,12-14 mi,Minimally,Not planned
+3539395414,50 to 59,Male,Solo,101 days +,9-16 hrs,Average,Hiking shoes,25-30 lbs,16-20%,12-14 mi,Fairly,Attempted
+3520054829,60 and up,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Boots,25-30 lbs,16-20%,12-14 mi,Not at all,Attempted
+3560608573,30 to 39,Female,Group of 2+,< 5 days,< 2 hrs,Below avg,Hiking shoes,25-30 lbs,16-20%,12-14 mi,Fairly,Not planned
+3527063768,60 and up,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,25-30 lbs,20-24%,12-14 mi,Fairly,Summited
+3522728529,30 to 39,Female,Solo,101 days +,16 hrs +,Above avg,Trail runners,25-30 lbs,20-24%,12-14 mi,Minimally,Summited
+3522182682,40 to 49,Male,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,25-30 lbs,< 16%,12-14 mi,Somewhat,Summited
+3520212977,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Below avg,Boots,25-30 lbs,< 16%,12-14 mi,Very,Summited
+3521843636,50 to 59,Female,Group of 2+,101 days +,9-16 hrs,Above avg,Trail runners,25-30 lbs,< 16%,12-14 mi,Somewhat,Not planned
+3542858408,Under 30,Female,Group of 2+,11-20 days,2-4 hrs,Average,Trail runners,25-30 lbs,< 16%,12-14 mi,Somewhat,Summited
+3520038122,30 to 39,Male,Solo,21-50 days,16 hrs +,Above avg,Trail runners,25-30 lbs,< 16%,12-14 mi,Somewhat,Summited
+3520123785,Under 30,Male,Mix of group/solo,< 5 days,2-4 hrs,Below avg,Trail runners,25-30 lbs,< 16%,12-14 mi,Very,Summited
+3520468998,50 to 59,Female,Mix of group/solo,51-100 days,9-16 hrs,Average,Trail runners,30-35 lbs,16-20%,12-14 mi,Fairly,Summited
+3558057869,50 to 59,Male,Group of 2+,< 5 days,9-16 hrs,Above avg,Hiking shoes,30-35 lbs,16-20%,12-14 mi,Somewhat,Attempted
+3523134975,40 to 49,Male,Solo,< 5 days,5-8 hrs,Average,Trail runners,30-35 lbs,16-20%,12-14 mi,Somewhat,Summited
+3519901784,30 to 39,Female,Group of 2+,51-100 days,2-4 hrs,Average,Trail runners,30-35 lbs,16-20%,12-14 mi,Fairly,Summited
+3523650185,30 to 39,Female,Group of 2+,11-20 days,5-8 hrs,Sig. above avg,Boots,30-35 lbs,16-20%,12-14 mi,Not at all,Attempted
+3531282775,Under 30,Male,Group of 2+,< 5 days,2-4 hrs,Sig. above avg,Trail runners,30-35 lbs,20-24%,12-14 mi,Somewhat,Not planned
+3520094050,50 to 59,Female,Group of 2+,101 days +,5-8 hrs,Above avg,Boots,30-35 lbs,20-24%,12-14 mi,Not at all,Summited
+3520369510,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,30-35 lbs,20-24%,12-14 mi,Somewhat,Summited
+3520093195,50 to 59,Female,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,30-35 lbs,20-24%,12-14 mi,Minimally,Summited
+3527047453,Under 30,Male,Mix of group/solo,51-100 days,9-16 hrs,Above avg,Trail runners,30-35 lbs,20-24%,12-14 mi,Minimally,Summited
+3522461128,40 to 49,Female,Mix of group/solo,< 5 days,2-4 hrs,Average,Trail runners,30-35 lbs,20-24%,12-14 mi,Fairly,Summited
+3520394271,50 to 59,Male,Group of 2+,< 5 days,9-16 hrs,Average,Boots,30-35 lbs,20-24%,12-14 mi,Fairly,Summited
+3527084402,Under 30,Female,Solo,21-50 days,9-16 hrs,Average,Hiking shoes,30-35 lbs,20-24%,12-14 mi,Somewhat,Not planned
+3520362800,Under 30,Female,Group of 2+,21-50 days,2-4 hrs,Average,Boots,30-35 lbs,20-24%,12-14 mi,Minimally,Summited
+3522256534,50 to 59,Female,Group of 2+,11-20 days,9-16 hrs,Sig. above avg,Trail runners,30-35 lbs,20-24%,12-14 mi,Minimally,Not planned
+3522767183,50 to 59,Female,Mix of group/solo,21-50 days,2-4 hrs,Below avg,Trail runners,30-35 lbs,20-24%,12-14 mi,Fairly,Summited
+3521563414,50 to 59,Female,Mix of group/solo,101 days +,5-8 hrs,Average,Boots,30-35 lbs,20-24%,12-14 mi,Somewhat,Not planned
+3542454483,Under 30,Male,Group of 2+,11-20 days,2-4 hrs,Above avg,Trail runners,30-35 lbs,20-24%,12-14 mi,Fairly,Summited
+3528593639,30 to 39,Female,Solo,51-100 days,16 hrs +,Above avg,Hiking shoes,30-35 lbs,24-28%,12-14 mi,Minimally,Summited
+3520236668,50 to 59,Female,Group of 2+,6-10 days,2-4 hrs,Above avg,Trail runners,30-35 lbs,24-28%,12-14 mi,Somewhat,Summited
+3674362373,30 to 39,Female,Solo,11-20 days,5-8 hrs,Average,Trail runners,30-35 lbs,24-28%,12-14 mi,Fairly,Attempted
+3536491900,40 to 49,Female,Mix of group/solo,11-20 days,2-4 hrs,Above avg,Trail runners,30-35 lbs,24-28%,12-14 mi,Somewhat,Summited
+3527811851,30 to 39,Female,Mix of group/solo,11-20 days,9-16 hrs,Average,Boots,30-35 lbs,24-28%,12-14 mi,Very,Not planned
+3661561219,Under 30,Female,Group of 2+,6-10 days,16 hrs +,Above avg,Boots,30-35 lbs,28-32%,12-14 mi,Very,Summited
+3520237282,Under 30,Female,Group of 2+,21-50 days,< 2 hrs,Below avg,Trail runners,30-35 lbs,28-32%,12-14 mi,Fairly,Summited
+3522707544,50 to 59,Male,Solo,11-20 days,9-16 hrs,Below avg,Hiking shoes,30-35 lbs,< 16%,12-14 mi,Fairly,Attempted
+3549062259,Under 30,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Boots,30-35 lbs,< 16%,12-14 mi,Minimally,Not planned
+3541762718,40 to 49,Male,Group of 2+,< 5 days,5-8 hrs,Sig. above avg,Boots,30-35 lbs,< 16%,12-14 mi,Somewhat,Not planned
+3530211849,40 to 49,Male,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,30-35 lbs,< 16%,12-14 mi,Very,Not planned
+3520147511,50 to 59,Male,Mix of group/solo,101 days +,9-16 hrs,Average,Hiking shoes,30-35 lbs,< 16%,12-14 mi,Fairly,Summited
+3525280858,40 to 49,Male,Group of 2+,11-20 days,5-8 hrs,Average,Boots,35-40 lbs,16-20%,12-14 mi,Very,Summited
+3541731091,50 to 59,Male,Solo,21-50 days,5-8 hrs,Above avg,Trail runners,35-40 lbs,16-20%,12-14 mi,Very,Attempted
+3520987319,50 to 59,Male,Solo,51-100 days,5-8 hrs,Average,Hiking shoes,35-40 lbs,16-20%,12-14 mi,Somewhat,Summited
+3520342072,Under 30,Female,Group of 2+,21-50 days,2-4 hrs,Average,Boots,35-40 lbs,16-20%,12-14 mi,Minimally,Summited
+3520944863,Under 30,Male,Solo,< 5 days,2-4 hrs,Average,Boots,35-40 lbs,16-20%,12-14 mi,Somewhat,Attempted
+3660690158,60 and up,Male,Group of 2+,101 days +,16 hrs +,Sig. above avg,Boots,35-40 lbs,16-20%,12-14 mi,Not at all,Summited
+3519980086,50 to 59,Male,Group of 2+,11-20 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,16-20%,12-14 mi,Very,Not planned
+3543057874,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,35-40 lbs,16-20%,12-14 mi,Somewhat,Summited
+3541734468,Under 30,Female,Group of 2+,6-10 days,< 2 hrs,Below avg,Boots,35-40 lbs,16-20%,12-14 mi,Fairly,Summited
+3534145411,40 to 49,Male,Group of 2+,21-50 days,< 2 hrs,Below avg,Hiking shoes,35-40 lbs,16-20%,12-14 mi,Fairly,Not planned
+3527376424,40 to 49,Male,Group of 2+,51-100 days,16 hrs +,Average,Boots,35-40 lbs,20-24%,12-14 mi,Minimally,Attempted
+3520440882,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Hiking shoes,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3528212077,60 and up,Male,Solo,6-10 days,5-8 hrs,Average,Hiking shoes,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3520458891,60 and up,Male,Solo,51-100 days,9-16 hrs,Sig. above avg,Boots,35-40 lbs,20-24%,12-14 mi,Not at all,Summited
+3520379384,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3520410892,50 to 59,Male,Group of 2+,51-100 days,2-4 hrs,Above avg,Trail runners,35-40 lbs,20-24%,12-14 mi,Very,Summited
+3647163234,30 to 39,Male,Group of 2+,51-100 days,2-4 hrs,Above avg,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3528482383,30 to 39,Female,Mix of group/solo,51-100 days,2-4 hrs,Average,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3560279294,Under 30,Female,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3663490655,50 to 59,Female,Group of 2+,101 days +,5-8 hrs,Average,Boots,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3528786991,Under 30,Female,Group of 2+,11-20 days,2-4 hrs,Average,Hiking shoes,35-40 lbs,20-24%,12-14 mi,Fairly,Summited
+3531452839,Under 30,Male,Solo,101 days +,5-8 hrs,Above avg,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Attempted
+3614942158,Under 30,Female,Group of 2+,101 days +,9-16 hrs,Average,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Not planned
+3522663045,40 to 49,Male,Group of 2+,51-100 days,9-16 hrs,Average,Hiking shoes,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3520119324,40 to 49,Female,Group of 2+,101 days +,< 2 hrs,Average,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Attempted
+3616446882,30 to 39,Female,Group of 2+,21-50 days,< 2 hrs,Above avg,Boots,35-40 lbs,20-24%,12-14 mi,Fairly,Not planned
+3527604399,Under 30,Female,Mix of group/solo,6-10 days,5-8 hrs,Average,Boots,35-40 lbs,20-24%,12-14 mi,Not at all,Summited
+3520197466,50 to 59,Female,Solo,21-50 days,2-4 hrs,Average,Trail runners,35-40 lbs,20-24%,12-14 mi,Somewhat,Summited
+3524693091,Under 30,Male,Group of 2+,< 5 days,2-4 hrs,Below avg,Boots,35-40 lbs,24-28%,12-14 mi,Fairly,Summited
+3520149264,60 and up,Male,Solo,51-100 days,9-16 hrs,Sig. above avg,Hiking shoes,35-40 lbs,24-28%,12-14 mi,Somewhat,Summited
+3523773474,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,35-40 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3520075008,Under 30,Male,Mix of group/solo,11-20 days,2-4 hrs,Average,Trail runners,35-40 lbs,24-28%,12-14 mi,Fairly,Attempted
+3542769122,Under 30,Male,Solo,21-50 days,< 2 hrs,Below avg,Boots,35-40 lbs,24-28%,12-14 mi,Very,Attempted
+3519974778,50 to 59,Female,Group of 2+,101 days +,9-16 hrs,Above avg,Boots,35-40 lbs,24-28%,12-14 mi,Very,Summited
+3527376464,50 to 59,Male,Solo,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3519904400,60 and up,Male,Mix of group/solo,51-100 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Very,Not planned
+3520493828,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3520143505,50 to 59,Female,Group of 2+,6-10 days,< 2 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Very,Summited
+3519931318,30 to 39,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Trail runners,35-40 lbs,24-28%,12-14 mi,Somewhat,Summited
+3528467506,Under 30,Female,Group of 2+,< 5 days,5-8 hrs,Average,Trail runners,35-40 lbs,24-28%,12-14 mi,Minimally,Summited
+3520083322,Under 30,Male,Mix of group/solo,< 5 days,9-16 hrs,Below avg,Boots,35-40 lbs,24-28%,12-14 mi,Very,Not planned
+3521415045,40 to 49,Female,Group of 2+,51-100 days,2-4 hrs,Average,Hiking shoes,35-40 lbs,24-28%,12-14 mi,Fairly,Summited
+3522862763,30 to 39,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Hiking shoes,35-40 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3519938101,30 to 39,Female,Group of 2+,6-10 days,5-8 hrs,Above avg,Hiking shoes,35-40 lbs,24-28%,12-14 mi,Minimally,Not planned
+3528655089,40 to 49,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Fairly,Summited
+3572026086,40 to 49,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3520155180,60 and up,Female,Solo,101 days +,9-16 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Minimally,Attempted
+3519903770,30 to 39,Female,Group of 2+,11-20 days,2-4 hrs,Average,Hiking shoes,35-40 lbs,24-28%,12-14 mi,Fairly,Summited
+3527069366,30 to 39,Female,Group of 2+,21-50 days,2-4 hrs,Average,Boots,35-40 lbs,24-28%,12-14 mi,Fairly,Not planned
+3522885501,60 and up,Female,Group of 2+,21-50 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,24-28%,12-14 mi,Somewhat,Summited
+3525277316,30 to 39,Female,Group of 2+,21-50 days,9-16 hrs,Average,Boots,35-40 lbs,28-32%,12-14 mi,Fairly,Summited
+3519974761,30 to 39,Female,Group of 2+,11-20 days,< 2 hrs,Below avg,Boots,35-40 lbs,28-32%,12-14 mi,Very,Attempted
+3571968713,50 to 59,Female,Group of 2+,6-10 days,5-8 hrs,Average,Boots,35-40 lbs,28-32%,12-14 mi,Very,Attempted
+3680288476,50 to 59,Female,Group of 2+,11-20 days,9-16 hrs,Sig. above avg,Trail runners,35-40 lbs,28-32%,12-14 mi,Somewhat,Summited
+3527542935,50 to 59,Female,Mix of group/solo,< 5 days,5-8 hrs,Average,Trail runners,35-40 lbs,28-32%,12-14 mi,Fairly,Summited
+3615716222,40 to 49,Female,Solo,< 5 days,2-4 hrs,Average,Boots,35-40 lbs,28-32%,12-14 mi,Minimally,Attempted
+3616004467,Under 30,Female,Group of 2+,< 5 days,5-8 hrs,Average,Boots,35-40 lbs,28-32%,12-14 mi,Fairly,Summited
+3546216844,Under 30,Female,Group of 2+,11-20 days,9-16 hrs,Average,Trail runners,35-40 lbs,28-32%,12-14 mi,Somewhat,Summited
+3527074512,50 to 59,Female,Group of 2+,11-20 days,5-8 hrs,Above avg,Trail runners,35-40 lbs,32-36%,12-14 mi,Fairly,Summited
+3541732653,40 to 49,Female,Group of 2+,51-100 days,16 hrs +,Sig. above avg,Trail runners,35-40 lbs,< 16%,12-14 mi,Fairly,Not planned
+3520166727,40 to 49,Male,Solo,11-20 days,5-8 hrs,Average,Trail runners,40-45 lbs,16-20%,12-14 mi,Somewhat,Summited
+3528758547,50 to 59,Male,Solo,21-50 days,5-8 hrs,Average,Boots,40-45 lbs,16-20%,12-14 mi,Somewhat,Summited
+3520311104,30 to 39,Female,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,40-45 lbs,20-24%,12-14 mi,Fairly,Summited
+3527059735,30 to 39,Male,Group of 2+,101 days +,9-16 hrs,Average,Hiking shoes,40-45 lbs,20-24%,12-14 mi,Somewhat,Summited
+3520097766,Under 30,Male,Solo,21-50 days,2-4 hrs,Average,Boots,40-45 lbs,20-24%,12-14 mi,Fairly,Summited
+3590946995,30 to 39,Male,Solo,< 5 days,9-16 hrs,Average,Boots,40-45 lbs,20-24%,12-14 mi,Somewhat,Not planned
+3527210395,40 to 49,Male,Group of 2+,51-100 days,2-4 hrs,Average,Boots,40-45 lbs,20-24%,12-14 mi,Minimally,Summited
+3532343375,40 to 49,Male,Group of 2+,11-20 days,5-8 hrs,Average,Hiking shoes,40-45 lbs,20-24%,12-14 mi,Fairly,Summited
+3542117833,60 and up,Male,Group of 2+,101 days +,5-8 hrs,Above avg,Boots,40-45 lbs,20-24%,12-14 mi,Somewhat,Attempted
+3522180845,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,40-45 lbs,20-24%,12-14 mi,Very,Summited
+3528935960,50 to 59,Female,Group of 2+,101 days +,5-8 hrs,Sig. above avg,Boots,40-45 lbs,24-28%,12-14 mi,Somewhat,Summited
+3519902154,Under 30,Male,Group of 2+,6-10 days,5-8 hrs,Average,Trail runners,40-45 lbs,24-28%,12-14 mi,Somewhat,Summited
+3542317426,30 to 39,Female,Group of 2+,101 days +,9-16 hrs,Average,Hiking shoes,40-45 lbs,24-28%,12-14 mi,Somewhat,Summited
+3532351089,40 to 49,Female,Group of 2+,21-50 days,5-8 hrs,Average,Trail runners,40-45 lbs,24-28%,12-14 mi,Somewhat,Summited
+3574943514,30 to 39,Female,Group of 2+,101 days +,5-8 hrs,Average,Boots,40-45 lbs,24-28%,12-14 mi,Somewhat,Summited
+3528830117,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Trail runners,40-45 lbs,24-28%,12-14 mi,Fairly,Summited
+3521593866,30 to 39,Female,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,40-45 lbs,28-32%,12-14 mi,Minimally,Summited
+3546487686,Under 30,Female,Group of 2+,11-20 days,5-8 hrs,Above avg,Boots,40-45 lbs,28-32%,12-14 mi,Fairly,Summited
+3521830794,Under 30,Male,Mix of group/solo,21-50 days,5-8 hrs,Above avg,Boots,40-45 lbs,32-36%,12-14 mi,Fairly,Summited
+3520953481,40 to 49,Female,Group of 2+,101 days +,9-16 hrs,Average,Boots,40-45 lbs,32-36%,12-14 mi,Somewhat,Summited
+3524752008,50 to 59,Female,Group of 2+,6-10 days,9-16 hrs,Above avg,Trail runners,40-45 lbs,32-36%,12-14 mi,Somewhat,Summited
+3680334912,30 to 39,Female,Group of 2+,< 5 days,9-16 hrs,Above avg,Boots,40-45 lbs,32-36%,12-14 mi,Fairly,Summited
+3532611735,Under 30,Female,Group of 2+,< 5 days,2-4 hrs,Average,Boots,40-45 lbs,36% +,12-14 mi,Fairly,Summited
+3529920016,Under 30,Female,Group of 2+,11-20 days,9-16 hrs,Average,Boots,40-45 lbs,36% +,12-14 mi,Very,Summited
+3580268094,40 to 49,Male,Solo,21-50 days,5-8 hrs,Below avg,Boots,45-50 lbs,16-20%,12-14 mi,Very,Attempted
+3520193160,40 to 49,Male,Mix of group/solo,51-100 days,9-16 hrs,Below avg,Boots,45-50 lbs,16-20%,12-14 mi,Minimally,Summited
+3519913594,30 to 39,Male,Group of 2+,6-10 days,5-8 hrs,Out of shape,Boots,45-50 lbs,16-20%,12-14 mi,Somewhat,Attempted
+3520063488,40 to 49,Male,Group of 2+,11-20 days,< 2 hrs,Above avg,Boots,45-50 lbs,16-20%,12-14 mi,Fairly,Summited
+3528645838,30 to 39,Male,Group of 2+,101 days +,5-8 hrs,Out of shape,Trail runners,45-50 lbs,20-24%,12-14 mi,Somewhat,Attempted
+3520036655,50 to 59,Male,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,45-50 lbs,20-24%,12-14 mi,Very,Summited
+3520407624,60 and up,Male,Group of 2+,101 days +,< 2 hrs,Average,"Vibrams, sandals, none",45-50 lbs,20-24%,12-14 mi,Fairly,Attempted
+3522801103,50 to 59,Male,Group of 2+,101 days +,9-16 hrs,Above avg,Boots,45-50 lbs,20-24%,12-14 mi,Somewhat,Summited
+3520503834,50 to 59,Male,Group of 2+,< 5 days,5-8 hrs,Average,Boots,45-50 lbs,24-28%,12-14 mi,Minimally,Not planned
+3520124833,40 to 49,Male,Group of 2+,101 days +,9-16 hrs,Above avg,Boots,45-50 lbs,24-28%,12-14 mi,Fairly,Attempted
+3664967626,30 to 39,Male,Group of 2+,< 5 days,16 hrs +,Above avg,Boots,45-50 lbs,24-28%,12-14 mi,Fairly,Summited
+3646566992,60 and up,Male,Solo,101 days +,9-16 hrs,Above avg,Hiking shoes,45-50 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3661745241,30 to 39,Female,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,45-50 lbs,24-28%,12-14 mi,Minimally,Attempted
+3522441190,30 to 39,Male,Group of 2+,11-20 days,< 2 hrs,Below avg,Hiking shoes,45-50 lbs,24-28%,12-14 mi,Very,Attempted
+3528997623,Under 30,Male,Group of 2+,6-10 days,9-16 hrs,Below avg,Boots,45-50 lbs,24-28%,12-14 mi,Minimally,Summited
+3522593631,Under 30,Male,Mix of group/solo,51-100 days,16 hrs +,Above avg,Boots,45-50 lbs,24-28%,12-14 mi,Fairly,Summited
+3570863585,Under 30,Male,Group of 2+,101 days +,5-8 hrs,Average,Hiking shoes,45-50 lbs,24-28%,12-14 mi,Fairly,Summited
+3520992563,30 to 39,Male,Group of 2+,101 days +,5-8 hrs,Above avg,Boots,45-50 lbs,24-28%,12-14 mi,Fairly,Summited
+3646544497,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Average,Boots,45-50 lbs,24-28%,12-14 mi,Somewhat,Not planned
+3530601590,Under 30,Male,Group of 2+,101 days +,< 2 hrs,Decline to state,Hiking shoes,45-50 lbs,28-32%,12-14 mi,Somewhat,Summited
+3520572395,40 to 49,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Trail runners,45-50 lbs,28-32%,12-14 mi,Fairly,Summited
+3673952684,30 to 39,Male,Group of 2+,21-50 days,5-8 hrs,Below avg,Boots,45-50 lbs,28-32%,12-14 mi,Somewhat,Attempted
+3528102213,Under 30,Female,Group of 2+,6-10 days,9-16 hrs,Above avg,Boots,45-50 lbs,32-36%,12-14 mi,Fairly,Summited
+3667049248,40 to 49,Female,Group of 2+,< 5 days,5-8 hrs,Above avg,Boots,45-50 lbs,32-36%,12-14 mi,Minimally,Summited
+3554578444,40 to 49,Female,Solo,21-50 days,9-16 hrs,Average,Boots,45-50 lbs,32-36%,12-14 mi,Minimally,Summited
+3527146564,30 to 39,Female,Solo,< 5 days,5-8 hrs,Above avg,Hiking shoes,45-50 lbs,36% +,12-14 mi,Very,Summited
+3520311322,Under 30,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,45-50 lbs,36% +,12-14 mi,Fairly,Not planned
+3519935071,Under 30,Female,Group of 2+,< 5 days,5-8 hrs,Below avg,Boots,45-50 lbs,36% +,12-14 mi,Very,Summited
+3528587287,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Average,Boots,50-55 lbs,20-24%,12-14 mi,Somewhat,Summited
+3526980326,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Average,Boots,50-55 lbs,24-28%,12-14 mi,Fairly,Summited
+3545921338,30 to 39,Male,Group of 2+,21-50 days,5-8 hrs,Average,Boots,50-55 lbs,24-28%,12-14 mi,Somewhat,Summited
+3527075002,40 to 49,Male,Mix of group/solo,51-100 days,9-16 hrs,Above avg,Hiking shoes,50-55 lbs,24-28%,12-14 mi,Somewhat,Summited
+3661463756,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Average,Trail runners,50-55 lbs,24-28%,12-14 mi,Somewhat,Summited
+3573002476,Under 30,Female,Group of 2+,< 5 days,2-4 hrs,Below avg,Boots,50-55 lbs,24-28%,12-14 mi,Very,Attempted
+3541904335,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Boots,50-55 lbs,28-32%,12-14 mi,Somewhat,Not planned
+3520175767,Under 30,Male,Group of 2+,< 5 days,9-16 hrs,Average,"Vibrams, sandals, none",50-55 lbs,28-32%,12-14 mi,Fairly,Summited
+3520446217,Under 30,Female,Mix of group/solo,< 5 days,5-8 hrs,Sig. above avg,Hiking shoes,50-55 lbs,28-32%,12-14 mi,Fairly,Summited
+3521140717,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,50-55 lbs,32-36%,12-14 mi,Fairly,Summited
+3674399841,Under 30,Female,Group of 2+,11-20 days,5-8 hrs,Average,Boots,50-55 lbs,32-36%,12-14 mi,Minimally,Summited
+3520534725,50 to 59,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,50-55 lbs,32-36%,12-14 mi,Very,Summited
+3519905121,Under 30,Female,Mix of group/solo,21-50 days,2-4 hrs,Average,Boots,50-55 lbs,36% +,12-14 mi,Fairly,Attempted
+3544455567,60 and up,Male,Mix of group/solo,101 days +,16 hrs +,Above avg,Hiking shoes,55 lbs +,24-28%,12-14 mi,Minimally,Summited
+3674452477,40 to 49,Male,Solo,51-100 days,< 2 hrs,Below avg,Trail runners,55 lbs +,24-28%,12-14 mi,Fairly,Summited
+3519920398,30 to 39,Male,Solo,21-50 days,16 hrs +,Sig. above avg,Boots,55 lbs +,28-32%,12-14 mi,Somewhat,Summited
+3522185131,Under 30,Male,Group of 2+,< 5 days,5-8 hrs,Below avg,Boots,55 lbs +,28-32%,12-14 mi,Fairly,Summited
+3527174232,30 to 39,Male,Mix of group/solo,101 days +,< 2 hrs,Below avg,Boots,55 lbs +,28-32%,12-14 mi,Minimally,Summited
+3647189231,40 to 49,Male,Group of 2+,< 5 days,5-8 hrs,Average,Boots,55 lbs +,28-32%,12-14 mi,Fairly,Summited
+3521245848,50 to 59,Male,Solo,101 days +,5-8 hrs,Average,Boots,55 lbs +,28-32%,12-14 mi,Fairly,Not planned
+3527195187,50 to 59,Male,Group of 2+,101 days +,9-16 hrs,Sig. above avg,Boots,55 lbs +,32-36%,12-14 mi,Minimally,Attempted
+3524734893,Under 30,Male,Solo,21-50 days,2-4 hrs,Below avg,Boots,55 lbs +,32-36%,12-14 mi,Very,Attempted
+3522878767,Under 30,Female,Group of 2+,101 days +,< 2 hrs,Average,Trail runners,55 lbs +,32-36%,12-14 mi,Fairly,Summited
+3542640477,Under 30,Female,Group of 2+,6-10 days,2-4 hrs,Average,Boots,55 lbs +,36% +,12-14 mi,Somewhat,Summited
+3521530478,30 to 39,Male,Group of 2+,21-50 days,< 2 hrs,Below avg,Boots,55 lbs +,36% +,12-14 mi,Somewhat,Summited
+3570790117,30 to 39,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Trail runners,55 lbs +,36% +,12-14 mi,Minimally,Summited
+3669805546,Under 30,Male,Group of 2+,6-10 days,< 2 hrs,Below avg,Boots,55 lbs +,36% +,12-14 mi,Somewhat,Summited
+3668445792,30 to 39,Male,Solo,6-10 days,16 hrs +,Average,Trail runners,55 lbs +,36% +,12-14 mi,Fairly,Not planned
+3527947561,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,55 lbs +,36% +,12-14 mi,Somewhat,Summited
+3520110935,Under 30,Female,Mix of group/solo,6-10 days,9-16 hrs,Above avg,Trail runners,< 25 lbs,< 16%,14-16 mi,Fairly,Summited
+3604842554,50 to 59,Female,Group of 2+,11-20 days,9-16 hrs,Sig. above avg,Trail runners,< 25 lbs,< 16%,14-16 mi,Minimally,Summited
+3541761232,30 to 39,Male,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,14-16 mi,Somewhat,Attempted
+3528964955,40 to 49,Male,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,< 25 lbs,< 16%,14-16 mi,Not at all,Not planned
+3562557497,30 to 39,Female,Group of 2+,21-50 days,9-16 hrs,Above avg,Trail runners,< 25 lbs,< 16%,14-16 mi,Minimally,Summited
+3527086355,50 to 59,Male,Solo,11-20 days,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,14-16 mi,Somewhat,Summited
+3573588573,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,14-16 mi,Fairly,Summited
+3541809583,30 to 39,Female,Mix of group/solo,21-50 days,16 hrs +,Sig. above avg,Boots,< 25 lbs,16-20%,14-16 mi,Somewhat,Not planned
+3520950270,50 to 59,Male,Mix of group/solo,101 days +,2-4 hrs,Above avg,Trail runners,25-30 lbs,16-20%,14-16 mi,Fairly,Summited
+3520062979,40 to 49,Female,Group of 2+,101 days +,2-4 hrs,Above avg,Boots,25-30 lbs,16-20%,14-16 mi,Somewhat,Summited
+3550657866,Under 30,Female,Group of 2+,6-10 days,16 hrs +,Average,"Vibrams, sandals, none",25-30 lbs,16-20%,14-16 mi,Minimally,Summited
+3520398688,50 to 59,Female,Group of 2+,11-20 days,5-8 hrs,Sig. above avg,Trail runners,25-30 lbs,16-20%,14-16 mi,Somewhat,Summited
+3541763199,30 to 39,Female,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,16-20%,14-16 mi,Minimally,Summited
+3520109186,30 to 39,Female,Group of 2+,11-20 days,2-4 hrs,Below avg,Trail runners,25-30 lbs,16-20%,14-16 mi,Somewhat,Summited
+3519940988,60 and up,Female,Solo,101 days +,16 hrs +,Above avg,Trail runners,25-30 lbs,20-24%,14-16 mi,Minimally,Summited
+3529091899,30 to 39,Female,Group of 2+,< 5 days,9-16 hrs,Average,Trail runners,25-30 lbs,20-24%,14-16 mi,Somewhat,Summited
+3523446079,30 to 39,Male,Solo,101 days +,9-16 hrs,Average,Trail runners,25-30 lbs,< 16%,14-16 mi,Minimally,Summited
+3520088636,40 to 49,Male,Group of 2+,11-20 days,9-16 hrs,Average,Trail runners,25-30 lbs,< 16%,14-16 mi,Somewhat,Summited
+3520218873,30 to 39,Male,Mix of group/solo,51-100 days,5-8 hrs,Average,Trail runners,25-30 lbs,< 16%,14-16 mi,Somewhat,Summited
+3527094249,50 to 59,Male,Solo,51-100 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,< 16%,14-16 mi,Somewhat,Summited
+3522164169,Under 30,Male,Group of 2+,101 days +,5-8 hrs,Above avg,Trail runners,25-30 lbs,< 16%,14-16 mi,Not at all,Summited
+3520080101,60 and up,Male,Group of 2+,51-100 days,9-16 hrs,Sig. above avg,Hiking shoes,30-35 lbs,16-20%,14-16 mi,Fairly,Summited
+3520299094,50 to 59,Female,Solo,51-100 days,< 2 hrs,Out of shape,Hiking shoes,30-35 lbs,16-20%,14-16 mi,Fairly,Summited
+3527516567,50 to 59,Male,Group of 2+,11-20 days,5-8 hrs,Sig. above avg,Trail runners,30-35 lbs,16-20%,14-16 mi,Fairly,Attempted
+3520081106,50 to 59,Male,Solo,101 days +,5-8 hrs,Above avg,Trail runners,30-35 lbs,16-20%,14-16 mi,Not at all,Not planned
+3520553136,30 to 39,Male,Solo,21-50 days,9-16 hrs,Above avg,Trail runners,30-35 lbs,16-20%,14-16 mi,Minimally,Not planned
+3674671135,30 to 39,Male,Solo,51-100 days,2-4 hrs,Above avg,Boots,30-35 lbs,20-24%,14-16 mi,Minimally,Summited
+3661985088,Under 30,Female,Group of 2+,101 days +,5-8 hrs,Above avg,Trail runners,30-35 lbs,20-24%,14-16 mi,Not at all,Summited
+3550562364,30 to 39,Female,Solo,21-50 days,5-8 hrs,Above avg,Trail runners,30-35 lbs,20-24%,14-16 mi,Somewhat,Not planned
+3520133574,60 and up,Male,Solo,21-50 days,5-8 hrs,Above avg,Trail runners,30-35 lbs,20-24%,14-16 mi,Minimally,Summited
+3520222672,40 to 49,Female,Solo,21-50 days,9-16 hrs,Sig. above avg,Hiking shoes,30-35 lbs,20-24%,14-16 mi,Fairly,Attempted
+3527941501,40 to 49,Male,Solo,6-10 days,5-8 hrs,Below avg,Trail runners,30-35 lbs,< 16%,14-16 mi,Fairly,Summited
+3538893540,30 to 39,Male,Solo,101 days +,16 hrs +,Below avg,Boots,35-40 lbs,16-20%,14-16 mi,Somewhat,Summited
+3520105744,40 to 49,Male,Solo,51-100 days,5-8 hrs,Average,Hiking shoes,35-40 lbs,16-20%,14-16 mi,Somewhat,Summited
+3527098842,40 to 49,Male,Solo,21-50 days,5-8 hrs,Above avg,Boots,35-40 lbs,16-20%,14-16 mi,Minimally,Summited
+3520027903,Under 30,Male,Group of 2+,21-50 days,5-8 hrs,Sig. above avg,Hiking shoes,35-40 lbs,16-20%,14-16 mi,Somewhat,Summited
+3520191262,40 to 49,Male,Solo,101 days +,5-8 hrs,Average,Trail runners,35-40 lbs,16-20%,14-16 mi,Somewhat,Summited
+3519908490,50 to 59,Male,Group of 2+,< 5 days,9-16 hrs,Average,Boots,35-40 lbs,16-20%,14-16 mi,Fairly,Summited
+3536290382,60 and up,Male,Group of 2+,101 days +,16 hrs +,Above avg,Trail runners,35-40 lbs,20-24%,14-16 mi,Somewhat,Attempted
+3525337923,Under 30,Male,Solo,< 5 days,< 2 hrs,Below avg,Trail runners,35-40 lbs,20-24%,14-16 mi,Fairly,Attempted
+3527233703,50 to 59,Female,Mix of group/solo,101 days +,16 hrs +,Above avg,Trail runners,35-40 lbs,20-24%,14-16 mi,Not at all,Summited
+3667740865,Under 30,Male,Group of 2+,11-20 days,16 hrs +,Above avg,Trail runners,35-40 lbs,20-24%,14-16 mi,Fairly,Summited
+3519948589,40 to 49,Male,Group of 2+,51-100 days,< 2 hrs,Average,Trail runners,35-40 lbs,20-24%,14-16 mi,Fairly,Summited
+3522792137,50 to 59,Female,Group of 2+,11-20 days,2-4 hrs,Average,Boots,35-40 lbs,20-24%,14-16 mi,Fairly,Summited
+3527953849,Under 30,Female,Group of 2+,11-20 days,5-8 hrs,Average,Trail runners,35-40 lbs,24-28%,14-16 mi,Fairly,Summited
+3529123546,30 to 39,Male,Mix of group/solo,21-50 days,9-16 hrs,Above avg,Boots,35-40 lbs,24-28%,14-16 mi,Fairly,Summited
+3525190578,Under 30,Female,Group of 2+,101 days +,5-8 hrs,Below avg,Trail runners,35-40 lbs,24-28%,14-16 mi,Fairly,Summited
+3545625381,40 to 49,Male,Solo,51-100 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,24-28%,14-16 mi,Fairly,Not planned
+3527386343,Under 30,Female,Group of 2+,51-100 days,< 2 hrs,Average,Boots,35-40 lbs,24-28%,14-16 mi,Fairly,Summited
+3529165455,50 to 59,Female,Mix of group/solo,11-20 days,9-16 hrs,Above avg,Boots,35-40 lbs,24-28%,14-16 mi,Somewhat,Summited
+3527121595,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,14-16 mi,Fairly,Summited
+3551270550,30 to 39,Female,Solo,11-20 days,9-16 hrs,Above avg,Boots,35-40 lbs,28-32%,14-16 mi,Somewhat,Summited
+3519933386,Under 30,Female,Solo,21-50 days,16 hrs +,Sig. above avg,Trail runners,35-40 lbs,28-32%,14-16 mi,Somewhat,Attempted
+3528023127,Under 30,Female,Group of 2+,< 5 days,9-16 hrs,Average,Trail runners,35-40 lbs,28-32%,14-16 mi,Somewhat,Summited
+3520303598,30 to 39,Female,Solo,21-50 days,5-8 hrs,Above avg,Hiking shoes,35-40 lbs,28-32%,14-16 mi,Minimally,Summited
+3520164052,50 to 59,Male,Group of 2+,6-10 days,5-8 hrs,Above avg,Trail runners,40-45 lbs,20-24%,14-16 mi,Minimally,Summited
+3527319705,40 to 49,Male,Solo,11-20 days,9-16 hrs,Average,Trail runners,40-45 lbs,20-24%,14-16 mi,Somewhat,Summited
+3573325537,30 to 39,Male,Group of 2+,11-20 days,2-4 hrs,Above avg,Trail runners,40-45 lbs,20-24%,14-16 mi,Fairly,Summited
+3568965653,50 to 59,Male,Group of 2+,51-100 days,2-4 hrs,Average,Boots,40-45 lbs,20-24%,14-16 mi,Fairly,Summited
+3570962859,30 to 39,Male,Group of 2+,101 days +,5-8 hrs,Average,Trail runners,40-45 lbs,20-24%,14-16 mi,Minimally,Not planned
+3520122189,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,40-45 lbs,20-24%,14-16 mi,Somewhat,Not planned
+3570861923,60 and up,Male,Group of 2+,51-100 days,9-16 hrs,Sig. above avg,Boots,40-45 lbs,20-24%,14-16 mi,Somewhat,Summited
+3615268216,40 to 49,Male,Group of 2+,< 5 days,< 2 hrs,Below avg,Boots,40-45 lbs,20-24%,14-16 mi,Fairly,Not planned
+3528967496,40 to 49,Male,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,40-45 lbs,24-28%,14-16 mi,Somewhat,Not planned
+3530413299,Under 30,Male,Group of 2+,11-20 days,5-8 hrs,Average,Boots,40-45 lbs,24-28%,14-16 mi,Somewhat,Attempted
+3661853300,30 to 39,Female,Group of 2+,21-50 days,2-4 hrs,Below avg,Boots,40-45 lbs,24-28%,14-16 mi,Death march,Summited
+3544731772,50 to 59,Female,Group of 2+,101 days +,9-16 hrs,Above avg,Hiking shoes,40-45 lbs,24-28%,14-16 mi,Minimally,Summited
+3546160184,Under 30,Male,Group of 2+,51-100 days,< 2 hrs,Below avg,Boots,40-45 lbs,24-28%,14-16 mi,Fairly,Summited
+3530303878,30 to 39,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,40-45 lbs,28-32%,14-16 mi,Very,Attempted
+3520133951,Under 30,Female,Group of 2+,6-10 days,9-16 hrs,Above avg,Boots,40-45 lbs,32-36%,14-16 mi,Fairly,Summited
+3520272806,Under 30,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Hiking shoes,40-45 lbs,< 16%,14-16 mi,Fairly,Summited
+3529976411,Under 30,Male,Group of 2+,101 days +,5-8 hrs,Above avg,Hiking shoes,45-50 lbs,20-24%,14-16 mi,Somewhat,Attempted
+3541804520,30 to 39,Male,Solo,21-50 days,< 2 hrs,Average,Trail runners,45-50 lbs,24-28%,14-16 mi,Somewhat,Summited
+3541999508,30 to 39,Male,Mix of group/solo,< 5 days,5-8 hrs,Above avg,Boots,45-50 lbs,24-28%,14-16 mi,Fairly,Summited
+3519943711,50 to 59,Male,Group of 2+,101 days +,5-8 hrs,Above avg,Boots,45-50 lbs,24-28%,14-16 mi,Minimally,Summited
+3574024541,40 to 49,Female,Mix of group/solo,21-50 days,9-16 hrs,Sig. above avg,Hiking shoes,45-50 lbs,24-28%,14-16 mi,Not at all,Not planned
+3522045422,Under 30,Female,Group of 2+,51-100 days,2-4 hrs,Average,Trail runners,45-50 lbs,24-28%,14-16 mi,Fairly,Summited
+3570916344,30 to 39,Male,Group of 2+,21-50 days,9-16 hrs,Above avg,Trail runners,45-50 lbs,28-32%,14-16 mi,Minimally,Summited
+3521687269,Under 30,Male,Group of 2+,< 5 days,9-16 hrs,Above avg,Hiking shoes,45-50 lbs,28-32%,14-16 mi,Somewhat,Summited
+3520447212,50 to 59,Male,Solo,21-50 days,9-16 hrs,Sig. above avg,Trail runners,45-50 lbs,28-32%,14-16 mi,Minimally,Summited
+3527072228,30 to 39,Female,Group of 2+,11-20 days,5-8 hrs,Above avg,Boots,45-50 lbs,32-36%,14-16 mi,Somewhat,Attempted
+3597678357,Under 30,Male,Solo,11-20 days,5-8 hrs,Average,Boots,50-55 lbs,20-24%,14-16 mi,Not at all,Attempted
+3521150132,Under 30,Male,Solo,51-100 days,< 2 hrs,Below avg,Boots,50-55 lbs,24-28%,14-16 mi,Somewhat,Summited
+3542651622,40 to 49,Male,Group of 2+,11-20 days,5-8 hrs,Average,Boots,50-55 lbs,24-28%,14-16 mi,Minimally,Summited
+3543970853,Under 30,Male,Group of 2+,< 5 days,< 2 hrs,Out of shape,Boots,50-55 lbs,24-28%,14-16 mi,Very,Attempted
+3522005863,Under 30,Male,Mix of group/solo,21-50 days,2-4 hrs,Above avg,Boots,50-55 lbs,24-28%,14-16 mi,Somewhat,Attempted
+3535670925,40 to 49,Male,Solo,6-10 days,9-16 hrs,Above avg,Boots,50-55 lbs,24-28%,14-16 mi,Minimally,Attempted
+3523013562,Under 30,Female,Solo,21-50 days,5-8 hrs,Above avg,Boots,50-55 lbs,32-36%,14-16 mi,Somewhat,Summited
+3539780895,Under 30,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Hiking shoes,50-55 lbs,36% +,14-16 mi,Somewhat,Summited
+3520194981,30 to 39,Female,Group of 2+,6-10 days,9-16 hrs,Average,Boots,55 lbs +,24-28%,14-16 mi,Somewhat,Attempted
+3551813834,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,55 lbs +,28-32%,14-16 mi,Very,Summited
+3522147873,40 to 49,Male,Solo,21-50 days,5-8 hrs,Above avg,Boots,55 lbs +,32-36%,14-16 mi,Somewhat,Summited
+3530540622,30 to 39,Male,Group of 2+,21-50 days,< 2 hrs,Average,Boots,55 lbs +,36% +,14-16 mi,Death march,Summited
+3520086985,Under 30,Male,Group of 2+,6-10 days,2-4 hrs,Above avg,Boots,55 lbs +,36% +,14-16 mi,Somewhat,Summited
+3540552912,50 to 59,Male,Mix of group/solo,21-50 days,2-4 hrs,Average,Boots,55 lbs +,36% +,14-16 mi,Minimally,Summited
+3570828320,Under 30,Male,Group of 2+,51-100 days,16 hrs +,Sig. above avg,Trail runners,55 lbs +,36% +,14-16 mi,Fairly,Summited
+3522056100,40 to 49,Male,Solo,101 days +,2-4 hrs,Sig. above avg,Trail runners,< 25 lbs,< 16%,16-18 mi,Minimally,Not planned
+3673622522,30 to 39,Male,Group of 2+,11-20 days,9-16 hrs,Average,Trail runners,< 25 lbs,< 16%,16-18 mi,Somewhat,Attempted
+3520116265,30 to 39,Male,Solo,51-100 days,9-16 hrs,Average,Trail runners,< 25 lbs,< 16%,16-18 mi,Somewhat,Attempted
+3527783553,Under 30,Male,Solo,21-50 days,5-8 hrs,Above avg,Trail runners,25-30 lbs,16-20%,16-18 mi,Fairly,Summited
+3544017038,Under 30,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,16-20%,16-18 mi,Minimally,Summited
+3523005079,Under 30,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Trail runners,25-30 lbs,16-20%,16-18 mi,Somewhat,Attempted
+3527263106,60 and up,Female,Solo,101 days +,16 hrs +,Sig. above avg,Trail runners,25-30 lbs,16-20%,16-18 mi,Somewhat,Not planned
+3527087471,50 to 59,Female,Solo,11-20 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,20-24%,16-18 mi,Not at all,Summited
+3520198346,Under 30,Male,Group of 2+,51-100 days,5-8 hrs,Sig. above avg,Trail runners,25-30 lbs,24-28%,16-18 mi,Somewhat,Summited
+3664356921,30 to 39,Male,Group of 2+,6-10 days,5-8 hrs,Below avg,Hiking shoes,25-30 lbs,< 16%,16-18 mi,Very,Attempted
+3520858575,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,25-30 lbs,< 16%,16-18 mi,Somewhat,Summited
+3529136636,30 to 39,Female,Group of 2+,21-50 days,9-16 hrs,Below avg,Trail runners,25-30 lbs,< 16%,16-18 mi,Somewhat,Attempted
+3520139557,30 to 39,Male,Solo,21-50 days,5-8 hrs,Sig. above avg,Trail runners,25-30 lbs,< 16%,16-18 mi,Not at all,Summited
+3525072011,40 to 49,Male,Solo,21-50 days,9-16 hrs,Above avg,Trail runners,30-35 lbs,16-20%,16-18 mi,Somewhat,Summited
+3671479867,Under 30,Male,Solo,101 days +,< 2 hrs,Average,Trail runners,30-35 lbs,16-20%,16-18 mi,Somewhat,Summited
+3521851728,Under 30,Male,Solo,21-50 days,5-8 hrs,Above avg,Hiking shoes,30-35 lbs,20-24%,16-18 mi,Fairly,Summited
+3520119403,40 to 49,Female,Solo,6-10 days,9-16 hrs,Above avg,Hiking shoes,30-35 lbs,24-28%,16-18 mi,Fairly,Summited
+3520449189,50 to 59,Male,Solo,101 days +,< 2 hrs,Below avg,Hiking shoes,30-35 lbs,< 16%,16-18 mi,Fairly,Attempted
+3527064553,40 to 49,Male,Solo,101 days +,9-16 hrs,Average,Trail runners,30-35 lbs,< 16%,16-18 mi,Fairly,Summited
+3527547882,40 to 49,Male,Solo,6-10 days,< 2 hrs,Below avg,Trail runners,35-40 lbs,16-20%,16-18 mi,Somewhat,Attempted
+3528939933,50 to 59,Male,Group of 2+,6-10 days,9-16 hrs,Above avg,Hiking shoes,35-40 lbs,16-20%,16-18 mi,Fairly,Summited
+3576383266,Under 30,Male,Group of 2+,51-100 days,2-4 hrs,Below avg,Hiking shoes,35-40 lbs,16-20%,16-18 mi,Fairly,Attempted
+3527334895,Under 30,Male,Mix of group/solo,11-20 days,2-4 hrs,Average,Hiking shoes,35-40 lbs,16-20%,16-18 mi,Fairly,Summited
+3530761481,60 and up,Male,Group of 2+,101 days +,5-8 hrs,Average,Boots,35-40 lbs,16-20%,16-18 mi,Somewhat,Summited
+3520031940,40 to 49,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,20-24%,16-18 mi,Very,Summited
+3521487006,40 to 49,Male,Group of 2+,11-20 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,20-24%,16-18 mi,Fairly,Attempted
+3520850352,50 to 59,Male,Group of 2+,101 days +,9-16 hrs,Above avg,Hiking shoes,35-40 lbs,20-24%,16-18 mi,Fairly,Summited
+3523027428,Under 30,Male,Solo,101 days +,9-16 hrs,Average,"Vibrams, sandals, none",35-40 lbs,20-24%,16-18 mi,Somewhat,Summited
+3520802352,40 to 49,Male,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,35-40 lbs,20-24%,16-18 mi,Fairly,Attempted
+3520093521,40 to 49,Female,Group of 2+,51-100 days,2-4 hrs,Above avg,Trail runners,35-40 lbs,20-24%,16-18 mi,Somewhat,Summited
+3542548897,40 to 49,Male,Group of 2+,21-50 days,9-16 hrs,Sig. above avg,Trail runners,35-40 lbs,20-24%,16-18 mi,Very,Summited
+3522194075,30 to 39,Female,Group of 2+,101 days +,5-8 hrs,Above avg,Boots,35-40 lbs,24-28%,16-18 mi,Minimally,Not planned
+3527192869,Under 30,Female,Solo,< 5 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,16-18 mi,Somewhat,Summited
+3520023268,Under 30,Female,Solo,101 days +,5-8 hrs,Average,Boots,35-40 lbs,24-28%,16-18 mi,Somewhat,Summited
+3547754198,30 to 39,Female,Mix of group/solo,6-10 days,5-8 hrs,Above avg,Trail runners,35-40 lbs,28-32%,16-18 mi,Very,Summited
+3527237221,50 to 59,Female,Group of 2+,51-100 days,5-8 hrs,Sig. above avg,Trail runners,35-40 lbs,28-32%,16-18 mi,Somewhat,Summited
+3531083375,50 to 59,Male,Solo,101 days +,5-8 hrs,Above avg,Trail runners,35-40 lbs,< 16%,16-18 mi,Somewhat,Summited
+3520184762,40 to 49,Male,Mix of group/solo,21-50 days,16 hrs +,Sig. above avg,Boots,40-45 lbs,20-24%,16-18 mi,Fairly,Summited
+3528330224,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Average,Boots,40-45 lbs,20-24%,16-18 mi,Fairly,Summited
+3520183282,Under 30,Male,Mix of group/solo,11-20 days,5-8 hrs,Average,Trail runners,45-50 lbs,20-24%,16-18 mi,Minimally,Not planned
+3531666659,40 to 49,Male,Solo,21-50 days,16 hrs +,Above avg,Boots,45-50 lbs,24-28%,16-18 mi,Minimally,Summited
+3527181837,30 to 39,Female,Solo,11-20 days,9-16 hrs,Above avg,Boots,45-50 lbs,28-32%,16-18 mi,Fairly,Summited
+3522134384,30 to 39,Male,Solo,51-100 days,9-16 hrs,Above avg,Trail runners,50-55 lbs,32-36%,16-18 mi,Fairly,Not planned
+3544084393,30 to 39,Female,Solo,21-50 days,2-4 hrs,Below avg,Trail runners,50-55 lbs,36% +,16-18 mi,Very,Not planned
+3520040948,30 to 39,Female,Group of 2+,21-50 days,16 hrs +,Above avg,Boots,55 lbs +,32-36%,16-18 mi,Somewhat,Summited
+3527818475,60 and up,Male,Solo,21-50 days,9-16 hrs,Sig. above avg,Hiking shoes,25-30 lbs,16-20%,18-20 mi,Somewhat,Attempted
+3543873953,Under 30,Female,Group of 2+,11-20 days,5-8 hrs,Average,Trail runners,25-30 lbs,16-20%,18-20 mi,Fairly,Summited
+3519920361,Under 30,Female,Group of 2+,101 days +,5-8 hrs,Sig. above avg,Trail runners,25-30 lbs,20-24%,18-20 mi,Minimally,Summited
+3521378898,40 to 49,Male,Solo,21-50 days,9-16 hrs,Sig. above avg,Trail runners,25-30 lbs,< 16%,18-20 mi,Somewhat,Attempted
+3521413517,60 and up,Male,Solo,101 days +,9-16 hrs,Sig. above avg,Trail runners,30-35 lbs,16-20%,18-20 mi,Minimally,Not planned
+3524021761,40 to 49,Male,Group of 2+,51-100 days,9-16 hrs,Sig. above avg,Trail runners,30-35 lbs,16-20%,18-20 mi,Minimally,Summited
+3620784082,40 to 49,Male,Solo,< 5 days,2-4 hrs,Above avg,"Vibrams, sandals, none",30-35 lbs,16-20%,18-20 mi,Very,Summited
+3520257708,30 to 39,Male,Solo,21-50 days,5-8 hrs,Average,Trail runners,30-35 lbs,20-24%,18-20 mi,Somewhat,Summited
+3523015153,30 to 39,Male,Group of 2+,< 5 days,5-8 hrs,Above avg,Trail runners,30-35 lbs,20-24%,18-20 mi,Not at all,Summited
+3554191241,50 to 59,Female,Group of 2+,101 days +,9-16 hrs,Above avg,Hiking shoes,30-35 lbs,24-28%,18-20 mi,Minimally,Not planned
+3527531283,40 to 49,Male,Group of 2+,101 days +,5-8 hrs,Below avg,Boots,30-35 lbs,< 16%,18-20 mi,Somewhat,Not planned
+3520079585,40 to 49,Male,Group of 2+,51-100 days,16 hrs +,Sig. above avg,Trail runners,35-40 lbs,16-20%,18-20 mi,Not at all,Summited
+3673861506,30 to 39,Male,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,35-40 lbs,20-24%,18-20 mi,Somewhat,Attempted
+3527293697,50 to 59,Male,Solo,21-50 days,< 2 hrs,Average,Boots,35-40 lbs,20-24%,18-20 mi,Minimally,Not planned
+3527644780,30 to 39,Female,Solo,51-100 days,16 hrs +,Above avg,Trail runners,35-40 lbs,24-28%,18-20 mi,Somewhat,Attempted
+3520242463,Under 30,Male,Solo,51-100 days,16 hrs +,Above avg,Boots,35-40 lbs,28-32%,18-20 mi,Fairly,Summited
+3531681512,Under 30,Male,Mix of group/solo,21-50 days,9-16 hrs,Average,Trail runners,35-40 lbs,< 16%,18-20 mi,Somewhat,Summited
+3522143975,40 to 49,Male,Mix of group/solo,101 days +,16 hrs +,Sig. above avg,Hiking shoes,40-45 lbs,20-24%,18-20 mi,Somewhat,Not planned
+3521994336,Under 30,Male,Mix of group/solo,21-50 days,5-8 hrs,Above avg,Hiking shoes,40-45 lbs,24-28%,18-20 mi,Somewhat,Summited
+3572978078,Under 30,Male,Group of 2+,< 5 days,5-8 hrs,Above avg,Boots,45-50 lbs,24-28%,18-20 mi,Fairly,Summited
+3520141752,40 to 49,Male,Mix of group/solo,11-20 days,16 hrs +,Average,Boots,45-50 lbs,36% +,18-20 mi,Somewhat,Summited
+3520072366,Under 30,Male,Solo,6-10 days,5-8 hrs,Sig. above avg,Hiking shoes,55 lbs +,24-28%,18-20 mi,Fairly,Summited
+3555123761,40 to 49,Male,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,20 mi +,Very,Attempted
+3531208717,50 to 59,Male,Solo,101 days +,9-16 hrs,Above avg,Hiking shoes,< 25 lbs,< 16%,20 mi +,Somewhat,Summited
+3520506108,40 to 49,Male,Solo,51-100 days,9-16 hrs,Sig. above avg,Trail runners,< 25 lbs,< 16%,20 mi +,Somewhat,Attempted
+3520096384,Under 30,Male,Solo,101 days +,16 hrs +,Sig. above avg,Trail runners,< 25 lbs,< 16%,20 mi +,Minimally,Not planned
+3527323536,50 to 59,Male,Group of 2+,51-100 days,9-16 hrs,Sig. above avg,Trail runners,< 25 lbs,< 16%,20 mi +,Fairly,Not planned
+3674308651,Under 30,Female,Mix of group/solo,< 5 days,5-8 hrs,Average,Trail runners,< 25 lbs,16-20%,20 mi +,Fairly,Summited
+3520030816,50 to 59,Male,Solo,101 days +,16 hrs +,Sig. above avg,Trail runners,25-30 lbs,16-20%,20 mi +,Very,Summited
+3529190557,30 to 39,Male,Group of 2+,< 5 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,16-20%,20 mi +,Death march,Attempted
+3527079670,30 to 39,Male,Solo,11-20 days,9-16 hrs,Average,Trail runners,25-30 lbs,16-20%,20 mi +,Very,Summited
+3520226533,30 to 39,Female,Group of 2+,6-10 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,16-20%,20 mi +,Minimally,Summited
+3520273580,30 to 39,Male,Solo,51-100 days,9-16 hrs,Sig. above avg,Trail runners,25-30 lbs,20-24%,20 mi +,Somewhat,Not planned
+3528721265,30 to 39,Female,Solo,6-10 days,9-16 hrs,Sig. above avg,Trail runners,25-30 lbs,20-24%,20 mi +,Very,Summited
+3542439685,Under 30,Male,Group of 2+,21-50 days,< 2 hrs,Below avg,Hiking shoes,25-30 lbs,20-24%,20 mi +,Somewhat,Summited
+3528631955,30 to 39,Female,Solo,< 5 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,20-24%,20 mi +,Somewhat,Summited
+3520178021,40 to 49,Male,Group of 2+,101 days +,9-16 hrs,Sig. above avg,Trail runners,25-30 lbs,< 16%,20 mi +,Minimally,Summited
+3520321097,50 to 59,Male,Solo,51-100 days,9-16 hrs,Above avg,Trail runners,25-30 lbs,< 16%,20 mi +,Somewhat,Summited
+3522195217,40 to 49,Male,Group of 2+,6-10 days,16 hrs +,Average,Trail runners,25-30 lbs,< 16%,20 mi +,Not at all,Summited
+3522514641,40 to 49,Male,Solo,21-50 days,2-4 hrs,Above avg,Trail runners,25-30 lbs,< 16%,20 mi +,Minimally,Summited
+3666951886,40 to 49,Male,Group of 2+,101 days +,< 2 hrs,Sig. above avg,Hiking shoes,30-35 lbs,16-20%,20 mi +,Fairly,Attempted
+3572497824,30 to 39,Male,Group of 2+,11-20 days,16 hrs +,Above avg,Trail runners,30-35 lbs,16-20%,20 mi +,Minimally,Summited
+3661732210,Under 30,Male,Mix of group/solo,21-50 days,9-16 hrs,Sig. above avg,Trail runners,30-35 lbs,16-20%,20 mi +,Somewhat,Attempted
+3520035201,Under 30,Male,Group of 2+,11-20 days,9-16 hrs,Sig. above avg,Trail runners,30-35 lbs,16-20%,20 mi +,Somewhat,Summited
+3527592105,50 to 59,Male,Solo,21-50 days,5-8 hrs,Above avg,Trail runners,30-35 lbs,16-20%,20 mi +,Fairly,Attempted
+3545409800,Under 30,Male,Mix of group/solo,< 5 days,16 hrs +,Above avg,Trail runners,30-35 lbs,16-20%,20 mi +,Very,Summited
+3519918363,40 to 49,Male,Group of 2+,21-50 days,5-8 hrs,Sig. above avg,Trail runners,30-35 lbs,16-20%,20 mi +,Very,Attempted
+3620292233,40 to 49,Female,Solo,51-100 days,< 2 hrs,Above avg,Trail runners,30-35 lbs,20-24%,20 mi +,Minimally,Attempted
+3520438140,Under 30,Female,Solo,21-50 days,16 hrs +,Sig. above avg,Trail runners,30-35 lbs,20-24%,20 mi +,Somewhat,Attempted
+3519902965,30 to 39,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Trail runners,35-40 lbs,16-20%,20 mi +,Fairly,Summited
+3666926161,30 to 39,Male,Solo,21-50 days,9-16 hrs,Average,Trail runners,35-40 lbs,20-24%,20 mi +,Not at all,Attempted
+3642204031,60 and up,Male,Solo,101 days +,16 hrs +,Average,Trail runners,35-40 lbs,20-24%,20 mi +,Somewhat,Not planned
+3520501552,30 to 39,Male,Solo,51-100 days,9-16 hrs,Above avg,Trail runners,35-40 lbs,20-24%,20 mi +,Very,Summited
+3520041300,Under 30,Male,Mix of group/solo,21-50 days,2-4 hrs,Above avg,Trail runners,35-40 lbs,20-24%,20 mi +,Minimally,Summited
+3521389400,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,40-45 lbs,20-24%,20 mi +,Fairly,Summited
+3529128404,30 to 39,Female,Mix of group/solo,51-100 days,2-4 hrs,Average,Trail runners,40-45 lbs,24-28%,20 mi +,Fairly,Not planned
+3669625781,50 to 59,Male,Solo,21-50 days,16 hrs +,Sig. above avg,Boots,45-50 lbs,24-28%,20 mi +,Fairly,Summited
+3521661165,30 to 39,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Trail runners,45-50 lbs,28-32%,20 mi +,Minimally,Summited
+3520690640,Under 30,Male,Solo,21-50 days,< 2 hrs,Average,Hiking shoes,55 lbs +,36% +,20 mi +,Fairly,Summited
+3612364060,50 to 59,Female,Solo,11-20 days,2-4 hrs,Average,Trail runners,< 25 lbs,< 16%,8-10 mi,Somewhat,Not planned
+3531243625,40 to 49,Male,Solo,51-100 days,5-8 hrs,Above avg,Trail runners,< 25 lbs,< 16%,8-10 mi,Fairly,Not planned
+3519953498,Under 30,Female,Group of 2+,21-50 days,5-8 hrs,Average,Trail runners,< 25 lbs,< 16%,8-10 mi,Minimally,Attempted
+3673978351,40 to 49,Female,Group of 2+,11-20 days,2-4 hrs,Average,Boots,< 25 lbs,< 16%,8-10 mi,Very,Summited
+3660975147,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,25-30 lbs,16-20%,8-10 mi,Somewhat,Not planned
+3521777796,50 to 59,Male,Group of 2+,51-100 days,16 hrs +,Above avg,Hiking shoes,25-30 lbs,16-20%,8-10 mi,Not at all,Not planned
+3571905483,Under 30,Female,Group of 2+,21-50 days,2-4 hrs,Below avg,Hiking shoes,25-30 lbs,16-20%,8-10 mi,Somewhat,Not planned
+3522271873,60 and up,Female,Solo,51-100 days,5-8 hrs,Above avg,Trail runners,25-30 lbs,20-24%,8-10 mi,Fairly,Not planned
+3539302584,60 and up,Male,Mix of group/solo,101 days +,16 hrs +,Sig. above avg,Trail runners,25-30 lbs,20-24%,8-10 mi,Somewhat,Not planned
+3520423158,40 to 49,Male,Group of 2+,101 days +,9-16 hrs,Average,Trail runners,25-30 lbs,< 16%,8-10 mi,Not at all,Not planned
+3520275408,50 to 59,Female,Group of 2+,11-20 days,5-8 hrs,Average,Boots,25-30 lbs,< 16%,8-10 mi,Fairly,Not planned
+3522984674,60 and up,Male,Group of 2+,51-100 days,9-16 hrs,Above avg,Hiking shoes,30-35 lbs,16-20%,8-10 mi,Somewhat,Not planned
+3674438856,40 to 49,Male,Group of 2+,51-100 days,5-8 hrs,Average,Trail runners,30-35 lbs,16-20%,8-10 mi,Fairly,Not planned
+3587519720,60 and up,Male,Group of 2+,21-50 days,5-8 hrs,Average,Boots,30-35 lbs,16-20%,8-10 mi,Very,Summited
+3541799914,50 to 59,Female,Group of 2+,11-20 days,2-4 hrs,Average,Hiking shoes,30-35 lbs,16-20%,8-10 mi,Fairly,Not planned
+3521408949,50 to 59,Male,Group of 2+,21-50 days,16 hrs +,Above avg,Hiking shoes,30-35 lbs,16-20%,8-10 mi,Somewhat,Not planned
+3528659777,40 to 49,Female,Group of 2+,101 days +,5-8 hrs,Average,Trail runners,30-35 lbs,20-24%,8-10 mi,Fairly,Attempted
+3674613763,30 to 39,Male,Group of 2+,51-100 days,5-8 hrs,Above avg,Boots,30-35 lbs,20-24%,8-10 mi,Fairly,Not planned
+3529341820,40 to 49,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,30-35 lbs,20-24%,8-10 mi,Somewhat,Not planned
+3626008488,50 to 59,Female,Group of 2+,11-20 days,9-16 hrs,Average,Hiking shoes,30-35 lbs,24-28%,8-10 mi,Somewhat,Not planned
+3524147804,30 to 39,Male,Solo,51-100 days,< 2 hrs,Out of shape,Hiking shoes,30-35 lbs,< 16%,8-10 mi,Very,Attempted
+3660705214,30 to 39,Male,Group of 2+,51-100 days,2-4 hrs,Below avg,Boots,30-35 lbs,< 16%,8-10 mi,Fairly,Summited
+3522609137,30 to 39,Male,Solo,< 5 days,2-4 hrs,Below avg,Hiking shoes,35-40 lbs,16-20%,8-10 mi,Fairly,Attempted
+3647491411,40 to 49,Female,Group of 2+,21-50 days,2-4 hrs,Below avg,Boots,35-40 lbs,16-20%,8-10 mi,Very,Not planned
+3520220619,50 to 59,Male,Group of 2+,11-20 days,2-4 hrs,Average,Boots,35-40 lbs,16-20%,8-10 mi,Somewhat,Not planned
+3520068532,40 to 49,Male,Group of 2+,6-10 days,5-8 hrs,Below avg,Hiking shoes,35-40 lbs,16-20%,8-10 mi,Fairly,Not planned
+3666949894,50 to 59,Male,Mix of group/solo,51-100 days,9-16 hrs,Above avg,Boots,35-40 lbs,16-20%,8-10 mi,Not at all,Not planned
+3528402995,50 to 59,Male,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,35-40 lbs,20-24%,8-10 mi,Fairly,Summited
+3520225884,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,35-40 lbs,20-24%,8-10 mi,Minimally,Summited
+3520246337,30 to 39,Female,Group of 2+,101 days +,5-8 hrs,Average,Trail runners,35-40 lbs,20-24%,8-10 mi,Death march,Summited
+3520198065,50 to 59,Female,Group of 2+,< 5 days,< 2 hrs,Average,Boots,35-40 lbs,20-24%,8-10 mi,Fairly,Attempted
+3545737549,50 to 59,Male,Group of 2+,6-10 days,5-8 hrs,Sig. above avg,Boots,35-40 lbs,24-28%,8-10 mi,Minimally,Summited
+3522547922,Under 30,Female,Group of 2+,21-50 days,2-4 hrs,Average,Boots,35-40 lbs,24-28%,8-10 mi,Fairly,Summited
+3528851928,50 to 59,Female,Solo,101 days +,2-4 hrs,Average,Boots,35-40 lbs,24-28%,8-10 mi,Fairly,Not planned
+3529075815,50 to 59,Male,Solo,< 5 days,2-4 hrs,Below avg,Boots,35-40 lbs,24-28%,8-10 mi,Fairly,Not planned
+3519944378,60 and up,Female,Group of 2+,51-100 days,5-8 hrs,Above avg,Hiking shoes,35-40 lbs,24-28%,8-10 mi,Fairly,Not planned
+3527672515,60 and up,Female,Group of 2+,51-100 days,5-8 hrs,Sig. above avg,Boots,35-40 lbs,24-28%,8-10 mi,Fairly,Summited
+3561206330,30 to 39,Female,Group of 2+,11-20 days,5-8 hrs,Above avg,Boots,35-40 lbs,28-32%,8-10 mi,Very,Not planned
+3527109184,50 to 59,Female,Group of 2+,101 days +,5-8 hrs,Above avg,Boots,35-40 lbs,28-32%,8-10 mi,Not at all,Not planned
+3529313979,30 to 39,Female,Solo,11-20 days,2-4 hrs,Below avg,Hiking shoes,35-40 lbs,28-32%,8-10 mi,Fairly,Attempted
+3527363068,50 to 59,Female,Group of 2+,101 days +,2-4 hrs,Average,Hiking shoes,35-40 lbs,28-32%,8-10 mi,Minimally,Summited
+3520039969,50 to 59,Male,Group of 2+,6-10 days,< 2 hrs,Below avg,Hiking shoes,35-40 lbs,< 16%,8-10 mi,Minimally,Summited
+3520067560,30 to 39,Male,Group of 2+,21-50 days,2-4 hrs,Below avg,Hiking shoes,40-45 lbs,16-20%,8-10 mi,Minimally,Not planned
+3527754759,40 to 49,Female,Solo,21-50 days,16 hrs +,Below avg,Hiking shoes,40-45 lbs,20-24%,8-10 mi,Very,Attempted
+3521324840,50 to 59,Male,Solo,51-100 days,5-8 hrs,Average,Hiking shoes,40-45 lbs,20-24%,8-10 mi,Somewhat,Not planned
+3548695087,50 to 59,Male,Group of 2+,6-10 days,5-8 hrs,Average,Boots,40-45 lbs,20-24%,8-10 mi,Fairly,Summited
+3520027520,60 and up,Male,Group of 2+,101 days +,9-16 hrs,Average,Hiking shoes,40-45 lbs,20-24%,8-10 mi,Minimally,Summited
+3528661361,60 and up,Male,Solo,51-100 days,9-16 hrs,Above avg,Boots,40-45 lbs,20-24%,8-10 mi,Somewhat,Not planned
+3527040146,Under 30,Male,Group of 2+,11-20 days,9-16 hrs,Above avg,Boots,40-45 lbs,20-24%,8-10 mi,Minimally,Not planned
+3528761708,50 to 59,Male,Group of 2+,21-50 days,2-4 hrs,Below avg,Hiking shoes,40-45 lbs,20-24%,8-10 mi,Fairly,Summited
+3542708588,60 and up,Male,Group of 2+,101 days +,9-16 hrs,Above avg,Trail runners,40-45 lbs,24-28%,8-10 mi,Somewhat,Not planned
+3532172997,60 and up,Male,Solo,101 days +,5-8 hrs,Below avg,Boots,40-45 lbs,24-28%,8-10 mi,Fairly,Attempted
+3679443957,60 and up,Female,Group of 2+,101 days +,2-4 hrs,Above avg,Boots,40-45 lbs,24-28%,8-10 mi,Somewhat,Not planned
+3520307824,40 to 49,Female,Group of 2+,6-10 days,5-8 hrs,Above avg,Boots,40-45 lbs,24-28%,8-10 mi,Very,Not planned
+3527281703,50 to 59,Female,Group of 2+,11-20 days,16 hrs +,Sig. above avg,Trail runners,40-45 lbs,24-28%,8-10 mi,Minimally,Not planned
+3528007001,40 to 49,Female,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,40-45 lbs,24-28%,8-10 mi,Minimally,Not planned
+3521827621,50 to 59,Female,Group of 2+,21-50 days,< 2 hrs,Below avg,Boots,40-45 lbs,28-32%,8-10 mi,Fairly,Summited
+3569274185,30 to 39,Female,Group of 2+,51-100 days,5-8 hrs,Average,Hiking shoes,40-45 lbs,28-32%,8-10 mi,Somewhat,Summited
+3527243492,50 to 59,Female,Solo,6-10 days,9-16 hrs,Above avg,Boots,40-45 lbs,28-32%,8-10 mi,Somewhat,Attempted
+3544085034,Under 30,Female,Group of 2+,< 5 days,2-4 hrs,Below avg,Boots,40-45 lbs,28-32%,8-10 mi,Very,Not planned
+3520120853,60 and up,Female,Group of 2+,6-10 days,16 hrs +,Above avg,Boots,40-45 lbs,32-36%,8-10 mi,Minimally,Attempted
+3521744499,30 to 39,Female,Group of 2+,< 5 days,9-16 hrs,Above avg,Trail runners,40-45 lbs,32-36%,8-10 mi,Very,Not planned
+3519927249,40 to 49,Male,Solo,11-20 days,5-8 hrs,Below avg,Boots,40-45 lbs,< 16%,8-10 mi,Somewhat,Attempted
+3520208184,50 to 59,Male,Group of 2+,21-50 days,9-16 hrs,Above avg,Boots,45-50 lbs,20-24%,8-10 mi,Not at all,Not planned
+3520228336,30 to 39,Male,Group of 2+,< 5 days,< 2 hrs,Below avg,Boots,45-50 lbs,20-24%,8-10 mi,Fairly,Not planned
+3520413589,50 to 59,Male,Group of 2+,51-100 days,2-4 hrs,Above avg,Hiking shoes,45-50 lbs,24-28%,8-10 mi,Fairly,Summited
+3522837891,30 to 39,Female,Mix of group/solo,21-50 days,5-8 hrs,Average,Hiking shoes,45-50 lbs,28-32%,8-10 mi,Fairly,Not planned
+3526651817,Under 30,Male,Group of 2+,11-20 days,2-4 hrs,Below avg,"Vibrams, sandals, none",45-50 lbs,28-32%,8-10 mi,Fairly,Not planned
+3528085292,30 to 39,Female,Group of 2+,< 5 days,5-8 hrs,Average,Boots,45-50 lbs,32-36%,8-10 mi,Somewhat,Summited
+3668179206,Under 30,Male,Group of 2+,< 5 days,5-8 hrs,Average,Boots,50-55 lbs,24-28%,8-10 mi,Somewhat,Summited
+3615469919,40 to 49,Male,Group of 2+,51-100 days,16 hrs +,Above avg,Hiking shoes,50-55 lbs,28-32%,8-10 mi,Minimally,Summited
+3521673164,Under 30,Male,Group of 2+,21-50 days,2-4 hrs,Average,Boots,50-55 lbs,28-32%,8-10 mi,Fairly,Attempted
+3534099144,50 to 59,Male,Group of 2+,< 5 days,9-16 hrs,Sig. above avg,Boots,50-55 lbs,32-36%,8-10 mi,Somewhat,Not planned
+3528798995,50 to 59,Female,Group of 2+,21-50 days,5-8 hrs,Above avg,Boots,50-55 lbs,36% +,8-10 mi,Somewhat,Summited
+3531543715,50 to 59,Male,Group of 2+,51-100 days,5-8 hrs,Below avg,Boots,55 lbs +,20-24%,8-10 mi,Very,Not planned
+3665827062,50 to 59,Female,Group of 2+,51-100 days,16 hrs +,Average,Boots,55 lbs +,24-28%,8-10 mi,Minimally,Not planned
+3520941360,50 to 59,Male,Solo,< 5 days,< 2 hrs,Average,"Vibrams, sandals, none",55 lbs +,24-28%,8-10 mi,Fairly,Not planned
+3532049279,60 and up,Male,Group of 2+,6-10 days,2-4 hrs,Above avg,Boots,55 lbs +,28-32%,8-10 mi,Somewhat,Summited
+3542556516,Under 30,Male,Group of 2+,21-50 days,< 2 hrs,Average,Boots,55 lbs +,28-32%,8-10 mi,Fairly,Summited
+3543266805,50 to 59,Male,Solo,< 5 days,9-16 hrs,Sig. above avg,Boots,55 lbs +,28-32%,8-10 mi,Fairly,Attempted
+3520264486,40 to 49,Male,Group of 2+,< 5 days,< 2 hrs,Average,Trail runners,55 lbs +,28-32%,8-10 mi,Somewhat,Attempted
+3542556472,30 to 39,Female,Group of 2+,21-50 days,< 2 hrs,Average,Boots,55 lbs +,32-36%,8-10 mi,Fairly,Summited
+3615847635,50 to 59,Male,Solo,11-20 days,5-8 hrs,Above avg,Boots,55 lbs +,36% +,8-10 mi,Somewhat,Summited
+3524927985,Under 30,Female,Group of 2+,21-50 days,9-16 hrs,Average,Boots,55 lbs +,36% +,8-10 mi,Very,Summited
+3674296794,Under 30,Female,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,55 lbs +,36% +,8-10 mi,Minimally,Summited
+3527048923,30 to 39,Female,Mix of group/solo,21-50 days,5-8 hrs,Average,Hiking shoes,55 lbs +,36% +,8-10 mi,Fairly,Summited
+3520135267,50 to 59,Female,Group of 2+,21-50 days,2-4 hrs,Average,Boots,< 25 lbs,< 16%,< 8 mi,Somewhat,Summited
+3542558532,50 to 59,Female,Solo,101 days +,16 hrs +,Above avg,Boots,< 25 lbs,< 16%,< 8 mi,Minimally,Attempted
+3543708521,50 to 59,Female,Group of 2+,101 days +,5-8 hrs,Above avg,Trail runners,< 25 lbs,< 16%,< 8 mi,Fairly,Not planned
+3552684134,30 to 39,Male,Solo,11-20 days,5-8 hrs,Above avg,Hiking shoes,< 25 lbs,< 16%,< 8 mi,Somewhat,Not planned
+3617146485,Under 30,Female,Group of 2+,< 5 days,< 2 hrs,Below avg,Hiking shoes,< 25 lbs,< 16%,< 8 mi,Very,Attempted
+3531605828,40 to 49,Female,Group of 2+,101 days +,9-16 hrs,Average,Trail runners,25-30 lbs,16-20%,< 8 mi,Somewhat,Not planned
+3520196206,30 to 39,Female,Group of 2+,21-50 days,5-8 hrs,Average,Hiking shoes,25-30 lbs,16-20%,< 8 mi,Fairly,Not planned
+3522098416,60 and up,Female,Solo,101 days +,< 2 hrs,Average,Trail runners,25-30 lbs,< 16%,< 8 mi,Not at all,Attempted
+3521357000,40 to 49,Female,Group of 2+,< 5 days,9-16 hrs,Below avg,Boots,25-30 lbs,< 16%,< 8 mi,Minimally,Not planned
+3526994838,60 and up,Male,Group of 2+,51-100 days,9-16 hrs,Average,Trail runners,25-30 lbs,< 16%,< 8 mi,Minimally,Not planned
+3520589547,60 and up,Male,Group of 2+,21-50 days,< 2 hrs,Above avg,Trail runners,25-30 lbs,< 16%,< 8 mi,Not at all,Not planned
+3528142246,60 and up,Female,Group of 2+,21-50 days,< 2 hrs,Out of shape,Hiking shoes,30-35 lbs,16-20%,< 8 mi,Very,Not planned
+3544775217,30 to 39,Male,Group of 2+,6-10 days,< 2 hrs,Below avg,Boots,30-35 lbs,16-20%,< 8 mi,Somewhat,Not planned
+3670608039,60 and up,Male,Group of 2+,51-100 days,5-8 hrs,Average,Boots,30-35 lbs,16-20%,< 8 mi,Minimally,Not planned
+3527194175,Under 30,Female,Group of 2+,21-50 days,9-16 hrs,Average,Trail runners,30-35 lbs,20-24%,< 8 mi,Fairly,Not planned
+3535407648,40 to 49,Male,Group of 2+,101 days +,9-16 hrs,Below avg,Trail runners,30-35 lbs,< 16%,< 8 mi,Somewhat,Not planned
+3673628454,40 to 49,Male,Group of 2+,101 days +,5-8 hrs,Below avg,Trail runners,30-35 lbs,< 16%,< 8 mi,Fairly,Not planned
+3520167086,50 to 59,Female,Group of 2+,6-10 days,5-8 hrs,Average,Hiking shoes,35-40 lbs,20-24%,< 8 mi,Fairly,Not planned
+3520068736,60 and up,Female,Group of 2+,51-100 days,16 hrs +,Sig. above avg,Boots,35-40 lbs,20-24%,< 8 mi,Minimally,Attempted
+3527942866,60 and up,Male,Group of 2+,11-20 days,5-8 hrs,Above avg,Boots,35-40 lbs,20-24%,< 8 mi,Fairly,Not planned
+3527624148,Under 30,Male,Group of 2+,101 days +,2-4 hrs,Above avg,Trail runners,35-40 lbs,20-24%,< 8 mi,Not at all,Not planned
+3529204024,40 to 49,Female,Group of 2+,21-50 days,5-8 hrs,Average,Boots,35-40 lbs,24-28%,< 8 mi,Somewhat,Not planned
+3528194825,40 to 49,Female,Group of 2+,< 5 days,< 2 hrs,Average,Boots,35-40 lbs,24-28%,< 8 mi,Minimally,Not planned
+3519951487,50 to 59,Female,Group of 2+,101 days +,16 hrs +,Sig. above avg,Boots,35-40 lbs,24-28%,< 8 mi,Fairly,Not planned
+3571577863,50 to 59,Female,Group of 2+,51-100 days,2-4 hrs,Above avg,"Vibrams, sandals, none",35-40 lbs,24-28%,< 8 mi,Somewhat,Not planned
+3522431822,60 and up,Male,Solo,21-50 days,5-8 hrs,Decline to state,Hiking shoes,35-40 lbs,24-28%,< 8 mi,Very,Not planned
+3543948214,40 to 49,Male,Group of 2+,21-50 days,9-16 hrs,Average,Boots,35-40 lbs,< 16%,< 8 mi,Somewhat,Not planned
+3520357845,50 to 59,Female,Group of 2+,< 5 days,16 hrs +,Out of shape,Boots,40-45 lbs,16-20%,< 8 mi,Very,Not planned
+3519902580,60 and up,Female,Group of 2+,21-50 days,< 2 hrs,Above avg,Trail runners,40-45 lbs,16-20%,< 8 mi,Fairly,Not planned
+3560953678,40 to 49,Male,Group of 2+,6-10 days,5-8 hrs,Average,Hiking shoes,40-45 lbs,24-28%,< 8 mi,Minimally,Not planned
+3542731595,40 to 49,Female,Group of 2+,< 5 days,2-4 hrs,Below avg,Trail runners,40-45 lbs,24-28%,< 8 mi,Somewhat,Not planned
+3541949766,30 to 39,Male,Group of 2+,11-20 days,2-4 hrs,Below avg,Boots,40-45 lbs,24-28%,< 8 mi,Somewhat,Not planned
+3520361587,60 and up,Female,Solo,21-50 days,< 2 hrs,Average,Hiking shoes,40-45 lbs,24-28%,< 8 mi,Very,Not planned
+3543770681,Under 30,Female,Group of 2+,< 5 days,2-4 hrs,Average,Boots,40-45 lbs,28-32%,< 8 mi,Very,Attempted
+3520369655,50 to 59,Female,Group of 2+,6-10 days,9-16 hrs,Sig. above avg,Boots,40-45 lbs,28-32%,< 8 mi,Fairly,Not planned
+3524377857,Under 30,Female,Group of 2+,21-50 days,16 hrs +,Sig. above avg,Boots,40-45 lbs,36% +,< 8 mi,Somewhat,Not planned
+3667137490,30 to 39,Male,Group of 2+,21-50 days,2-4 hrs,Out of shape,Hiking shoes,45-50 lbs,16-20%,< 8 mi,Fairly,Not planned
+3522716049,60 and up,Male,Solo,21-50 days,5-8 hrs,Average,Boots,45-50 lbs,20-24%,< 8 mi,Fairly,Summited
+3521097192,40 to 49,Male,Group of 2+,< 5 days,< 2 hrs,Below avg,Hiking shoes,45-50 lbs,24-28%,< 8 mi,Fairly,Not planned
+3534262431,50 to 59,Male,Group of 2+,101 days +,2-4 hrs,Below avg,Boots,50-55 lbs,28-32%,< 8 mi,Not at all,Not planned
+3527043487,40 to 49,Female,Group of 2+,11-20 days,2-4 hrs,Below avg,Boots,50-55 lbs,28-32%,< 8 mi,Death march,Not planned
+3529115012,40 to 49,Male,Group of 2+,6-10 days,2-4 hrs,Average,Boots,50-55 lbs,32-36%,< 8 mi,Fairly,Not planned
+3520430659,50 to 59,Male,Group of 2+,51-100 days,< 2 hrs,Below avg,Boots,55 lbs +,20-24%,< 8 mi,Minimally,Not planned
+3520125348,50 to 59,Male,Group of 2+,51-100 days,< 2 hrs,Below avg,Boots,55 lbs +,20-24%,< 8 mi,Very,Attempted
+3527696654,50 to 59,Female,Group of 2+,51-100 days,9-16 hrs,Average,Boots,55 lbs +,24-28%,< 8 mi,Fairly,Not planned
+3526825755,30 to 39,Female,Group of 2+,101 days +,5-8 hrs,Out of shape,Boots,55 lbs +,28-32%,< 8 mi,Somewhat,Attempted

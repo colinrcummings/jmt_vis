@@ -92,11 +92,11 @@ h3 {
   margin-left: 5px;
 }
 #sub-link-container {
-  margin-top: 7px;
+  margin-top: 12px;
 }
 #sub-link-container a {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.88);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.9);
   font-weight: bold;
 }
 #sub-link-container a:hover,
@@ -238,19 +238,33 @@ h3 {
 .chart {
   width: 100% !important;
 }
-.age-bar,
-.footwear-bar,
-.fitness-bar,
 .gender-slice,
-.group-slice {
+.age-bar,
+.group-slice,
+.backpacking-bar,
+.training-bar,
+.fitness-bar,
+.footwear-bar,
+.packweight-bar,
+.bodyweight-bar,
+.miles-bar,
+.dificulty-bar,
+.whitney-slice {
   opacity: 0.75;
   cursor: pointer;
 }
+.gender-slice:hover
 .age-bar:hover,
-.footwear-bar:hover,
+.group-slice:hover,
+.backpacking-bar:hover,
+.training-bar:hover,
 .fitness-bar:hover,
-.gender-slice:hover,
-.group-slice:hover {
+.footwear-bar:hover,
+.packweight-bar:hover,
+.bodyweight-bar:hover,
+.miles-bar:hover,
+.dificulty-bar:hover,
+.whitney-slice:hover {
   opacity: 0.95;
 }
 .axis text {
