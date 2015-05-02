@@ -332,7 +332,7 @@ function barClick(clickRect, clickObj) {
     case 'backpacking-bar':
       backpackingFilter.filter(clickObj.key);
       d3.select('#backpacking-clear-btn').style('display','inline-block');
-      d3.select('#backpacking-header').text('Prior Backpacking (' + clickObj.key + ')');
+      d3.select('#backpacking-header').text('Backpacks Last 10 Yrs. (' + clickObj.key + ')');
       break;
     case 'training-bar':
       trainingFilter.filter(clickObj.key);
@@ -352,7 +352,7 @@ function barClick(clickRect, clickObj) {
     case 'packweight-bar':
       packweightFilter.filter(clickObj.key);
       d3.select('#packweight-clear-btn').style('display','inline-block');
-      d3.select('#packweight-header').text('Pack Weight (' + clickObj.key + ')');
+      d3.select('#packweight-header').text('Total Pack Weight (' + clickObj.key + ')');
       break;
     case 'bodyweight-bar':
       bodyweightFilter.filter(clickObj.key);
@@ -383,7 +383,7 @@ function clearBarClick(filter) {
     case 'backpacking':
       backpackingFilter.filterAll();
       d3.select('#backpacking-clear-btn').style('display','none');
-      d3.select('#backpacking-header').text('Prior Backpacking (All)');
+      d3.select('#backpacking-header').text('Backpacks Last 10 Yrs. (All)');
       break;
     case 'training':
       trainingFilter.filterAll();
@@ -403,7 +403,7 @@ function clearBarClick(filter) {
     case 'packweight':
       packweightFilter.filterAll();
       d3.select('#packweight-clear-btn').style('display','none');
-      d3.select('#packweight-header').text('Pack Weight (All)');
+      d3.select('#packweight-header').text('Total Pack Weight (All)');
       break;
     case 'bodyweight':
       bodyweightFilter.filterAll();
@@ -572,7 +572,7 @@ function pieClick(clickRect, clickObj) {
     case 'whitney-slice':
       whitneyFilter.filter(clickObj.data.key);
       d3.select('#whitney-clear-btn').style('display','inline-block');
-      d3.select('#whitney-header').text('Mt. Whitney (' + clickObj.data.key + ')');
+      d3.select('#whitney-header').text('Exit at Whitney (' + clickObj.data.key + ')');
       break;
   }
   updateCharts();
@@ -593,7 +593,7 @@ function clearPieClick(filter) {
     case 'whitney':
       whitneyFilter.filterAll();
       d3.select('#whitney-clear-btn').style('display','none');
-      d3.select('#whitney-header').text('Mt. Whitney (All)');
+      d3.select('#whitney-header').text('Exit at Whitney (All)');
       break;
   }
   updateCharts();
