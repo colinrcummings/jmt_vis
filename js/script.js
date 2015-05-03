@@ -301,7 +301,7 @@ function barTooltipShow (hoverObj) {
     .attr('id', 'chart-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.key + '</h4>' + '<p>' + hoverObj.values + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.values / geoRespondents) + ')' + '</p>');    
+    .html('<h4>' + hoverObj.key + '</h4>' + '<p>' + hoverObj.values + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.values / demoRespndents) + ')' + '</p>');    
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
@@ -536,7 +536,7 @@ function pieTooltipShow (hoverObj) {
     .attr('id', 'chart-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.data.key + '</h4>' + '<p>' + hoverObj.value + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.value / geoRespondents) + ')' + '</p>');    
+    .html('<h4>' + hoverObj.data.key + '</h4>' + '<p>' + hoverObj.value + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.value / demoRespndents) + ')' + '</p>');    
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
