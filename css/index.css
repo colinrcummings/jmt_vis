@@ -1,0 +1,41 @@
+/* background image */
+body {
+  background: url('../images/thousand_island_lake.jpg') no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+/* header */
+header h2 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* collapse */
+.panel {
+  background-color: rgba(255,255,255,0.82);
+}
+
+/* footer */
+footer p {
+  color: #f5f5f5;
+  margin-bottom: 2px;
+}
+.footer-link,
+.footer-link:hover,
+.footer-link:visited {
+  color: #f5f5f5;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px)  {
+  main {
+   margin-top: 80px;
+  }
+  footer {
+    margin-top: 40px;
+  }
+}
