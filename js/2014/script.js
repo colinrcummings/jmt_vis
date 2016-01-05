@@ -27,7 +27,7 @@ var trainingAccessor = function(a) {return a.training;};
 var fitnessAccessor = function(a) {return a.fitness;};
 var footwearAccessor = function(a) {return a.footwear;};
 var packweightAccessor = function(a) {return a.pack_weight_bin;};
-var bodyweightAccessor = function(a) {return a.pack_weight_body_weight_bin;}; 
+var bodyweightAccessor = function(a) {return a.pack_weight_body_weight_bin;};
 var milesAccessor = function(a) {return a.mi_day_bin;};
 var dificultyAccessor = function(a) {return a.dificulty;};
 var whitneyAccessor = function(a) {return a.whitney;};
@@ -105,7 +105,7 @@ d3.csv('data/jmt_2014_us_by_state.csv', function(data) {
   stateData = data;
 });
 
-d3.csv('data/jmt_2014_us_by_country.csv', function(data) {
+d3.csv('data/jmt_2014_world_by_country.csv', function(data) {
   data.forEach(function(d){
     d.country_code = d.country_code;
     d.count = +d.count;
@@ -121,16 +121,16 @@ d3.csv('data/jmt_2014_demographic_data_2.csv', function(data) {
   //update crossfilter filters
   genderFilter = demoCrossFilter.dimension(genderAccessor);
   ageFilter = demoCrossFilter.dimension(ageAccessor);
-  groupFilter = demoCrossFilter.dimension(groupAccessor); 
-  backpackingFilter = demoCrossFilter.dimension(backpackingAccessor);  
+  groupFilter = demoCrossFilter.dimension(groupAccessor);
+  backpackingFilter = demoCrossFilter.dimension(backpackingAccessor);
   trainingFilter = demoCrossFilter.dimension(trainingAccessor);
-  fitnessFilter = demoCrossFilter.dimension(fitnessAccessor);  
+  fitnessFilter = demoCrossFilter.dimension(fitnessAccessor);
   footwearFilter = demoCrossFilter.dimension(footwearAccessor);
-  packweightFilter = demoCrossFilter.dimension(packweightAccessor); 
-  bodyweightFilter = demoCrossFilter.dimension(bodyweightAccessor); 
-  milesFilter = demoCrossFilter.dimension(milesAccessor); 
-  dificultyFilter = demoCrossFilter.dimension(dificultyAccessor); 
-  whitneyFilter = demoCrossFilter.dimension(whitneyAccessor); 
+  packweightFilter = demoCrossFilter.dimension(packweightAccessor);
+  bodyweightFilter = demoCrossFilter.dimension(bodyweightAccessor);
+  milesFilter = demoCrossFilter.dimension(milesAccessor);
+  dificultyFilter = demoCrossFilter.dimension(dificultyAccessor);
+  whitneyFilter = demoCrossFilter.dimension(whitneyAccessor);
 });
 
 
@@ -226,10 +226,10 @@ BarChart.prototype.draw = function(chart, data) {
       })
       .on('mouseover', function(d) {
         barTooltipShow(d);
-      })  
-      .on('mouseout', function() { 
+      })
+      .on('mouseout', function() {
         tooltipHide();
-      }) 
+      })
     .transition()
     .duration(750)
       .attr("height", function(d) { return y(0) - y(d.values); })
@@ -270,10 +270,10 @@ BarChart.prototype.update = function(chart, data) {
     .style('stroke','white')
     .on('mouseover', function(d) {
       barTooltipShow(d);
-    })  
-    .on('mouseout', function() { 
+    })
+    .on('mouseout', function() {
       tooltipHide();
-    }) 
+    })
   .on("click", function(d){
       barClick(this, d);
     });
@@ -301,25 +301,25 @@ function barTooltipShow (hoverObj) {
     .attr('id', 'chart-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.key + '</h4>' + '<p>' + hoverObj.values + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.values / demoRespndents) + ')' + '</p>');    
+    .html('<h4>' + hoverObj.key + '</h4>' + '<p>' + hoverObj.values + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.values / demoRespndents) + ')' + '</p>');
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
   var tooltipWidth = $('#chart-tooltip').width();
   if((mouse[0] + tooltipWidth) > screenWidth) {
     tooltip
-      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')     
+      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   } else {
     tooltip
-      .style('left', mouse[0] + 'px')     
+      .style('left', mouse[0] + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   }
   //show tooltip
-  tooltip   
-    .transition()        
-    .duration(300) 
-    .style('opacity', .95);  
+  tooltip
+    .transition()
+    .duration(300)
+    .style('opacity', .95);
 }
 
 function barClick(clickRect, clickObj) {
@@ -463,10 +463,10 @@ PieChart.prototype.draw = function(chart, data) {
     })
     .on('mouseover', function(d) {
       pieTooltipShow(d);
-    })  
-    .on('mouseout', function() { 
+    })
+    .on('mouseout', function() {
       tooltipHide();
-    }) 
+    })
     .transition()
     .duration(750)
     .style('fill', function(d){return colorScale(d.data.values)})
@@ -501,10 +501,10 @@ PieChart.prototype.update = function(chart, data) {
       })
       .on('mouseover', function(d) {
         pieTooltipShow(d);
-      })  
-      .on('mouseout', function() { 
+      })
+      .on('mouseout', function() {
         tooltipHide();
-      }) 
+      })
       .attr('d', this.arc)
       .each(function(d){ this._current = d; });
   // remove data not being used
@@ -536,25 +536,25 @@ function pieTooltipShow (hoverObj) {
     .attr('id', 'chart-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.data.key + '</h4>' + '<p>' + hoverObj.value + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.value / demoRespndents) + ')' + '</p>');    
+    .html('<h4>' + hoverObj.data.key + '</h4>' + '<p>' + hoverObj.value + ' ' + respondnentText + ' (' + percentFormatter(hoverObj.value / demoRespndents) + ')' + '</p>');
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
   var tooltipWidth = $('#chart-tooltip').width();
   if((mouse[0] + tooltipWidth) > screenWidth) {
     tooltip
-      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')     
+      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   } else {
     tooltip
-      .style('left', mouse[0] + 'px')     
+      .style('left', mouse[0] + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   }
   //show tooltip
-  tooltip   
-    .transition()        
-    .duration(300) 
-    .style('opacity', .95);  
+  tooltip
+    .transition()
+    .duration(300)
+    .style('opacity', .95);
 }
 
 function pieClick(clickRect, clickObj) {
@@ -628,9 +628,9 @@ function keyThenCount (accessor, data) {
 $( document ).ready(function(){
   //setup splash
   d3.selectAll('#jm-signature, #jm-subtitle')
-    .transition()        
-      .duration(1000) 
-      .style('opacity', .95);  
+    .transition()
+      .duration(1000)
+      .style('opacity', .95);
   d3.select('.down-btn')
     .style('display','inline-block');
   d3.select('#us')
@@ -655,7 +655,7 @@ $( document ).ready(function(){
   $('#geography-section').mouseover(function() {
     if (d3.select('#map-subheader').text().length === 0) {
       d3.select('#map-subheader').text('724 responses (93.8%) came from 42 states and the capital.');
-      styleUSMap(stateData); 
+      styleUSMap(stateData);
       drawMapPoints();
     }
   });
@@ -670,7 +670,7 @@ $( document ).ready(function(){
   $('#to-geography').waypoint(function() {
     if (d3.select('#map-subheader').text().length === 0) {
       d3.select('#map-subheader').text('724 responses (93.8%) came from 42 states and the capital.');
-      styleUSMap(stateData); 
+      styleUSMap(stateData);
       drawMapPoints();
     }
   });

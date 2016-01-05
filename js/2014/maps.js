@@ -8,8 +8,8 @@ var zoom = d3.behavior.zoom()
 var greens = [
   ['#31a354'],
   ['#a1d99b','#31a354'],
-  ['#e5f5e0','#a1d99b','#31a354'], 
-  ['#edf8e9','#bae4b3','#74c476','#238b45'], 
+  ['#e5f5e0','#a1d99b','#31a354'],
+  ['#edf8e9','#bae4b3','#74c476','#238b45'],
   ['#edf8e9','#bae4b3','#74c476','#31a354','#006d2c'],
   ['#edf8e9','#c7e9c0','#a1d99b','#74c476','#31a354','#006d2c'],
   ['#edf8e9','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'],
@@ -68,7 +68,7 @@ function mapChange (map){
       d3.select('#us')
         .style('background-color','#e6e6e6');
       d3.select('#map-subheader').text('724 responses (93.8%) came from 42 states and the capital.');
-      drawUSMap(true); 
+      drawUSMap(true);
       break;
   }
 }
@@ -117,8 +117,8 @@ function drawWorldMap (styleFlag) {
     mapG.selectAll('path')
       .on('mouseover', function(d) {
         mapTooltipShow(d, 'world');
-      })  
-      .on('mouseout', function() { 
+      })
+      .on('mouseout', function() {
         tooltipHide();
       });
     //style map
@@ -157,7 +157,7 @@ function drawUSMap (styleFlag) {
   //append g element to svg
   mapG = mapSVG.append('g');
   //load in GeoJSON data
-  d3.json('data/maps/us.json', function(json) {
+  d3.json('data/maps/us_states.json', function(json) {
     //bind data and create one path per state feature
     mapG.selectAll('path')
      .data(json.features)
@@ -171,8 +171,8 @@ function drawUSMap (styleFlag) {
     mapG.selectAll('path')
       .on('mouseover', function(d) {
         mapTooltipShow(d, 'us');
-      })  
-      .on('mouseout', function() { 
+      })
+      .on('mouseout', function() {
         tooltipHide();
       });
     //style map
@@ -215,25 +215,25 @@ function mapTooltipShow (hoverObj, map) {
     .attr('id', 'map-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.properties.name + '</h4>' + '<p>' + respondentCount  + respondnentText + ' (' + percentFormatter(respondentCount / geoRespondents) + ')' + '</p>');    
+    .html('<h4>' + hoverObj.properties.name + '</h4>' + '<p>' + respondentCount  + respondnentText + ' (' + percentFormatter(respondentCount / geoRespondents) + ')' + '</p>');
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
   var tooltipWidth = $('#map-tooltip').width();
   if((mouse[0] + tooltipWidth) > screenWidth) {
     tooltip
-      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')     
+      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   } else {
     tooltip
-      .style('left', mouse[0] + 'px')     
+      .style('left', mouse[0] + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   }
   //show tooltip
-  tooltip   
-    .transition()        
-    .duration(300) 
-    .style('opacity', .95);  
+  tooltip
+    .transition()
+    .duration(300)
+    .style('opacity', .95);
 }
 
 function mapPointTooltipShow (hoverObj) {
@@ -242,30 +242,30 @@ function mapPointTooltipShow (hoverObj) {
     .attr('id', 'map-tooltip')
     .attr('class', 'tooltip');
   tooltip
-    .html('<h4>' + hoverObj.name + '</h4>' + '<p>' + hoverObj.properties.text + '</p>');    
+    .html('<h4>' + hoverObj.name + '</h4>' + '<p>' + hoverObj.properties.text + '</p>');
   //position tooltip
   var mouse = d3.mouse(d3.select('body').node()).map( function(d) { return parseInt(d); } );
   var screenWidth = $('body').width();
   var tooltipWidth = $('#map-tooltip').width();
   if((mouse[0] + tooltipWidth) > screenWidth) {
     tooltip
-      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')     
+      .style('left', (mouse[0] + (screenWidth - (mouse[0] + tooltipWidth + 5))) + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   } else {
     tooltip
-      .style('left', mouse[0] + 'px')     
+      .style('left', mouse[0] + 'px')
       .style('top', (mouse[1] + 20) + 'px');
   }
   //show tooltip
-  tooltip   
-    .transition()        
-    .duration(300) 
-    .style('opacity', .95);  
+  tooltip
+    .transition()
+    .duration(300)
+    .style('opacity', .95);
 }
 
 function tooltipHide () {
-  d3.selectAll('.tooltip')  
-    .remove(); 
+  d3.selectAll('.tooltip')
+    .remove();
 }
 
 
@@ -315,10 +315,10 @@ function drawMapPoints () {
     .style('stroke','black')
     .on('mouseover', function(d) {
       mapPointTooltipShow(d);
-    })  
-    .on('mouseout', function() { 
+    })
+    .on('mouseout', function() {
       tooltipHide();
-    }) 
+    })
     .attr('transform', function(d) {
       return 'translate(' + projection([
         d.location.longitude,
@@ -346,5 +346,5 @@ function startSpin () {
 }
 
 function stopSpin () {
-  spinner = spinner.stop(); 
+  spinner = spinner.stop();
 }

@@ -1,0 +1,107 @@
+/* header styling */
+#sub-header {
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* data status styling */
+#data-status {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#data-loading {
+    font-size: 30px;
+    color: #b8b8b8;
+    margin-bottom: 12px;
+  }
+
+/* view buttons styling */
+#view-btns {
+  margin-bottom: 10px;
+}
+
+.current-selection {
+  background-color: #d4d4d4;
+}
+
+/* map select button styling */
+.btn-selected {
+  font-weight: bold;
+  background-color: #e6e6e6;
+  outline: none;
+}
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+#us-map-select-dropdown {
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+/* map container styling */
+.map-container {
+  margin-top: 5px;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+}
+
+/* california county map */
+.ca-county {
+  opacity: .9;
+  stroke: #515151;
+}
+.ca-county:hover {
+  opacity: 1;
+  stroke-width: 1.5px;
+}
+
+/* us county map styling */
+.county {
+  opacity: .9;
+  stroke: #b0b0b0;
+  stroke-width: .5px;
+}
+.county:hover {
+  opacity: 1;
+  stroke-width: 1px;
+}
+.state-boundary {
+  fill: none;
+  stroke: #515151;
+  stroke-opacity: 0.5;
+}
+
+/* us state map styling */
+.state {
+  opacity: .9;
+  stroke: #515151;
+}
+.state:hover {
+  opacity: 1;
+  stroke-width: 1.5px;
+}
+
+/* world map styling */
+.country {
+  opacity: .9;
+  stroke: #515151;
+}
+.country:hover {
+  opacity: 1;
+  stroke-width: 1.5px;
+}
+
+/* footer styling */
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+.footer-link,
+.footer-link:hover,
+.footer-link:visited {
+  color: #777;
+}
