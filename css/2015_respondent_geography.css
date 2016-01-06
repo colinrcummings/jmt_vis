@@ -147,3 +147,20 @@ footer {
   padding: 5px 14px;
   text-align: center;
 }
+
+/* about modal */
+#js-about-modal {
+  padding-left: 0px !important;
+}
+
+/* small device warning */
+#small-device-warning {
+  padding: 10px;
+  margin-bottom: 7px;
+}
+#small-device-warning i {
+  font-size: 25px;
+}
+#small-device-warning p {
+  margin-bottom: 0px;
+}

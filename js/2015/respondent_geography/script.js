@@ -51,12 +51,15 @@ var CaliforniaMap = React.createClass({
   },
   render: function() {
     // determine summary text
-    var caliData = this.props.countyData.filter(function(d){ return +d.california === 1});
+    var caliData = this.props.countyData.filter(function(d){
+      return +d.california === 1;
+    });
     var caliResp = d3.sum(caliData, function(d){ return +d.count; });
     var percCaliResp = oneDecimalPct(caliResp/this.props.totalResp);
     return (
       <div>
-        <p>{noDecimalNum(caliResp)} of {noDecimalNum(this.props.totalResp)} total respondents were from California ({percCaliResp})</p>
+        <p>{noDecimalNum(caliResp)} of {noDecimalNum(this.props.totalResp)}
+        total respondents were from California ({percCaliResp})</p>
         <div id='js-cali-map-container' className='map-container'></div>
       </div>
     );
@@ -105,17 +108,19 @@ var UnitedStatesMap = React.createClass({
     }
   },
   render: function() {
-    // determine summary text (does not assume DC respondents)
+    // determine summary text (assumes a None, does not assume DC respondents)
     var usaResp = d3.sum(this.props.stateData, function(d){ return +d.count; });
     var percUSAResp = oneDecimalPct(usaResp/this.props.totalResp);
-    var dcDataElement = this.props.stateData.filter(function(d){ return d.state_code == 'US-DC'; })
+    var dcDataElement = this.props.stateData.filter(function(d){
+      return d.state_code == 'US-DC';
+    });
     var stateString;
     var dcString;
     if(dcDataElement.length === 1) {
-      stateString = this.props.stateData.length - 1 + ' states';
+      stateString = this.props.stateData.length - 2 + ' states';
       dcString = ' and the capital ';
     } else {
-      stateString = this.props.stateData.length + ' states';
+      stateString = this.props.stateData.length - 1 + ' states';
       dcString = '';
     }
     return (
@@ -139,7 +144,8 @@ var UnitedStatesMap = React.createClass({
           <li><a href='javascript:void(0)' className='us-map-select' id='county'>by county</a></li>
         </ul>
       </div>
-      <p>{noDecimalNum(usaResp)} of {noDecimalNum(this.props.totalResp)} respondents came from {stateString}{dcString}({percUSAResp})</p>
+      <p>{noDecimalNum(usaResp)} of {noDecimalNum(this.props.totalResp)}
+      respondents came from {stateString}{dcString}({percUSAResp})</p>
       <div id='js-us-map-container' className='map-container'></div>
       </div>
     );
@@ -161,15 +167,72 @@ var WorldMap = React.createClass({
     }.bind(this));
   },
   render: function() {
-    // determine summary text (assumes USA respondents)
-    var usaResp = +this.props.countryData.filter(function(d){ return d.country_code == 'US'; })[0].count;
+    // determine summary text (does not assumes a None, assumes USA respondents)
+    var usaResp = +this.props.countryData.filter(function(d){
+      return d.country_code == 'US';
+    })[0].count;
     var nonUSAResp = this.props.totalResp - usaResp;
     var percNonUSAResp = oneDecimalPct(nonUSAResp/this.props.totalResp);
     var nonUSACountries = this.props.countryData.length - 1;
     return (
       <div>
-        <p>{nonUSAResp} of {noDecimalNum(this.props.totalResp)} respondents came from {nonUSACountries} countries outside of the USA ({percNonUSAResp})</p>
+        <p>{nonUSAResp} of {noDecimalNum(this.props.totalResp)} respondents came
+        from {nonUSACountries} countries outside of the USA ({percNonUSAResp})</p>
         <div id='js-world-map-container' className='map-container'></div>
+      </div>
+    );
+  }
+});
+
+var AboutModal = React.createClass({
+  render: function () {
+    return (
+      <div id='js-about-modal' className='modal fade zoom' role='dialog'>
+        <div className='modal-dialog'>
+          <div className='modal-content'>
+            <div className='modal-header'>
+              <button type='button' className='close' data-dismiss='modal'>&times;</button>
+              <h3 className='modal-title'>About</h3>
+            </div>
+            <div className='modal-body text-left'>
+              { $(window).width() < 750 ?
+                <div id='small-device-warning' className='alert-warning text-center'>
+                  <i className='fa fa-mobile'></i>
+                  <p>We noticed that you're visiting on a device with a small screen.
+                  We recommend coming back on a tablet, laptop or desktop.</p>
+                </div>
+              : null}
+              <p>This visualization represents the geographical distribution of
+              2015 John Muir Trail Survey respondents in <a href='https://en.wikipedia.org/wiki/Choropleth_map' target='_blank'>
+              choropleth</a> mappings by county, state and country. 1,377 of 1,403
+              total respondents provided their country of origin (98.2%), and 1,271
+              of 1,291 respondents in the USA provided their zip code (98.5%).
+              To interact with the data:</p>
+              <ul>
+                <li>Toggle choropleth views using the buttons above the map</li>
+                <li>View participant details by hovering over the map (tap on
+                touch devices)</li>
+                <li>Zoom and pan the map with touch pad or mouse wheel (finger
+                  pinch on medium and large touch devices)</li>
+              </ul>
+              <p>Note that the distribution of survey respondents
+              may not reflect the distribution of all JMT hikers for several
+              reasons:</p>
+               <ul>
+                <li>Hikers living closer to the trail may be more likely to
+                plan a repeat hike, and therefore may have participated
+                disproportionately</li>
+                <li>International hikers may have been less likely to visit the
+                USA websites where most respondents were recruited</li>
+                <li>Hikers with limited English-language skills may have avoided
+                the survey</li>
+              </ul>
+            </div>
+            <div className='modal-footer'>
+              <button type='button' className='btn btn-default' data-dismiss='modal'>Close</button>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -178,8 +241,8 @@ var WorldMap = React.createClass({
 var App = React.createClass({
   getInitialState: function() {
     return {
-      dataStatus: 'loading',
-      view: 'usa' // california, usa, world
+      dataStatus: 'loading', // loading or complete
+      view: 'usa' // california, usa or world
     };
   },
   componentDidMount: function () {
@@ -215,6 +278,8 @@ var App = React.createClass({
         });
         // show footer
         $('footer').css('display','block');
+        // show about modal
+        $('#js-about-modal').modal('show');
       }.bind(this));
   },
   handleViewChange: function(e) {
@@ -252,6 +317,7 @@ var App = React.createClass({
             /> : null}
           </div>
         }
+        <AboutModal />
       </div>
     );
   }
