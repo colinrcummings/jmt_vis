@@ -1,4 +1,3 @@
-// react components
 var DataStatus = React.createClass({
   render: function() {
     return (
@@ -80,7 +79,7 @@ var UnitedStatesMap = React.createClass({
       }.bind(this));
     } else if (map == 'county') {
       this.state.countyMap.draw('#js-us-map-container');
-      this.state.countyMap.style(this.props.countyData);
+      this.state.countyMap.style(this.props.countyData, this.props.incitsRef);
       $(window).on('resize', function(){
         this.state.countyMap.resize('#js-us-map-container');
       }.bind(this));
@@ -212,6 +211,7 @@ var App = React.createClass({
               statesShape={this.state.usStatesShape}
               countyData={this.state.respondentUSCountyData}
               stateData={this.state.respondentUSStateData}
+              incitsRef={this.state.incitsRefData}
             /> : null}
             {this.state.view == 'world' ? <WorldMap
               countriesShape={this.state.worldCountriesShape}

@@ -1,6 +1,6 @@
-////////////////////////
-// us state map class //
-////////////////////////
+/////////////////////////////////
+// california county map class //
+/////////////////////////////////
 var CaliforniaCountyMap = function(json) {
   // set shape data
   this.json = json;
@@ -59,7 +59,7 @@ CaliforniaCountyMap.prototype.draw = function(targetID) {
 }
 
 CaliforniaCountyMap.prototype.style = function(data) {
-  console.log(data);
+  // add choropleth
   var colors = ['#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'];
   var colorScale = d3.scale.quantile()
     .domain([0, colors.length - 1, d3.max(data, function (d) { return +d.count; })])
@@ -70,6 +70,29 @@ CaliforniaCountyMap.prototype.style = function(data) {
       .duration(750)
       .style('fill', colorScale(d.count));
   });
+  // add tooltips
+  this.g.selectAll('path')
+    .on('mouseenter', function(d) {
+      var dataElement = data.filter(function(r){
+        return +r.incits_code === +d.id;
+      });
+      var respCount;
+      if(dataElement.length === 0) {
+        respCount = 0;
+      } else {
+        respCount = +dataElement[0].count;
+      }
+      var header = d.properties.name;
+      var body = noDecimalNum(respCount) + ' ' +
+        pluralize(respCount, 'respondents','respondent');
+      appendTooltip(d3.event, header, body);
+    })
+    .on('mousemove', function() {
+      moveTooltip(d3.event);
+    })
+    .on('mouseleave', function() {
+      removeTooltip();
+    });
 }
 
 CaliforniaCountyMap.prototype.resize = function(targetID) {
@@ -145,6 +168,7 @@ USStateMap.prototype.draw = function(targetID) {
 }
 
 USStateMap.prototype.style = function(data) {
+  // add choropleth
   var colors = ['#f7fcf5','#e5f5e0','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#006d2c','#00441b'];
   var colorScale = d3.scale.quantile()
     .domain([0, colors.length - 1, d3.max(data, function (d) { return +d.count; })])
@@ -155,8 +179,30 @@ USStateMap.prototype.style = function(data) {
       .duration(750)
       .style('fill', colorScale(d.count));
   });
+  // add tooltips
+  this.g.selectAll('path')
+    .on('mouseenter', function(d) {
+      var dataElement = data.filter(function(r){
+        return r.state_code == d.id;
+      });
+      var respCount;
+      if(dataElement.length === 0) {
+        respCount = 0;
+      } else {
+        respCount = +dataElement[0].count;
+      }
+      var header = d.properties.name;
+      var body = noDecimalNum(respCount) + ' ' +
+        pluralize(respCount, 'respondents','respondent');
+      appendTooltip(d3.event, header, body);
+    })
+    .on('mousemove', function() {
+      moveTooltip(d3.event);
+    })
+    .on('mouseleave', function() {
+      removeTooltip();
+    });
 }
-
 
 USStateMap.prototype.resize = function(targetID) {
   // update svg dimensions
@@ -241,7 +287,8 @@ USCountyMap.prototype.draw = function(targetID) {
   }
 }
 
-USCountyMap.prototype.style = function(data) {
+USCountyMap.prototype.style = function(data, incitsRef) {
+  // add choropleth
   var colors = ['#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#005a32'];
   var colorScale = d3.scale.quantile()
     .domain([0, colors.length - 1, d3.max(data, function (d) { return +d.count; })])
@@ -252,6 +299,35 @@ USCountyMap.prototype.style = function(data) {
       .duration(750)
       .style('fill', colorScale(d.count));
   });
+  // add tooltips
+  this.g.selectAll('path')
+    .on('mouseenter', function(d) {
+      var icitsCode = +d.id;
+      if(icitsCode !== undefined) {
+        var dataElement = data.filter(function(r){
+          return +r.incits_code == icitsCode;
+        });
+        var respCount;
+        if(dataElement.length === 0) {
+          respCount = 0;
+        } else {
+          respCount = +dataElement[0].count;
+        }
+        var incitsElement = incitsRef.filter(function(i){
+          return +i.incits_code === icitsCode;
+        });
+        var header = incitsElement[0].county_name + ', ' + incitsElement[0].state;
+        var body = noDecimalNum(respCount) + ' ' +
+          pluralize(respCount, 'respondents','respondent');
+        appendTooltip(d3.event, header, body);
+      }
+    })
+    .on('mousemove', function() {
+      moveTooltip(d3.event);
+    })
+    .on('mouseleave', function() {
+      removeTooltip();
+    });
 }
 
 USCountyMap.prototype.resize = function(targetID) {
@@ -329,6 +405,7 @@ WorldCountryMap.prototype.draw = function(targetID) {
 }
 
 WorldCountryMap.prototype.style = function(data) {
+  // add choropleth
   var colors = ['#edf8e9','#bae4b3','#74c476','#238b45'];
   var colorScale = d3.scale.quantile()
     .domain([0, colors.length - 1, d3.max(data, function (d) { return +d.count; })])
@@ -339,6 +416,29 @@ WorldCountryMap.prototype.style = function(data) {
       .duration(750)
       .style('fill', colorScale(d.count));
   });
+  // add tooltips
+  this.g.selectAll('path')
+    .on('mouseenter', function(d) {
+      var dataElement = data.filter(function(r){
+        return r.country_code == d.id;
+      });
+      var respCount;
+      if(dataElement.length === 0) {
+        respCount = 0;
+      } else {
+        respCount = +dataElement[0].count;
+      }
+      var header = d.properties.name;
+      var body = noDecimalNum(respCount) + ' ' +
+        pluralize(respCount, 'respondents','respondent');
+      appendTooltip(d3.event, header, body);
+    })
+    .on('mousemove', function() {
+      moveTooltip(d3.event);
+    })
+    .on('mouseleave', function() {
+      removeTooltip();
+    });
 }
 
 WorldCountryMap.prototype.resize = function(targetID) {
@@ -349,4 +449,69 @@ WorldCountryMap.prototype.resize = function(targetID) {
   this.svg
     .attr('width', this.svgWidth)
     .attr('height', this.svgHeight);
+}
+
+//////////////
+// tooltips //
+//////////////
+function appendTooltip(e, header, body) {
+  // default tooltip settings
+  var offsetX = 15;
+  var offsetY = 25;
+  // append tooltip element to body
+  $("body").append(
+    '<div id="tooltip">' +
+      '<h4>' + header + '</h4>' +
+      '<p>' + body + '</p>' +
+    '</div>'
+  );
+  // set x and y coordinates for tooltip
+  $('#tooltip').css('left', e.pageX + offsetX );
+  $('#tooltip').css('top', e.pageY + offsetY );
+  // show tooltip
+  $('#tooltip').fadeIn('500');
+}
+
+function moveTooltip(e) {
+  // default tooltip settings
+  var offsetX = 15;
+  var offsetY = 25;
+  // new tooltip position
+  var x = e.pageX;
+  var y = e.pageY;
+  var tipToBottom, tipToRight;
+  // distance to the right
+  tipToRight = $(window).width() - (x + offsetX + $('#tooltip').outerWidth() + 5);
+  // check if tooltip is too close to the right
+  if(tipToRight < offsetX) {
+    x = e.pageX + tipToRight;
+  }
+  // distance to the bottom
+  tipToBottom = $(window).height() - (y + offsetY + $('#tooltip').outerHeight() + 5);
+  // check if tooltip is too close to the bottom
+  if(tipToBottom < offsetY) {
+    y = e.pageY + tipToBottom;
+  }
+  // assign new tooltip position
+  $('#tooltip').css('left', x + offsetX );
+  $('#tooltip').css('top', y + offsetY );
+}
+
+function removeTooltip() {
+  // remove tooltip
+  $('#tooltip').remove();
+}
+
+
+/////////////
+// helpers //
+/////////////
+var oneDecimalPct = d3.format('.1%');
+var noDecimalNum = d3.format(',.0f');
+function pluralize (number, pluralTrue, pluralFalse) {
+  if (number === 1) {
+    return pluralFalse;
+  } else {
+    return pluralTrue;
+  }
 }
