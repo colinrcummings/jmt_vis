@@ -1,3 +1,17 @@
+// map point for style methods
+var mapPoints = [
+  {
+    name: "Mt. Whitney",
+    location: {
+      latitude: 36.57855,
+      longitude: -118.29239
+    },
+    properties: {
+      text: "Elevation: 14,505 feet"
+    }
+  }
+];
+
 /////////////////////////////////
 // california county map class //
 /////////////////////////////////
@@ -82,9 +96,16 @@ CaliforniaCountyMap.prototype.style = function(data) {
       } else {
         respCount = +dataElement[0].count;
       }
+      var caliData = data.filter(function(e){
+        return +e.california === 1;
+      })
+      var denom = d3.sum(caliData, function(e) {
+        return e.count;
+      });
       var header = d.properties.name;
       var body = noDecimalNum(respCount) + ' ' +
-        pluralize(respCount, 'respondents','respondent');
+        pluralize(respCount, 'respondents','respondent') + ' (' +
+        oneDecimalPct(respCount/denom) + ' California)';
       appendTooltip(d3.event, header, body);
     })
     .on('mousemove', function() {
@@ -93,6 +114,32 @@ CaliforniaCountyMap.prototype.style = function(data) {
     .on('mouseleave', function() {
       removeTooltip();
     });
+    // add whitney
+    var _projection = this.projection;
+    this.g.selectAll('.map-point')
+      .data(mapPoints)
+      .enter().append('path')
+        .attr('class','map-point')
+        .attr('d', d3.svg.symbol().type('triangle-up').size(32))
+        .style('opacity', 0)
+        .style('fill', 'yellow')
+        .style('stroke','black')
+        .on('mouseover', function(d) {
+          appendTooltip(d3.event, d.name, d.properties.text);
+        })
+        .on('mouseout', function() {
+          removeTooltip();
+        })
+        .attr('transform', function(d) {
+          return 'translate(' + _projection([
+            d.location.longitude,
+            d.location.latitude
+          ]) + ')'
+        });
+      d3.selectAll('.map-point')
+        .transition()
+        .duration(1000)
+        .style('opacity', 1);
 }
 
 CaliforniaCountyMap.prototype.resize = function(targetID) {
@@ -168,10 +215,10 @@ USStateMap.prototype.draw = function(targetID) {
 }
 
 USStateMap.prototype.style = function(data) {
-  // add choropleth
+  // add choropleth with a custom threshold scale
   var colors = ['#f7fcf5','#e5f5e0','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#006d2c','#00441b'];
-  var colorScale = d3.scale.quantile()
-    .domain([0, colors.length - 1, d3.max(data, function (d) { return +d.count; })])
+  var colorScale = d3.scale.threshold()
+    .domain([7,14,21,28,35,42,49,60])
     .range(colors);
   data.forEach(function(d,i){
     d3.selectAll('#' + d.state_code)
@@ -191,9 +238,13 @@ USStateMap.prototype.style = function(data) {
       } else {
         respCount = +dataElement[0].count;
       }
+      var denom = d3.sum(data, function(e) {
+        return e.count;
+      });
       var header = d.properties.name;
       var body = noDecimalNum(respCount) + ' ' +
-        pluralize(respCount, 'respondents','respondent');
+        pluralize(respCount, 'respondents','respondent') +' (' +
+        oneDecimalPct(respCount/denom) + ' USA)';
       appendTooltip(d3.event, header, body);
     })
     .on('mousemove', function() {
@@ -202,6 +253,32 @@ USStateMap.prototype.style = function(data) {
     .on('mouseleave', function() {
       removeTooltip();
     });
+    // add whitney
+    var _projection = this.projection;
+    this.g.selectAll('.map-point')
+      .data(mapPoints)
+      .enter().append('path')
+        .attr('class','map-point')
+        .attr('d', d3.svg.symbol().type('triangle-up').size(32))
+        .style('opacity', 0)
+        .style('fill', 'yellow')
+        .style('stroke','black')
+        .on('mouseover', function(d) {
+          appendTooltip(d3.event, d.name, d.properties.text);
+        })
+        .on('mouseout', function() {
+          removeTooltip();
+        })
+        .attr('transform', function(d) {
+          return 'translate(' + _projection([
+            d.location.longitude,
+            d.location.latitude
+          ]) + ')'
+        });
+      d3.selectAll('.map-point')
+        .transition()
+        .duration(1000)
+        .style('opacity', 1);
 }
 
 USStateMap.prototype.resize = function(targetID) {
@@ -316,9 +393,13 @@ USCountyMap.prototype.style = function(data, incitsRef) {
         var incitsElement = incitsRef.filter(function(i){
           return +i.incits_code === icitsCode;
         });
+        var denom = d3.sum(data, function(e) {
+          return e.count;
+        });
         var header = incitsElement[0].county_name + ', ' + incitsElement[0].state;
         var body = noDecimalNum(respCount) + ' ' +
-          pluralize(respCount, 'respondents','respondent');
+          pluralize(respCount, 'respondents','respondent') + ' (' +
+          oneDecimalPct(respCount/denom) + ' USA)';
         appendTooltip(d3.event, header, body);
       }
     })
@@ -328,6 +409,32 @@ USCountyMap.prototype.style = function(data, incitsRef) {
     .on('mouseleave', function() {
       removeTooltip();
     });
+    // add whitney
+    var _projection = this.projection;
+    this.g.selectAll('.map-point')
+      .data(mapPoints)
+      .enter().append('path')
+        .attr('class','map-point')
+        .attr('d', d3.svg.symbol().type('triangle-up').size(32))
+        .style('opacity', 0)
+        .style('fill', 'yellow')
+        .style('stroke','black')
+        .on('mouseover', function(d) {
+          appendTooltip(d3.event, d.name, d.properties.text);
+        })
+        .on('mouseout', function() {
+          removeTooltip();
+        })
+        .attr('transform', function(d) {
+          return 'translate(' + _projection([
+            d.location.longitude,
+            d.location.latitude
+          ]) + ')'
+        });
+      d3.selectAll('.map-point')
+        .transition()
+        .duration(1000)
+        .style('opacity', 1);
 }
 
 USCountyMap.prototype.resize = function(targetID) {
@@ -428,9 +535,13 @@ WorldCountryMap.prototype.style = function(data) {
       } else {
         respCount = +dataElement[0].count;
       }
+      var denom = d3.sum(data, function(e) {
+        return e.count;
+      });
       var header = d.properties.name;
       var body = noDecimalNum(respCount) + ' ' +
-        pluralize(respCount, 'respondents','respondent');
+        pluralize(respCount, 'respondents','respondent') + ' (' +
+        oneDecimalPct(respCount/denom) +  ' World)';
       appendTooltip(d3.event, header, body);
     })
     .on('mousemove', function() {
@@ -439,6 +550,32 @@ WorldCountryMap.prototype.style = function(data) {
     .on('mouseleave', function() {
       removeTooltip();
     });
+    // add whitney
+    var _projection = this.projection;
+    this.g.selectAll('.map-point')
+      .data(mapPoints)
+      .enter().append('path')
+        .attr('class','map-point')
+        .attr('d', d3.svg.symbol().type('triangle-up').size(32))
+        .style('opacity', 0)
+        .style('fill', 'yellow')
+        .style('stroke','black')
+        .on('mouseover', function(d) {
+          appendTooltip(d3.event, d.name, d.properties.text);
+        })
+        .on('mouseout', function() {
+          removeTooltip();
+        })
+        .attr('transform', function(d) {
+          return 'translate(' + _projection([
+            d.location.longitude,
+            d.location.latitude
+          ]) + ')'
+        });
+      d3.selectAll('.map-point')
+        .transition()
+        .duration(1000)
+        .style('opacity', 1);
 }
 
 WorldCountryMap.prototype.resize = function(targetID) {
@@ -503,11 +640,9 @@ function removeTooltip() {
 }
 
 
-/////////////
-// helpers //
-/////////////
-var oneDecimalPct = d3.format('.1%');
-var noDecimalNum = d3.format(',.0f');
+//////////////////////////
+// helpers & formatters //
+//////////////////////////
 function pluralize (number, pluralTrue, pluralFalse) {
   if (number === 1) {
     return pluralFalse;
@@ -515,3 +650,6 @@ function pluralize (number, pluralTrue, pluralFalse) {
     return pluralTrue;
   }
 }
+
+var oneDecimalPct = d3.format('.1%');
+var noDecimalNum = d3.format(',.0f');

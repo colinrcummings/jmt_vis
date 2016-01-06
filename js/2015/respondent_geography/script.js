@@ -50,8 +50,15 @@ var CaliforniaMap = React.createClass({
     }.bind(this));
   },
   render: function() {
+    // determine summary text
+    var caliData = this.props.countyData.filter(function(d){ return +d.california === 1});
+    var caliResp = d3.sum(caliData, function(d){ return +d.count; });
+    var percCaliResp = oneDecimalPct(caliResp/this.props.totalResp);
     return (
-      <div id='js-cali-map-container' className='map-container'></div>
+      <div>
+        <p>{noDecimalNum(caliResp)} of {noDecimalNum(this.props.totalResp)} total respondents were from California ({percCaliResp})</p>
+        <div id='js-cali-map-container' className='map-container'></div>
+      </div>
     );
   }
 });
@@ -98,6 +105,19 @@ var UnitedStatesMap = React.createClass({
     }
   },
   render: function() {
+    // determine summary text (does not assume DC respondents)
+    var usaResp = d3.sum(this.props.stateData, function(d){ return +d.count; });
+    var percUSAResp = oneDecimalPct(usaResp/this.props.totalResp);
+    var dcDataElement = this.props.stateData.filter(function(d){ return d.state_code == 'US-DC'; })
+    var stateString;
+    var dcString;
+    if(dcDataElement.length === 1) {
+      stateString = this.props.stateData.length - 1 + ' states';
+      dcString = ' and the capital ';
+    } else {
+      stateString = this.props.stateData.length + ' states';
+      dcString = '';
+    }
     return (
       <div>
       <div id='us-map-select-dropdown' className='dropdown'>
@@ -119,6 +139,7 @@ var UnitedStatesMap = React.createClass({
           <li><a href='javascript:void(0)' className='us-map-select' id='county'>by county</a></li>
         </ul>
       </div>
+      <p>{noDecimalNum(usaResp)} of {noDecimalNum(this.props.totalResp)} respondents came from {stateString}{dcString}({percUSAResp})</p>
       <div id='js-us-map-container' className='map-container'></div>
       </div>
     );
@@ -140,8 +161,16 @@ var WorldMap = React.createClass({
     }.bind(this));
   },
   render: function() {
+    // determine summary text (assumes USA respondents)
+    var usaResp = +this.props.countryData.filter(function(d){ return d.country_code == 'US'; })[0].count;
+    var nonUSAResp = this.props.totalResp - usaResp;
+    var percNonUSAResp = oneDecimalPct(nonUSAResp/this.props.totalResp);
+    var nonUSACountries = this.props.countryData.length - 1;
     return (
-      <div id='js-world-map-container' className='map-container'></div>
+      <div>
+        <p>{nonUSAResp} of {noDecimalNum(this.props.totalResp)} respondents came from {nonUSACountries} countries outside of the USA ({percNonUSAResp})</p>
+        <div id='js-world-map-container' className='map-container'></div>
+      </div>
     );
   }
 });
@@ -167,7 +196,7 @@ var App = React.createClass({
       .defer(d3.csv, 'data/jmt_2015_us_by_county.csv')
       .defer(d3.csv, 'data/jmt_2015_us_by_state.csv')
       .defer(d3.csv, 'data/jmt_2015_world_by_country.csv')
-      // load us county reference data
+      // load incits reference data
       .defer(d3.csv, 'data/incits_code_ref.csv')
       .awaitAll(function(error, data) {
         if (error) throw error;
@@ -180,6 +209,7 @@ var App = React.createClass({
           respondentUSCountyData: data[4],
           respondentUSStateData: data[5],
           respondentWorldCountryData: data[6],
+          totalResp: d3.sum(data[6],function(d){ return +d.count; }),
           incitsRefData: data[7],
           dataStatus: 'complete'
         });
@@ -205,6 +235,7 @@ var App = React.createClass({
             {this.state.view == 'california' ? <CaliforniaMap
               countiesShape={this.state.caliCountiesShape}
               countyData={this.state.respondentUSCountyData}
+              totalResp={this.state.totalResp}
             /> : null}
             {this.state.view == 'usa' ? <UnitedStatesMap
               countiesShape={this.state.usCountiesShape}
@@ -212,10 +243,12 @@ var App = React.createClass({
               countyData={this.state.respondentUSCountyData}
               stateData={this.state.respondentUSStateData}
               incitsRef={this.state.incitsRefData}
+              totalResp={this.state.totalResp}
             /> : null}
             {this.state.view == 'world' ? <WorldMap
               countriesShape={this.state.worldCountriesShape}
               countryData={this.state.respondentWorldCountryData}
+              totalResp={this.state.totalResp}
             /> : null}
           </div>
         }
