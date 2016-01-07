@@ -1,12 +1,12 @@
 /* background image */
 /* http://stackoverflow.com/questions/22741143/css-background-stretches-to-fill-height-in-ios-but-there-is-white-space-on-scrol */
 #bg-img {
-  opacity: 0.38;
+  opacity: 0.4;
   position: fixed;
   top: 0;
   bottom: -69px;
   width: 100%;
-  background: url('../images/b_w.jpg') no-repeat center top;
+  background: url('../images/ritter_range.jpg') no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -58,7 +58,7 @@
 
 /* map container styling */
 .map-container {
-  opacity: 0.95;
+  opacity: 0.94;
   background-color: white;
   margin-top: 4px;
   border: 1px solid #adadad;
