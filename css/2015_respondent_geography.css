@@ -33,7 +33,7 @@ body {
 }
 #data-loading {
     font-size: 30px;
-    color: #b8b8b8;
+    color: #777;
     margin-bottom: 12px;
   }
 
@@ -70,6 +70,9 @@ body {
   margin-top: 4px;
   border: 1px solid #adadad;
   border-radius: 5px;
+}
+.map-container svg {
+  margin-bottom: -5px;
 }
 
 /* california county map */

@@ -52,6 +52,11 @@ var CaliforniaMap = React.createClass({
       this.state.californiaMap.resize('#js-cali-map-container');
     }.bind(this));
   },
+  componentWillUnmount: function() {
+    // clean up map
+    console.log('called');
+    $('#js-cali-map-container').empty();
+  },
   render: function() {
     // determine summary text
     var caliData = this.props.countyData.filter(function(d){
@@ -79,6 +84,10 @@ var UnitedStatesMap = React.createClass({
   },
   componentDidMount: function() {
     this.drawMap(this.state.currentMap);
+  },
+  componentWillUnmount: function() {
+    // clean up map
+    $('#js-us-map-container').empty();
   },
   drawMap: function(map) {
     // remove existing map
@@ -172,6 +181,10 @@ var WorldMap = React.createClass({
     $(window).on('resize', function(){
         this.state.countryMap.resize('#js-world-map-container');
     }.bind(this));
+  },
+  componentWillUnmount: function() {
+    // clean up map
+    $('#js-world-map-container').empty();
   },
   render: function() {
     // determine summary text (does not assumes a None, assumes USA respondents)
