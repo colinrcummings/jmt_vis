@@ -18,17 +18,20 @@ var ViewButtons = React.createClass({
         <button
           key='california'
           type='button'
-          className={this.props.currentView == 'california' ?'btn btn-default btn-selected' : 'btn btn-default'}
+          className={this.props.currentView == 'california' ?
+          'btn btn-default btn-selected' : 'btn btn-default'}
         >California</button>
         <button
           key='usa'
           type='button'
-          className={this.props.currentView === 'usa' ? 'btn btn-default btn-selected' : 'btn btn-default'}
+          className={this.props.currentView === 'usa' ?
+          'btn btn-default btn-selected' : 'btn btn-default'}
         >USA</button>
         <button
           key='world'
           type='button'
-          className={this.props.currentView === 'world' ? 'btn btn-default btn-selected' : 'btn btn-default'}
+          className={this.props.currentView === 'world' ?
+          'btn btn-default btn-selected' : 'btn btn-default'}
         >World</button>
       </div>
     );
@@ -58,8 +61,8 @@ var CaliforniaMap = React.createClass({
     var percCaliResp = oneDecimalPct(caliResp/this.props.totalResp);
     return (
       <div>
-        <p>{noDecimalNum(caliResp)} of {noDecimalNum(this.props.totalResp)}
-        total respondents were from California ({percCaliResp})</p>
+        <p>{noDecimalNum(caliResp)} of {noDecimalNum(this.props.totalResp)} total
+        respondents were from California ({percCaliResp})</p>
         <div id='js-cali-map-container' className='map-container'></div>
       </div>
     );
@@ -140,12 +143,16 @@ var UnitedStatesMap = React.createClass({
           className='dropdown-menu'
           aria-labelledby='us-map-select'
         >
-          <li><a href='javascript:void(0)' className='us-map-select current-selection' id='state'>by state</a></li>
-          <li><a href='javascript:void(0)' className='us-map-select' id='county'>by county</a></li>
+          <li><a href='javascript:void(0)' className='us-map-select current-selection' id='state'>
+            by state
+          </a></li>
+          <li><a href='javascript:void(0)' className='us-map-select' id='county'>
+            by county
+          </a></li>
         </ul>
       </div>
-      <p>{noDecimalNum(usaResp)} of {noDecimalNum(this.props.totalResp)}
-      respondents came from {stateString}{dcString}({percUSAResp})</p>
+      <p>{noDecimalNum(usaResp)} of {noDecimalNum(this.props.totalResp)} total respondents
+      came from {stateString}{dcString}({percUSAResp})</p>
       <div id='js-us-map-container' className='map-container'></div>
       </div>
     );
@@ -176,7 +183,7 @@ var WorldMap = React.createClass({
     var nonUSACountries = this.props.countryData.length - 1;
     return (
       <div>
-        <p>{nonUSAResp} of {noDecimalNum(this.props.totalResp)} respondents came
+        <p>{nonUSAResp} of {noDecimalNum(this.props.totalResp)} total respondents came
         from {nonUSACountries} countries outside of the USA ({percNonUSAResp})</p>
         <div id='js-world-map-container' className='map-container'></div>
       </div>
@@ -191,7 +198,9 @@ var AboutModal = React.createClass({
         <div className='modal-dialog'>
           <div className='modal-content'>
             <div className='modal-header'>
-              <button type='button' className='close' data-dismiss='modal'>&times;</button>
+              <button type='button' className='close' data-dismiss='modal'>
+                &times;
+              </button>
               <h3 className='modal-title'>About</h3>
             </div>
             <div className='modal-body text-left'>
@@ -211,9 +220,9 @@ var AboutModal = React.createClass({
               <ul>
                 <li>Toggle choropleth views using the buttons above the map</li>
                 <li>View participant details by hovering over the map (tap on
-                touch devices)</li>
-                <li>Zoom and pan the map with touch pad or mouse wheel (finger
-                  pinch on medium and large touch devices)</li>
+                touchscreen devices)</li>
+                <li>Zoom and pan the map with a trackpad or mousewheel (finger
+                  pinch on medium and large touchscreen devices)</li>
               </ul>
               <p>Note that the distribution of survey respondents
               may not reflect the distribution of all JMT hikers for several
@@ -229,7 +238,9 @@ var AboutModal = React.createClass({
               </ul>
             </div>
             <div className='modal-footer'>
-              <button type='button' className='btn btn-default' data-dismiss='modal'>Close</button>
+              <button type='button' className='btn btn-default' data-dismiss='modal'>
+                Close
+              </button>
             </div>
           </div>
         </div>

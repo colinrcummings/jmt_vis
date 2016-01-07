@@ -1,4 +1,4 @@
-// map point for style methods
+// whitney map point for style methods
 var mapPoints = [
   {
     name: "Mt. Whitney",
