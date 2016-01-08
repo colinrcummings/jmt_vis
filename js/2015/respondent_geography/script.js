@@ -54,7 +54,6 @@ var CaliforniaMap = React.createClass({
   },
   componentWillUnmount: function() {
     // clean up map
-    console.log('called');
     $('#js-cali-map-container').empty();
   },
   render: function() {
@@ -232,7 +231,7 @@ var AboutModal = React.createClass({
               To interact with the data:</p>
               <ul>
                 <li>Toggle choropleth views using the buttons above the map</li>
-                <li>View participant details by hovering over the map (tap on
+                <li>View respondent details by hovering over the map (tap on
                 touchscreen devices)</li>
                 <li>Zoom and pan the map with a trackpad or mousewheel (finger
                   pinch on medium and large touchscreen devices)</li>

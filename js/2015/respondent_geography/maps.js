@@ -384,23 +384,25 @@ USCountyMap.prototype.style = function(data, incitsRef) {
         var dataElement = data.filter(function(r){
           return +r.incits_code == icitsCode;
         });
-        var respCount;
-        if(dataElement.length === 0) {
-          respCount = 0;
-        } else {
-          respCount = +dataElement[0].count;
-        }
         var incitsElement = incitsRef.filter(function(i){
           return +i.incits_code === icitsCode;
         });
-        var denom = d3.sum(data, function(e) {
-          return e.count;
-        });
-        var header = incitsElement[0].county_name + ', ' + incitsElement[0].state;
-        var body = noDecimalNum(respCount) + ' ' +
-          pluralize(respCount, 'respondents','respondent') + ' (' +
-          oneDecimalPct(respCount/denom) + ' USA)';
-        appendTooltip(d3.event, header, body);
+        if(incitsElement.length === 1) {
+          var respCount;
+          if(dataElement.length === 0) {
+            respCount = 0;
+          } else {
+            respCount = +dataElement[0].count;
+          }
+          var denom = d3.sum(data, function(e) {
+            return e.count;
+          });
+          var header = incitsElement[0].county_name + ', ' + incitsElement[0].state;
+          var body = noDecimalNum(respCount) + ' ' +
+            pluralize(respCount, 'respondents','respondent') + ' (' +
+            oneDecimalPct(respCount/denom) + ' USA)';
+          appendTooltip(d3.event, header, body);
+        }
       }
     })
     .on('mousemove', function() {
